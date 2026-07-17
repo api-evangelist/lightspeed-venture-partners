@@ -1,0 +1,413 @@
+generated: '2026-07-17'
+method: searched
+source: https://lsvp.com/companies/
+summary:
+  portfolio_total: 35
+  in_network: 26
+  api_providers: 21
+  missing: 9
+  stubs_created: 0
+companies:
+- name: Anthropic
+  url: https://www.anthropic.com
+  description: AI safety company building large language models including Claude.
+  sector: artificial-intelligence
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  slug: anthropic
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Mistral AI
+  url: https://mistral.ai
+  description: European developer of open-weight foundation models.
+  sector: artificial-intelligence
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  slug: mistral
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: ElevenLabs
+  url: https://elevenlabs.io
+  description: AI voice and audio generation platform.
+  sector: artificial-intelligence
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  slug: elevenlabs
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Sarvam AI
+  url: https://www.sarvam.ai
+  description: Indian foundation-model and generative AI company.
+  sector: artificial-intelligence
+  stage: series-a
+  status: active
+  source: https://lsvp.com/companies/
+  slug: sarvam-ai
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Wiz
+  url: https://www.wiz.io
+  description: Cloud security platform for cloud-native environments.
+  sector: cybersecurity
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  slug: wiz
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Cyera
+  url: https://www.cyera.com
+  description: Data security posture management platform.
+  sector: cybersecurity
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  in_network: true
+  is_api_provider: false
+  suggested_slug: cyera
+  stub_created: true
+  slug: cyera
+  matched_by: stub
+- name: Cato Networks
+  url: https://www.catonetworks.com
+  description: SASE platform converging networking and security.
+  sector: cybersecurity
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  in_network: true
+  is_api_provider: false
+  suggested_slug: cato-networks
+  stub_created: true
+  slug: cato-networks
+  matched_by: stub
+- name: At-Bay
+  url: https://www.at-bay.com
+  description: InsurSec provider combining cyber insurance and security.
+  sector: cybersecurity
+  stage: series-c
+  status: active
+  source: https://lsvp.com/companies/
+  slug: at-bay
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Rubrik
+  url: https://www.rubrik.com
+  description: Cloud data security and backup/recovery platform.
+  sector: cybersecurity
+  stage: growth
+  status: ipo
+  source: https://lsvp.com/companies/
+  slug: rubrik
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Netskope
+  url: https://www.netskope.com
+  description: Cloud security and SASE platform.
+  sector: cybersecurity
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  slug: netskope
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Grafana Labs
+  url: https://grafana.com
+  description: Open-source observability and monitoring platform.
+  sector: developer-tools
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  slug: grafana
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: ngrok
+  url: https://ngrok.com
+  description: Ingress and connectivity platform for developers.
+  sector: developer-tools
+  stage: series-a
+  status: active
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  slug: ngrok
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: ThoughtSpot
+  url: https://www.thoughtspot.com
+  description: AI-powered analytics and business intelligence platform.
+  sector: enterprise-software
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  in_network: true
+  is_api_provider: false
+  suggested_slug: thoughtspot
+  stub_created: true
+  slug: thoughtspot
+  matched_by: stub
+- name: Nutanix
+  url: https://www.nutanix.com
+  description: Hyperconverged cloud infrastructure software.
+  sector: enterprise-software
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  slug: nutanix
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: MuleSoft
+  url: https://www.mulesoft.com
+  description: API integration platform; acquired by Salesforce.
+  sector: enterprise-software
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  slug: mulesoft
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: AppDynamics
+  url: https://www.appdynamics.com
+  description: Application performance monitoring; acquired by Cisco.
+  sector: enterprise-software
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  slug: appdynamics
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Riverbed Technology
+  url: https://www.riverbed.com
+  description: Network performance and WAN optimization; IPO 2006.
+  sector: enterprise-software
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  in_network: true
+  is_api_provider: false
+  suggested_slug: riverbed-technology
+  stub_created: true
+  slug: riverbed-technology
+  matched_by: stub
+- name: Stripe
+  url: https://stripe.com
+  description: Online payments and financial infrastructure platform.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  slug: stripe
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Affirm
+  url: https://www.affirm.com
+  description: Buy-now-pay-later consumer lending platform.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  slug: affirm
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Blend
+  url: https://blend.com
+  description: Digital lending and mortgage software platform.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://lsvp.com/companies/
+  slug: blend-mortgage
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Alloy
+  url: https://www.alloy.com
+  description: Identity and fraud decisioning platform for financial services.
+  sector: fintech
+  stage: series-c
+  status: active
+  source: https://lsvp.com/companies/
+  slug: alloy
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Stori
+  url: https://www.storicard.com
+  description: Digital financial services for underserved customers in Latin America.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  slug: stori
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Carta
+  url: https://carta.com
+  description: Equity management and cap-table platform.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  slug: carta
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Faire
+  url: https://www.faire.com
+  description: Wholesale B2B marketplace connecting brands and retailers.
+  sector: marketplace
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  slug: faire
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Navan
+  url: https://navan.com
+  description: Corporate travel and expense management platform.
+  sector: travel
+  stage: growth
+  status: ipo
+  source: https://lsvp.com/companies/
+  slug: navan
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Grab
+  url: https://www.grab.com
+  description: Southeast Asian super-app for mobility, delivery, and payments.
+  sector: mobility
+  stage: growth
+  status: ipo
+  source: https://lsvp.com/companies/
+  slug: grab
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Grubhub
+  url: https://www.grubhub.com
+  description: Online food ordering and delivery marketplace.
+  sector: marketplace
+  stage: growth
+  status: acquired
+  source: https://lsvp.com/companies/
+  slug: grubhub
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Snap
+  url: https://www.snap.com
+  description: Consumer social media and camera company (Snapchat).
+  sector: consumer
+  stage: growth
+  status: ipo
+  source: https://lsvp.com/companies/
+  slug: snapchat
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Epic Games
+  url: https://www.epicgames.com
+  description: Game developer and engine maker (Fortnite, Unreal Engine).
+  sector: gaming
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  slug: epic-games
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Zola
+  url: https://www.zola.com
+  description: Wedding planning, registry, and marketplace.
+  sector: consumer
+  stage: series-c
+  status: active
+  source: https://lsvp.com/companies/
+  in_network: true
+  is_api_provider: false
+  suggested_slug: zola
+  stub_created: true
+  slug: zola
+  matched_by: stub
+- name: BetterUp
+  url: https://www.betterup.com
+  description: Coaching and mental fitness platform for employees.
+  sector: hr-tech
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  in_network: true
+  is_api_provider: false
+  suggested_slug: betterup
+  stub_created: true
+  slug: betterup
+  matched_by: stub
+- name: Multiverse
+  url: https://www.multiverse.io
+  description: Apprenticeship and applied-skills training platform.
+  sector: edtech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  in_network: true
+  is_api_provider: false
+  suggested_slug: multiverse
+  stub_created: true
+  slug: multiverse
+  matched_by: stub
+- name: Guardant Health
+  url: https://guardanthealth.com
+  description: Precision oncology and liquid-biopsy diagnostics.
+  sector: healthcare
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  slug: guardant-health
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Ultima Genomics
+  url: https://www.ultimagenomics.com
+  description: High-throughput, low-cost DNA sequencing platform.
+  sector: healthcare
+  stage: growth
+  status: active
+  source: https://lsvp.com/companies/
+  in_network: true
+  is_api_provider: false
+  suggested_slug: ultima-genomics
+  stub_created: true
+  slug: ultima-genomics
+  matched_by: stub
+- name: Nest
+  url: https://nest.com
+  description: Connected home hardware (thermostats, cameras); acquired by Google.
+  sector: hardware
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  in_network: true
+  is_api_provider: false
+  suggested_slug: nest
+  stub_created: true
+  slug: nest
+  matched_by: stub

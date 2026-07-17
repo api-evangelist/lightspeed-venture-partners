@@ -1,0 +1,85 @@
+aid: lightspeed-venture-partners
+name: Lightspeed Venture Partners
+description: >-
+  Lightspeed Venture Partners is a global, multi-stage venture capital firm
+  founded in 2000 by Barry Eggers, Christopher Schaepe, Ravi Mhatre, and Peter
+  Nieh, and headquartered in Menlo Park, California. Lightspeed invests from
+  seed through Series F and beyond, backing bold builders across artificial
+  intelligence, cybersecurity, cloud and enterprise infrastructure, developer
+  tools, fintech, consumer, gaming, and healthcare/biotech. The firm operates
+  as a single global team across roughly a dozen offices in the United States,
+  Europe, Israel, India, and Southeast Asia, with U.S./Europe/Israel run by
+  Lightspeed Management Company (LSVP) and India/Southeast Asia by Lightspeed
+  India Partners (LSIP). Lightspeed reports managing on the order of $25B+ (up
+  to $40B+ by some self-reported figures) across the Lightspeed platform.
+  Notable investments and exits include Anthropic, Mistral AI, ElevenLabs, Wiz,
+  Rubrik, Cato Networks, Stripe, Affirm, Snap, Nutanix, MuleSoft, AppDynamics,
+  Nest, Grafana, ngrok, Faire, and Navan.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://lsvp.com/wp-content/themes/lightspeed/assets/images/lightspeed-logo.svg
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Growth
+  - Artificial Intelligence
+  - Cybersecurity
+  - Enterprise Software
+  - Developer Tools
+  - Fintech
+  - Global
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://lsvp.com/
+  - type: Portfolio
+    url: https://lsvp.com/companies/
+  - type: Portfolio
+    url: portfolio/lightspeed-venture-partners-portfolio.yml
+  - type: Team
+    url: https://lsvp.com/lightspeed-team/
+  - type: Team
+    url: team/lightspeed-venture-partners-team.yml
+  - type: InvestmentThesis
+    url: https://lsvp.com/about/
+  - type: Blog
+    url: https://lsvp.com/stories/
+  - type: News
+    url: https://lsvp.com/stories/
+  - type: Jobs
+    url: https://jobs.lsvp.com/jobs
+  - type: Contact
+    url: https://lsvp.com/global-presence/
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/lightspeed-venture-partners
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lightspeed-venture-partners
+  - type: Twitter
+    url: https://twitter.com/lightspeedvp
+  - type: Features
+    data:
+      - 'Stage: Seed through Series F and beyond (multi-stage)'
+      - 'Sectors: AI, cybersecurity, cloud/enterprise infrastructure, developer tools, fintech, consumer, gaming, healthcare/biotech'
+      - 'Geography: United States, Europe, Israel, India, Southeast Asia (global)'
+      - 'AUM: $25B+ on the Lightspeed platform (self-reported; up to $40B+ by some sources)'
+      - 'Founded: 2000'
+      - 'Founders: Barry Eggers, Christopher Schaepe, Ravi Mhatre, Peter Nieh'
+      - 'HQ: Menlo Park, California'
+      - 'Offices: ~11 globally (Menlo Park, San Francisco, New York, Tel Aviv, New Delhi, Bangalore, Mumbai, Singapore, London, Paris, Berlin)'
+    sources:
+      - https://lsvp.com/about/
+      - https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+      - https://www.linkedin.com/company/lightspeed-venture-partners
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Lightspeed Venture Partners
+    url: https://lsvp.com/

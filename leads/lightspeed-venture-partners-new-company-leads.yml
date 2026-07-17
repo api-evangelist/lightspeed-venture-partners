@@ -1,0 +1,67 @@
+generated: '2026-07-17'
+method: derived
+source_vc: lightspeed-venture-partners
+leads:
+- name: Cyera
+  url: https://www.cyera.com
+  suggested_slug: cyera
+  sector: cybersecurity
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/companies/
+  stub_created: true
+- name: Cato Networks
+  url: https://www.catonetworks.com
+  suggested_slug: cato-networks
+  sector: cybersecurity
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/companies/
+  stub_created: true
+- name: ThoughtSpot
+  url: https://www.thoughtspot.com
+  suggested_slug: thoughtspot
+  sector: enterprise-software
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/companies/
+  stub_created: true
+- name: Riverbed Technology
+  url: https://www.riverbed.com
+  suggested_slug: riverbed-technology
+  sector: enterprise-software
+  source_vc: lightspeed-venture-partners
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  stub_created: true
+- name: Zola
+  url: https://www.zola.com
+  suggested_slug: zola
+  sector: consumer
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/companies/
+  stub_created: true
+- name: BetterUp
+  url: https://www.betterup.com
+  suggested_slug: betterup
+  sector: hr-tech
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/companies/
+  stub_created: true
+- name: Multiverse
+  url: https://www.multiverse.io
+  suggested_slug: multiverse
+  sector: edtech
+  source_vc: lightspeed-venture-partners
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  stub_created: true
+- name: Ultima Genomics
+  url: https://www.ultimagenomics.com
+  suggested_slug: ultima-genomics
+  sector: healthcare
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/companies/
+  stub_created: true
+- name: Nest
+  url: https://nest.com
+  suggested_slug: nest
+  sector: hardware
+  source_vc: lightspeed-venture-partners
+  source: https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners
+  stub_created: true
