@@ -3,9 +3,9 @@ method: searched
 source: https://lsvp.com/companies/
 summary:
   portfolio_total: 604
-  in_network: 140
-  api_providers: 91
-  missing: 464
+  in_network: 604
+  api_providers: 144
+  missing: 0
   stubs_created: 0
 companies:
 - name: Anthropic
@@ -48,7 +48,7 @@ companies:
   stage: series-a
   status: active
   source: https://lsvp.com/companies/
-  slug: sarvam-ai
+  slug: sarvam
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -73,7 +73,7 @@ companies:
   slug: cyera
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Cato Networks
   url: https://www.catonetworks.com
   description: SASE platform converging networking and security.
@@ -84,7 +84,7 @@ companies:
   slug: cato-networks
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: At-Bay
   url: https://www.at-bay.com
   description: InsurSec provider combining cyber insurance and security.
@@ -149,8 +149,8 @@ companies:
   source: https://lsvp.com/companies/
   slug: thoughtspot
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: Nutanix
   url: https://www.nutanix.com
   description: Hyperconverged cloud infrastructure software.
@@ -194,7 +194,7 @@ companies:
   slug: riverbed-technology
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Stripe
   url: https://stripe.com
   description: Online payments and financial infrastructure platform.
@@ -224,9 +224,9 @@ companies:
   stage: growth
   status: ipo
   source: https://lsvp.com/companies/
-  slug: blend-mortgage
+  slug: blend-labs
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Alloy
   url: https://www.alloy.com
@@ -312,9 +312,9 @@ companies:
   stage: growth
   status: ipo
   source: https://lsvp.com/companies/
-  slug: snapchat
+  slug: snap
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Epic Games
   url: https://www.epicgames.com
@@ -337,7 +337,7 @@ companies:
   slug: zola
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: BetterUp
   url: https://www.betterup.com
   description: Coaching and mental fitness platform for employees.
@@ -348,7 +348,7 @@ companies:
   slug: betterup
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Multiverse
   url: https://www.multiverse.io
   description: Apprenticeship and applied-skills training platform.
@@ -359,7 +359,7 @@ companies:
   slug: multiverse
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Guardant Health
   url: https://guardanthealth.com
   description: Precision oncology and liquid-biopsy diagnostics.
@@ -378,10 +378,10 @@ companies:
   stage: growth
   status: active
   source: https://lsvp.com/companies/
-  slug: ultima-genomics
+  slug: ultimagenomics
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Nest
   url: https://nest.com
   description: Connected home hardware (thermostats, cameras); acquired by Google.
@@ -392,7 +392,7 @@ companies:
   slug: nest
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Aqua Security
   status: active
   source: https://lsvp.com/company/aqua-security/
@@ -403,9 +403,10 @@ companies:
 - name: Arctic Wolf
   status: active
   source: https://lsvp.com/company/arctic-wolf/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: arctic-wolf
+  in_network: true
+  is_api_provider: true
+  slug: arctic-wolf
+  matched_by: name-slug
 - name: Axonius
   status: active
   source: https://lsvp.com/company/axonius/
@@ -416,9 +417,10 @@ companies:
 - name: Believer
   status: active
   source: https://lsvp.com/company/believer/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: believer
+  slug: believer
+  matched_by: name-slug
 - name: Clickhouse
   status: active
   source: https://lsvp.com/company/clickhouse/
@@ -436,9 +438,10 @@ companies:
 - name: Daily Harvest
   status: active
   source: https://lsvp.com/company/daily-harvest/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daily-harvest
+  slug: daily-harvest
+  matched_by: name-slug
 - name: Dexterity
   status: active
   source: https://lsvp.com/company/dexterity/
@@ -449,21 +452,24 @@ companies:
 - name: Eightfold
   status: active
   source: https://lsvp.com/company/eightfold/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eightfold
+  slug: eightfold
+  matched_by: name-slug
 - name: Forty Seven 2
   status: active
   source: https://lsvp.com/company/forty-seven-2/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forty-seven-2
+  slug: forty-seven-2
+  matched_by: name-slug
 - name: Found
   status: active
   source: https://lsvp.com/company/found/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: found
+  slug: found
+  matched_by: name-slug
 - name: Glean
   status: active
   source: https://lsvp.com/company/glean/
@@ -481,9 +487,10 @@ companies:
 - name: Haus Laboratories
   status: active
   source: https://lsvp.com/company/haus-laboratories/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: haus-laboratories
+  slug: haus-laboratories
+  matched_by: name-slug
 - name: Inworld Ai
   status: active
   source: https://lsvp.com/company/inworld-ai/
@@ -508,21 +515,23 @@ companies:
 - name: Methodical Games
   status: active
   source: https://lsvp.com/company/methodical-games/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: methodical-games
+  slug: methodical-games
+  matched_by: name-slug
 - name: Mistralai
   status: active
   source: https://lsvp.com/company/mistralai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mistralai
+  slug: mistralai
+  matched_by: name-slug
 - name: Moveworks
   status: active
   source: https://lsvp.com/company/moveworks/
   slug: moveworks
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Noname Security
   status: active
@@ -534,15 +543,17 @@ companies:
 - name: Offchain Labs
   status: active
   source: https://lsvp.com/company/offchain-labs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: offchain-labs
+  slug: offchain-labs
+  matched_by: name-slug
 - name: Orca Bio
   status: active
   source: https://lsvp.com/company/orca-bio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orca-bio
+  slug: orca-bio
+  matched_by: name-slug
 - name: Payhawk
   status: active
   source: https://lsvp.com/company/payhawk/
@@ -567,9 +578,10 @@ companies:
 - name: Resilience
   status: active
   source: https://lsvp.com/company/resilience/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resilience
+  slug: resilience
+  matched_by: name-slug
 - name: Scaleops
   status: active
   source: https://lsvp.com/company/scaleops/
@@ -589,44 +601,50 @@ companies:
   source: https://lsvp.com/company/snorkel-ai/
   slug: snorkel-ai
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: name-slug
 - name: Teneobio
   status: active
   source: https://lsvp.com/company/teneobio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: teneobio
+  slug: teneobio
+  matched_by: name-slug
 - name: Typeface
   status: active
   source: https://lsvp.com/company/typeface/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: typeface
+  in_network: true
+  is_api_provider: true
+  slug: typeface
+  matched_by: name-slug
 - name: Vinted
   status: active
   source: https://lsvp.com/company/vinted/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vinted
+  slug: vinted
+  matched_by: name-slug
 - name: Wheel 3
   status: active
   source: https://lsvp.com/company/wheel-3/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wheel-3
+  slug: wheel-3
+  matched_by: name-slug
 - name: Yugabyte
   status: active
   source: https://lsvp.com/company/yugabyte/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: yugabyte
+  in_network: true
+  is_api_provider: true
+  slug: yugabyte
+  matched_by: name-slug
 - name: 1047 Games
   status: active
   source: https://lsvp.com/company/1047-games/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 1047-games
+  slug: 1047-games
+  matched_by: name-slug
 - name: 1password
   status: active
   source: https://lsvp.com/company/1password/
@@ -637,15 +655,17 @@ companies:
 - name: A Security
   status: active
   source: https://lsvp.com/company/a-security/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: a-security
+  slug: a-security
+  matched_by: name-slug
 - name: Abata Therapeutics
   status: active
   source: https://lsvp.com/company/abata-therapeutics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: abata-therapeutics
+  slug: abata-therapeutics
+  matched_by: name-slug
 - name: Abridge
   status: active
   source: https://lsvp.com/company/abridge/
@@ -672,14 +692,15 @@ companies:
   source: https://lsvp.com/company/acko/
   slug: acko
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Aerohive
   status: active
   source: https://lsvp.com/company/aerohive/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aerohive
+  slug: aerohive
+  matched_by: name-slug
 - name: Affirmed Networks
   status: active
   source: https://lsvp.com/company/affirmed-networks/
@@ -690,9 +711,10 @@ companies:
 - name: Air Doctor
   status: active
   source: https://lsvp.com/company/air-doctor/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: air-doctor
+  slug: air-doctor
+  matched_by: name-slug
 - name: Alchemy
   status: active
   source: https://lsvp.com/company/alchemy/
@@ -703,51 +725,59 @@ companies:
 - name: Aledade
   status: active
   source: https://lsvp.com/company/aledade/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aledade
+  slug: aledade
+  matched_by: name-slug
 - name: Alif Semiconductor
   status: active
   source: https://lsvp.com/company/alif-semiconductor/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alif-semiconductor
+  slug: alif-semiconductor
+  matched_by: name-slug
 - name: Almanac Health
   status: active
   source: https://lsvp.com/company/almanac-health/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: almanac-health
+  slug: almanac-health
+  matched_by: name-slug
 - name: Alooma
   status: active
   source: https://lsvp.com/company/alooma/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alooma
+  slug: alooma
+  matched_by: name-slug
 - name: Alpha9
   status: active
   source: https://lsvp.com/company/alpha9/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alpha9
+  slug: alpha9
+  matched_by: name-slug
 - name: Amca
   status: active
   source: https://lsvp.com/company/amca/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amca
+  slug: amca
+  matched_by: name-slug
 - name: Ancora Biotech
   status: active
   source: https://lsvp.com/company/ancora-biotech/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ancora-biotech
+  slug: ancora-biotech
+  matched_by: name-slug
 - name: Andera
   status: active
   source: https://lsvp.com/company/andera/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: andera
+  slug: andera
+  matched_by: name-slug
 - name: Anduril
   status: active
   source: https://lsvp.com/company/anduril/
@@ -758,105 +788,122 @@ companies:
 - name: Antares Therapeutics
   status: active
   source: https://lsvp.com/company/antares-therapeutics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: antares-therapeutics
+  slug: antares-therapeutics
+  matched_by: name-slug
 - name: Apex Ai
   status: active
   source: https://lsvp.com/company/apex-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apex-ai
+  slug: apex-ai
+  matched_by: name-slug
 - name: Appzen
   status: active
   source: https://lsvp.com/company/appzen/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: appzen
+  in_network: true
+  is_api_provider: true
+  slug: appzen
+  matched_by: name-slug
 - name: Aquant Io
   status: active
   source: https://lsvp.com/company/aquant-io/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aquant-io
+  slug: aquant-io
+  matched_by: name-slug
 - name: Aquantia
   status: active
   source: https://lsvp.com/company/aquantia/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aquantia
+  slug: aquantia
+  matched_by: name-slug
 - name: Arbor Networks
   status: active
   source: https://lsvp.com/company/arbor-networks/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arbor-networks
+  slug: arbor-networks
+  matched_by: name-slug
 - name: Archive
   status: active
   source: https://lsvp.com/company/archive/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: archive
+  slug: archive
+  matched_by: name-slug
 - name: Arena
   status: active
   source: https://lsvp.com/company/arena/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arena
+  slug: arena
+  matched_by: name-slug
 - name: Arilinc
   status: active
   source: https://lsvp.com/company/arilinc/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arilinc
+  slug: arilinc
+  matched_by: name-slug
 - name: Arrcus
   status: active
   source: https://lsvp.com/company/arrcus/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arrcus
+  slug: arrcus
+  matched_by: name-slug
 - name: Artofsport
   status: active
   source: https://lsvp.com/company/artofsport/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: artofsport
+  slug: artofsport
+  matched_by: name-slug
 - name: Aspire
   status: active
   source: https://lsvp.com/company/aspire/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aspire
+  slug: aspire
+  matched_by: name-slug
 - name: Assort Health
   status: active
   source: https://lsvp.com/company/assort-health/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: assort-health
+  slug: assort-health
+  matched_by: name-slug
 - name: Astro Sea
   status: active
   source: https://lsvp.com/company/astro-sea/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: astro-sea
+  slug: astro-sea
+  matched_by: name-slug
 - name: Astro
   status: active
   source: https://lsvp.com/company/astro/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: astro
+  slug: astro
+  matched_by: name-slug
 - name: Athos
   status: active
   source: https://lsvp.com/company/athos/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: athos
+  slug: athos
+  matched_by: name-slug
 - name: Audiomob
   status: active
   source: https://lsvp.com/company/audiomob/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: audiomob
+  slug: audiomob
+  matched_by: name-slug
 - name: Audius
   status: active
   source: https://lsvp.com/company/audius/
@@ -867,45 +914,52 @@ companies:
 - name: Augment
   status: active
   source: https://lsvp.com/company/augment/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: augment
+  in_network: true
+  is_api_provider: true
+  slug: augment
+  matched_by: name-slug
 - name: Aurora
   status: active
   source: https://lsvp.com/company/aurora/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aurora
+  slug: aurora
+  matched_by: name-slug
 - name: Autograph
   status: active
   source: https://lsvp.com/company/autograph/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: autograph
+  slug: autograph
+  matched_by: name-slug
 - name: Avamar
   status: active
   source: https://lsvp.com/company/avamar/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avamar
+  slug: avamar
+  matched_by: name-slug
 - name: Avarra
   status: active
   source: https://lsvp.com/company/avarra/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avarra
+  slug: avarra
+  matched_by: name-slug
 - name: Avec
   status: active
   source: https://lsvp.com/company/avec/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avec
+  slug: avec
+  matched_by: name-slug
 - name: Avere Systems
   status: active
   source: https://lsvp.com/company/avere-systems/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avere-systems
+  slug: avere-systems
+  matched_by: name-slug
 - name: Avi Networks
   status: active
   source: https://lsvp.com/company/avi-networks/
@@ -916,39 +970,45 @@ companies:
 - name: Awa Studios
   status: active
   source: https://lsvp.com/company/awa-studios/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: awa-studios
+  slug: awa-studios
+  matched_by: name-slug
 - name: Axiom Trust
   status: active
   source: https://lsvp.com/company/axiom-trust/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: axiom-trust
+  slug: axiom-trust
+  matched_by: name-slug
 - name: Balance
   status: active
   source: https://lsvp.com/company/balance/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: balance
+  slug: balance
+  matched_by: name-slug
 - name: Barefoot Networks
   status: active
   source: https://lsvp.com/company/barefoot-networks/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: barefoot-networks
+  slug: barefoot-networks
+  matched_by: name-slug
 - name: Base Power
   status: active
   source: https://lsvp.com/company/base-power/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: base-power
+  slug: base-power
+  matched_by: name-slug
 - name: Beacon Software
   status: active
   source: https://lsvp.com/company/beacon-software/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beacon-software
+  slug: beacon-software
+  matched_by: name-slug
 - name: Beehiiv
   status: active
   source: https://lsvp.com/company/beehiiv/
@@ -959,45 +1019,52 @@ companies:
 - name: Beek
   status: active
   source: https://lsvp.com/company/beek/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beek
+  slug: beek
+  matched_by: name-slug
 - name: Beme
   status: active
   source: https://lsvp.com/company/beme/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beme
+  slug: beme
+  matched_by: name-slug
 - name: Berry Health
   status: active
   source: https://lsvp.com/company/berry-health/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: berry-health
+  slug: berry-health
+  matched_by: name-slug
 - name: Betdex
   status: active
   source: https://lsvp.com/company/betdex/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: betdex
+  slug: betdex
+  matched_by: name-slug
 - name: Betty Labs
   status: active
   source: https://lsvp.com/company/betty-labs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: betty-labs
+  slug: betty-labs
+  matched_by: name-slug
 - name: Big Sur Ai
   status: active
   source: https://lsvp.com/company/big-sur-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: big-sur-ai
+  slug: big-sur-ai
+  matched_by: name-slug
 - name: Binaris
   status: active
   source: https://lsvp.com/company/binaris/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: binaris
+  slug: binaris
+  matched_by: name-slug
 - name: Blameless
   status: active
   source: https://lsvp.com/company/blameless/
@@ -1029,21 +1096,24 @@ companies:
 - name: Blue Nile
   status: active
   source: https://lsvp.com/company/blue-nile/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blue-nile
+  slug: blue-nile
+  matched_by: name-slug
 - name: Bluebirds
   status: active
   source: https://lsvp.com/company/bluebirds/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluebirds
+  slug: bluebirds
+  matched_by: name-slug
 - name: Bluelearn
   status: active
   source: https://lsvp.com/company/bluelearn/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluelearn
+  slug: bluelearn
+  matched_by: name-slug
 - name: Bluevine
   status: active
   source: https://lsvp.com/company/bluevine/
@@ -1054,33 +1124,38 @@ companies:
 - name: Bonnet
   status: active
   source: https://lsvp.com/company/bonnet/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bonnet
+  slug: bonnet
+  matched_by: name-slug
 - name: Bonobos
   status: active
   source: https://lsvp.com/company/bonobos/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bonobos
+  slug: bonobos
+  matched_by: name-slug
 - name: Brale
   status: active
   source: https://lsvp.com/company/brale/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: brale
+  in_network: true
+  is_api_provider: true
+  slug: brale
+  matched_by: name-slug
 - name: Bridgetown Research
   status: active
   source: https://lsvp.com/company/bridgetown-research/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bridgetown-research
+  slug: bridgetown-research
+  matched_by: name-slug
 - name: Brigit
   status: active
   source: https://lsvp.com/company/brigit/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brigit
+  slug: brigit
+  matched_by: name-slug
 - name: Brocade
   status: active
   source: https://lsvp.com/company/brocade/
@@ -1091,15 +1166,17 @@ companies:
 - name: Bromium
   status: active
   source: https://lsvp.com/company/bromium/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bromium
+  slug: bromium
+  matched_by: name-slug
 - name: Buildingconnected
   status: active
   source: https://lsvp.com/company/buildingconnected/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buildingconnected
+  slug: buildingconnected
+  matched_by: name-slug
 - name: Buildots
   status: active
   source: https://lsvp.com/company/buildots/
@@ -1110,33 +1187,38 @@ companies:
 - name: Byjus
   status: active
   source: https://lsvp.com/company/byjus/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: byjus
+  slug: byjus
+  matched_by: name-slug
 - name: Calista Technologies
   status: active
   source: https://lsvp.com/company/calista-technologies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: calista-technologies
+  slug: calista-technologies
+  matched_by: name-slug
 - name: Calm
   status: active
   source: https://lsvp.com/company/calm/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: calm
+  in_network: true
+  is_api_provider: true
+  slug: calm
+  matched_by: name-slug
 - name: Cameo
   status: active
   source: https://lsvp.com/company/cameo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cameo
+  slug: cameo
+  matched_by: name-slug
 - name: Candis
   status: active
   source: https://lsvp.com/company/candis/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: candis
+  in_network: true
+  is_api_provider: true
+  slug: candis
+  matched_by: name-slug
 - name: Cartesia
   status: active
   source: https://lsvp.com/company/cartesia/
@@ -1147,33 +1229,38 @@ companies:
 - name: Casap
   status: active
   source: https://lsvp.com/company/casap/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: casap
+  in_network: true
+  is_api_provider: true
+  slug: casap
+  matched_by: name-slug
 - name: Castelion
   status: active
   source: https://lsvp.com/company/castelion/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: castelion
+  slug: castelion
+  matched_by: name-slug
 - name: Celequest
   status: active
   source: https://lsvp.com/company/celequest/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celequest
+  slug: celequest
+  matched_by: name-slug
 - name: Celona
   status: active
   source: https://lsvp.com/company/celona/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celona
+  slug: celona
+  matched_by: name-slug
 - name: Certik
   status: active
   source: https://lsvp.com/company/certik/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: certik
+  in_network: true
+  is_api_provider: true
+  slug: certik
+  matched_by: name-slug
 - name: Chainguard
   status: active
   source: https://lsvp.com/company/chainguard/
@@ -1184,9 +1271,10 @@ companies:
 - name: Chaoslabs
   status: active
   source: https://lsvp.com/company/chaoslabs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chaoslabs
+  slug: chaoslabs
+  matched_by: name-slug
 - name: Character Ai
   status: active
   source: https://lsvp.com/company/character-ai/
@@ -1197,9 +1285,10 @@ companies:
 - name: Cheddar
   status: active
   source: https://lsvp.com/company/cheddar/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cheddar
+  slug: cheddar
+  matched_by: name-slug
 - name: Ciena
   status: active
   source: https://lsvp.com/company/ciena/
@@ -1210,21 +1299,24 @@ companies:
 - name: Citadel
   status: active
   source: https://lsvp.com/company/citadel/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: citadel
+  slug: citadel
+  matched_by: name-slug
 - name: Clark
   status: active
   source: https://lsvp.com/company/clark/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clark
+  slug: clark
+  matched_by: name-slug
 - name: Cleanco
   status: active
   source: https://lsvp.com/company/cleanco/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cleanco
+  slug: cleanco
+  matched_by: name-slug
 - name: Clever
   status: active
   source: https://lsvp.com/company/clever/
@@ -1249,15 +1341,17 @@ companies:
 - name: Cohere Technologies
   status: active
   source: https://lsvp.com/company/cohere-technologies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cohere-technologies
+  slug: cohere-technologies
+  matched_by: name-slug
 - name: Community Labs
   status: active
   source: https://lsvp.com/company/community-labs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: community-labs
+  slug: community-labs
+  matched_by: name-slug
 - name: Composio
   status: active
   source: https://lsvp.com/company/composio/
@@ -1268,69 +1362,80 @@ companies:
 - name: Comprehend
   status: active
   source: https://lsvp.com/company/comprehend/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: comprehend
+  slug: comprehend
+  matched_by: name-slug
 - name: Confluera
   status: active
   source: https://lsvp.com/company/confluera/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: confluera
+  slug: confluera
+  matched_by: name-slug
 - name: Cosmart
   status: active
   source: https://lsvp.com/company/cosmart/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cosmart
+  slug: cosmart
+  matched_by: name-slug
 - name: Craftsvilla
   status: active
   source: https://lsvp.com/company/craftsvilla/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: craftsvilla
+  slug: craftsvilla
+  matched_by: name-slug
 - name: Crowdamp
   status: active
   source: https://lsvp.com/company/crowdamp/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crowdamp
+  slug: crowdamp
+  matched_by: name-slug
 - name: Cuein
   status: active
   source: https://lsvp.com/company/cuein/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cuein
+  in_network: true
+  is_api_provider: true
+  slug: cuein
+  matched_by: name-slug
 - name: Cumbuca
   status: active
   source: https://lsvp.com/company/cumbuca/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cumbuca
+  slug: cumbuca
+  matched_by: name-slug
 - name: Curve Health
   status: active
   source: https://lsvp.com/company/curve-health/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: curve-health
+  slug: curve-health
+  matched_by: name-slug
 - name: Cycognito
   status: active
   source: https://lsvp.com/company/cycognito/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cycognito
+  in_network: true
+  is_api_provider: true
+  slug: cycognito
+  matched_by: name-slug
 - name: D2g Oncology
   status: active
   source: https://lsvp.com/company/d2g-oncology/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: d2g-oncology
+  slug: d2g-oncology
+  matched_by: name-slug
 - name: Data Sutram
   status: active
   source: https://lsvp.com/company/data-sutram/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: data-sutram
+  slug: data-sutram
+  matched_by: name-slug
 - name: Databricks
   status: active
   source: https://lsvp.com/company/databricks/
@@ -1341,45 +1446,52 @@ companies:
 - name: Datafleets
   status: active
   source: https://lsvp.com/company/datafleets/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datafleets
+  slug: datafleets
+  matched_by: name-slug
 - name: Datastax
   status: active
   source: https://lsvp.com/company/datastax/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: datastax
+  in_network: true
+  is_api_provider: true
+  slug: datastax
+  matched_by: name-slug
 - name: Datorama
   status: active
   source: https://lsvp.com/company/datorama/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datorama
+  slug: datorama
+  matched_by: name-slug
 - name: Datos Io
   status: active
   source: https://lsvp.com/company/datos-io/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datos-io
+  slug: datos-io
+  matched_by: name-slug
 - name: Datrium
   status: active
   source: https://lsvp.com/company/datrium/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datrium
+  slug: datrium
+  matched_by: name-slug
 - name: Daybreak
   status: active
   source: https://lsvp.com/company/daybreak/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daybreak
+  slug: daybreak
+  matched_by: name-slug
 - name: Delphix
   status: active
   source: https://lsvp.com/company/delphix/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: delphix
+  in_network: true
+  is_api_provider: true
+  slug: delphix
+  matched_by: name-slug
 - name: Descope
   status: active
   source: https://lsvp.com/company/descope/
@@ -1390,15 +1502,17 @@ companies:
 - name: Dialogue Ai
   status: active
   source: https://lsvp.com/company/dialogue-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dialogue-ai
+  slug: dialogue-ai
+  matched_by: name-slug
 - name: Distyl
   status: active
   source: https://lsvp.com/company/distyl/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: distyl
+  slug: distyl
+  matched_by: name-slug
 - name: Docker
   status: active
   source: https://lsvp.com/company/docker/
@@ -1409,87 +1523,101 @@ companies:
 - name: Doctronic
   status: active
   source: https://lsvp.com/company/doctronic/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: doctronic
+  slug: doctronic
+  matched_by: name-slug
 - name: Double Click
   status: active
   source: https://lsvp.com/company/double-click/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: double-click
+  slug: double-click
+  matched_by: name-slug
 - name: Dremio
   status: active
   source: https://lsvp.com/company/dremio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dremio
+  slug: dremio
+  matched_by: name-slug
 - name: Dualbird
   status: active
   source: https://lsvp.com/company/dualbird/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dualbird
+  slug: dualbird
+  matched_by: name-slug
 - name: Dualentry
   status: active
   source: https://lsvp.com/company/dualentry/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dualentry
+  slug: dualentry
+  matched_by: name-slug
 - name: Dukaan
   status: active
   source: https://lsvp.com/company/dukaan/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dukaan
+  slug: dukaan
+  matched_by: name-slug
 - name: Eagle
   status: active
   source: https://lsvp.com/company/eagle/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eagle
+  slug: eagle
+  matched_by: name-slug
 - name: Eco
   status: active
   source: https://lsvp.com/company/eco/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: eco
+  in_network: true
+  is_api_provider: true
+  slug: eco
+  matched_by: name-slug
 - name: Edgespring
   status: active
   source: https://lsvp.com/company/edgespring/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edgespring
+  slug: edgespring
+  matched_by: name-slug
 - name: Ehealth
   status: active
   source: https://lsvp.com/company/ehealth/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ehealth
+  slug: ehealth
+  matched_by: name-slug
 - name: Elastifile
   status: active
   source: https://lsvp.com/company/elastifile/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elastifile
+  slug: elastifile
+  matched_by: name-slug
 - name: Elementor
   status: active
   source: https://lsvp.com/company/elementor/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elementor
+  slug: elementor
+  matched_by: name-slug
 - name: Elementum
   status: active
   source: https://lsvp.com/company/elementum/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: elementum
+  in_network: true
+  is_api_provider: true
+  slug: elementum
+  matched_by: name-slug
 - name: Enable
   status: active
   source: https://lsvp.com/company/enable/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enable
+  slug: enable
+  matched_by: name-slug
 - name: Endor Labs
   status: active
   source: https://lsvp.com/company/endor-labs/
@@ -1500,51 +1628,59 @@ companies:
 - name: Endowus
   status: active
   source: https://lsvp.com/company/endowus/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: endowus
+  slug: endowus
+  matched_by: name-slug
 - name: Enlaza Therapeutics
   status: active
   source: https://lsvp.com/company/enlaza-therapeutics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enlaza-therapeutics
+  slug: enlaza-therapeutics
+  matched_by: name-slug
 - name: Ensilo
   status: active
   source: https://lsvp.com/company/ensilo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ensilo
+  slug: ensilo
+  matched_by: name-slug
 - name: Eon
   status: active
   source: https://lsvp.com/company/eon/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: eon
+  in_network: true
+  is_api_provider: true
+  slug: eon
+  matched_by: name-slug
 - name: Epsagon
   status: active
   source: https://lsvp.com/company/epsagon/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: epsagon
+  slug: epsagon
+  matched_by: name-slug
 - name: Evariant
   status: active
   source: https://lsvp.com/company/evariant/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: evariant
+  slug: evariant
+  matched_by: name-slug
 - name: Eve
   status: active
   source: https://lsvp.com/company/eve/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eve
+  slug: eve
+  matched_by: name-slug
 - name: Eve Com
   status: active
   source: https://lsvp.com/company/eve-com/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eve-com
+  slug: eve-com
+  matched_by: name-slug
 - name: Evenup
   status: active
   source: https://lsvp.com/company/evenup/
@@ -1555,21 +1691,24 @@ companies:
 - name: Everstring
   status: active
   source: https://lsvp.com/company/everstring/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: everstring
+  slug: everstring
+  matched_by: name-slug
 - name: Everyrealm
   status: active
   source: https://lsvp.com/company/everyrealm/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: everyrealm
+  slug: everyrealm
+  matched_by: name-slug
 - name: Evolv
   status: active
   source: https://lsvp.com/company/evolv/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: evolv
+  slug: evolv
+  matched_by: name-slug
 - name: Exa
   status: active
   source: https://lsvp.com/company/exa/
@@ -1580,57 +1719,66 @@ companies:
 - name: Exabeam
   status: active
   source: https://lsvp.com/company/exabeam/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: exabeam
+  slug: exabeam
+  matched_by: name-slug
 - name: Extensity
   status: active
   source: https://lsvp.com/company/extensity/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: extensity
+  slug: extensity
+  matched_by: name-slug
 - name: Eyeview
   status: active
   source: https://lsvp.com/company/eyeview/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eyeview
+  slug: eyeview
+  matched_by: name-slug
 - name: Ezcater
   status: active
   source: https://lsvp.com/company/ezcater/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ezcater
+  slug: ezcater
+  matched_by: name-slug
 - name: Falconx
   status: active
   source: https://lsvp.com/company/falconx/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: falconx
+  slug: falconx
+  matched_by: name-slug
 - name: Fan Controlled Football
   status: active
   source: https://lsvp.com/company/fan-controlled-football/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fan-controlled-football
+  slug: fan-controlled-football
+  matched_by: name-slug
 - name: Faraway
   status: active
   source: https://lsvp.com/company/faraway/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: faraway
+  slug: faraway
+  matched_by: name-slug
 - name: Farther
   status: active
   source: https://lsvp.com/company/farther/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: farther
+  slug: farther
+  matched_by: name-slug
 - name: Fashionara
   status: active
   source: https://lsvp.com/company/fashionara/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fashionara
+  slug: fashionara
+  matched_by: name-slug
 - name: Fathom
   status: active
   source: https://lsvp.com/company/fathom/
@@ -1648,27 +1796,31 @@ companies:
 - name: Fidu
   status: active
   source: https://lsvp.com/company/fidu/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fidu
+  slug: fidu
+  matched_by: name-slug
 - name: Finaloop
   status: active
   source: https://lsvp.com/company/finaloop/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: finaloop
+  slug: finaloop
+  matched_by: name-slug
 - name: Finix
   status: active
   source: https://lsvp.com/company/finix/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: finix
+  in_network: true
+  is_api_provider: true
+  slug: finix
+  matched_by: name-slug
 - name: Fireglass
   status: active
   source: https://lsvp.com/company/fireglass/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fireglass
+  slug: fireglass
+  matched_by: name-slug
 - name: Fireworks Ai
   status: active
   source: https://lsvp.com/company/fireworks-ai/
@@ -1679,27 +1831,31 @@ companies:
 - name: Fivestars
   status: active
   source: https://lsvp.com/company/fivestars/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fivestars
+  slug: fivestars
+  matched_by: name-slug
 - name: Fizz
   status: active
   source: https://lsvp.com/company/fizz/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fizz
+  slug: fizz
+  matched_by: name-slug
 - name: Flex
   status: active
   source: https://lsvp.com/company/flex/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flex
+  slug: flex
+  matched_by: name-slug
 - name: Flickplay
   status: active
   source: https://lsvp.com/company/flickplay/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flickplay
+  slug: flickplay
+  matched_by: name-slug
 - name: Flink
   status: active
   source: https://lsvp.com/company/flink/
@@ -1710,39 +1866,45 @@ companies:
 - name: Flip
   status: active
   source: https://lsvp.com/company/flip/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flip
+  slug: flip
+  matched_by: name-slug
 - name: Flixster
   status: active
   source: https://lsvp.com/company/flixster/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flixster
+  slug: flixster
+  matched_by: name-slug
 - name: Flockjay
   status: active
   source: https://lsvp.com/company/flockjay/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flockjay
+  slug: flockjay
+  matched_by: name-slug
 - name: Flow
   status: active
   source: https://lsvp.com/company/flow/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flow
+  slug: flow
+  matched_by: name-slug
 - name: Forage
   status: active
   source: https://lsvp.com/company/forage/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forage
+  slug: forage
+  matched_by: name-slug
 - name: Fordefi
   status: active
   source: https://lsvp.com/company/fordefi/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fordefi
+  in_network: true
+  is_api_provider: true
+  slug: fordefi
+  matched_by: name-slug
 - name: Fourthwall
   status: active
   source: https://lsvp.com/company/fourthwall/
@@ -1753,45 +1915,52 @@ companies:
 - name: Freespira
   status: active
   source: https://lsvp.com/company/freespira/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: freespira
+  slug: freespira
+  matched_by: name-slug
 - name: Freshmenu
   status: active
   source: https://lsvp.com/company/freshmenu/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: freshmenu
+  slug: freshmenu
+  matched_by: name-slug
 - name: Frontera
   status: active
   source: https://lsvp.com/company/frontera/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: frontera
+  slug: frontera
+  matched_by: name-slug
 - name: Frontrow
   status: active
   source: https://lsvp.com/company/frontrow/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: frontrow
+  slug: frontrow
+  matched_by: name-slug
 - name: Frubana
   status: active
   source: https://lsvp.com/company/frubana/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: frubana
+  slug: frubana
+  matched_by: name-slug
 - name: Fullview
   status: active
   source: https://lsvp.com/company/fullview/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fullview
+  in_network: true
+  is_api_provider: true
+  slug: fullview
+  matched_by: name-slug
 - name: Fusion Io
   status: active
   source: https://lsvp.com/company/fusion-io/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fusion-io
+  slug: fusion-io
+  matched_by: name-slug
 - name: Gainsight
   status: active
   source: https://lsvp.com/company/gainsight/
@@ -1802,21 +1971,24 @@ companies:
 - name: Galileo Technology
   status: active
   source: https://lsvp.com/company/galileo-technology/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: galileo-technology
+  slug: galileo-technology
+  matched_by: name-slug
 - name: Gardens
   status: active
   source: https://lsvp.com/company/gardens/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gardens
+  slug: gardens
+  matched_by: name-slug
 - name: Geniebook
   status: active
   source: https://lsvp.com/company/geniebook/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: geniebook
+  slug: geniebook
+  matched_by: name-slug
 - name: Giphy
   status: active
   source: https://lsvp.com/company/giphy/
@@ -1827,27 +1999,31 @@ companies:
 - name: Girlboss
   status: active
   source: https://lsvp.com/company/girlboss/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: girlboss
+  slug: girlboss
+  matched_by: name-slug
 - name: Glo Pharma
   status: active
   source: https://lsvp.com/company/glo-pharma/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glo-pharma
+  slug: glo-pharma
+  matched_by: name-slug
 - name: Goodfire
   status: active
   source: https://lsvp.com/company/goodfire/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goodfire
+  slug: goodfire
+  matched_by: name-slug
 - name: Goop
   status: active
   source: https://lsvp.com/company/goop/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goop
+  slug: goop
+  matched_by: name-slug
 - name: Granola
   status: active
   source: https://lsvp.com/company/granola/
@@ -1858,27 +2034,31 @@ companies:
 - name: Growth Networks
   status: active
   source: https://lsvp.com/company/growth-networks/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: growth-networks
+  slug: growth-networks
+  matched_by: name-slug
 - name: Gyde
   status: active
   source: https://lsvp.com/company/gyde/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gyde
+  slug: gyde
+  matched_by: name-slug
 - name: Handshake
   status: active
   source: https://lsvp.com/company/handshake/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: handshake
+  slug: handshake
+  matched_by: name-slug
 - name: Harmony
   status: active
   source: https://lsvp.com/company/harmony/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: harmony
+  in_network: true
+  is_api_provider: true
+  slug: harmony
+  matched_by: name-slug
 - name: Hasura
   status: active
   source: https://lsvp.com/company/hasura/
@@ -1903,9 +2083,10 @@ companies:
 - name: Heptio
   status: active
   source: https://lsvp.com/company/heptio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heptio
+  slug: heptio
+  matched_by: name-slug
 - name: Herald
   status: active
   source: https://lsvp.com/company/herald/
@@ -1916,123 +2097,143 @@ companies:
 - name: Herbeast
   status: active
   source: https://lsvp.com/company/herbeast/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: herbeast
+  slug: herbeast
+  matched_by: name-slug
 - name: Heygo
   status: active
   source: https://lsvp.com/company/heygo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heygo
+  slug: heygo
+  matched_by: name-slug
 - name: Hidden Leaf Games
   status: active
   source: https://lsvp.com/company/hidden-leaf-games/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hidden-leaf-games
+  slug: hidden-leaf-games
+  matched_by: name-slug
 - name: Highfive
   status: active
   source: https://lsvp.com/company/highfive/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: highfive
+  slug: highfive
+  matched_by: name-slug
 - name: Hillevax
   status: active
   source: https://lsvp.com/company/hillevax/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hillevax
+  slug: hillevax
+  matched_by: name-slug
 - name: Holo
   status: active
   source: https://lsvp.com/company/holo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: holo
+  slug: holo
+  matched_by: name-slug
 - name: Homary
   status: active
   source: https://lsvp.com/company/homary/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: homary
+  slug: homary
+  matched_by: name-slug
 - name: Honeylove
   status: active
   source: https://lsvp.com/company/honeylove/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: honeylove
+  slug: honeylove
+  matched_by: name-slug
 - name: Hook
   status: active
   source: https://lsvp.com/company/hook/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hook
+  slug: hook
+  matched_by: name-slug
 - name: Hungryroot
   status: active
   source: https://lsvp.com/company/hungryroot/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hungryroot
+  slug: hungryroot
+  matched_by: name-slug
 - name: Hyperguest
   status: active
   source: https://lsvp.com/company/hyperguest/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hyperguest
+  slug: hyperguest
+  matched_by: name-slug
 - name: Ihaveu
   status: active
   source: https://lsvp.com/company/ihaveu/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ihaveu
+  slug: ihaveu
+  matched_by: name-slug
 - name: Illumix
   status: active
   source: https://lsvp.com/company/illumix/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: illumix
+  slug: illumix
+  matched_by: name-slug
 - name: Immunos Therapeutics
   status: active
   source: https://lsvp.com/company/immunos-therapeutics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: immunos-therapeutics
+  slug: immunos-therapeutics
+  matched_by: name-slug
 - name: Impira
   status: active
   source: https://lsvp.com/company/impira/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: impira
+  slug: impira
+  matched_by: name-slug
 - name: Indian Energy Exchange
   status: active
   source: https://lsvp.com/company/indian-energy-exchange/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: indian-energy-exchange
+  slug: indian-energy-exchange
+  matched_by: name-slug
 - name: Ineffable Intelligence
   status: active
   source: https://lsvp.com/company/ineffable-intelligence/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ineffable-intelligence
+  slug: ineffable-intelligence
+  matched_by: name-slug
 - name: Vllm Inferact
   status: active
   source: https://lsvp.com/company/vllm-inferact/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vllm-inferact
+  slug: vllm-inferact
+  matched_by: name-slug
 - name: Infiot
   status: active
   source: https://lsvp.com/company/infiot/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infiot
+  slug: infiot
+  matched_by: name-slug
 - name: Influitive
   status: active
   source: https://lsvp.com/company/influitive/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: influitive
+  in_network: true
+  is_api_provider: true
+  slug: influitive
+  matched_by: name-slug
 - name: Informatica
   status: active
   source: https://lsvp.com/company/informatica/
@@ -2043,141 +2244,164 @@ companies:
 - name: Insightera
   status: active
   source: https://lsvp.com/company/insightera/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: insightera
+  slug: insightera
+  matched_by: name-slug
 - name: Intenseye
   status: active
   source: https://lsvp.com/company/intenseye/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intenseye
+  slug: intenseye
+  matched_by: name-slug
 - name: Io Turbine
   status: active
   source: https://lsvp.com/company/io-turbine/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: io-turbine
+  slug: io-turbine
+  matched_by: name-slug
 - name: Its Good
   status: active
   source: https://lsvp.com/company/its-good/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: its-good
+  slug: its-good
+  matched_by: name-slug
 - name: Itzcash
   status: active
   source: https://lsvp.com/company/itzcash/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: itzcash
+  slug: itzcash
+  matched_by: name-slug
 - name: Jarvie
   status: active
   source: https://lsvp.com/company/jarvie/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jarvie
+  slug: jarvie
+  matched_by: name-slug
 - name: Joopiter
   status: active
   source: https://lsvp.com/company/joopiter/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: joopiter
+  slug: joopiter
+  matched_by: name-slug
 - name: Judgment Labs
   status: active
   source: https://lsvp.com/company/judgment-labs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: judgment-labs
+  slug: judgment-labs
+  matched_by: name-slug
 - name: Jumprope
   status: active
   source: https://lsvp.com/company/jumprope/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jumprope
+  slug: jumprope
+  matched_by: name-slug
 - name: K Id
   status: active
   source: https://lsvp.com/company/k-id/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: k-id
+  slug: k-id
+  matched_by: name-slug
 - name: K2 Space
   status: active
   source: https://lsvp.com/company/k2-space/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: k2-space
+  slug: k2-space
+  matched_by: name-slug
 - name: Karius
   status: active
   source: https://lsvp.com/company/karius/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: karius
+  slug: karius
+  matched_by: name-slug
 - name: Kespry
   status: active
   source: https://lsvp.com/company/kespry/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kespry
+  slug: kespry
+  matched_by: name-slug
 - name: Ketryx
   status: active
   source: https://lsvp.com/company/ketryx/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ketryx
+  in_network: true
+  is_api_provider: true
+  slug: ketryx
+  matched_by: name-slug
 - name: Keychain
   status: active
   source: https://lsvp.com/company/keychain/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: keychain
+  slug: keychain
+  matched_by: name-slug
 - name: Kikoff
   status: active
   source: https://lsvp.com/company/kikoff/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kikoff
+  slug: kikoff
+  matched_by: name-slug
 - name: Kirilys Therapeutics
   status: active
   source: https://lsvp.com/company/kirilys-therapeutics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kirilys-therapeutics
+  slug: kirilys-therapeutics
+  matched_by: name-slug
 - name: Kiva Software
   status: active
   source: https://lsvp.com/company/kiva-software/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kiva-software
+  slug: kiva-software
+  matched_by: name-slug
 - name: Kodiak
   status: active
   source: https://lsvp.com/company/kodiak/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kodiak
+  slug: kodiak
+  matched_by: name-slug
 - name: Kongregate
   status: active
   source: https://lsvp.com/company/kongregate/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kongregate
+  in_network: true
+  is_api_provider: true
+  slug: kongregate
+  matched_by: name-slug
 - name: Kosmix
   status: active
   source: https://lsvp.com/company/kosmix/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kosmix
+  slug: kosmix
+  matched_by: name-slug
 - name: Kumospace
   status: active
   source: https://lsvp.com/company/kumospace/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kumospace
+  in_network: true
+  is_api_provider: true
+  slug: kumospace
+  matched_by: name-slug
 - name: Ladder
   status: active
   source: https://lsvp.com/company/ladder/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ladder
+  slug: ladder
+  matched_by: name-slug
 - name: Langfuse
   status: active
   source: https://lsvp.com/company/langfuse/
@@ -2188,135 +2412,157 @@ companies:
 - name: Ledgerx
   status: active
   source: https://lsvp.com/company/ledgerx/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ledgerx
+  slug: ledgerx
+  matched_by: name-slug
 - name: Lemon Markets
   status: active
   source: https://lsvp.com/company/lemon-markets/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lemon-markets
+  in_network: true
+  is_api_provider: true
+  slug: lemon-markets
+  matched_by: name-slug
 - name: Level
   status: active
   source: https://lsvp.com/company/level/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: level
+  slug: level
+  matched_by: name-slug
 - name: Lightfield
   status: active
   source: https://lsvp.com/company/lightfield/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lightfield
+  in_network: true
+  is_api_provider: true
+  slug: lightfield
+  matched_by: name-slug
 - name: Lightlogic
   status: active
   source: https://lsvp.com/company/lightlogic/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightlogic
+  slug: lightlogic
+  matched_by: name-slug
 - name: Lightsource
   status: active
   source: https://lsvp.com/company/lightsource/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightsource
+  slug: lightsource
+  matched_by: name-slug
 - name: Lightspeed International
   status: active
   source: https://lsvp.com/company/lightspeed-international/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightspeed-international
+  slug: lightspeed-international
+  matched_by: name-slug
 - name: Lightyear
   status: active
   source: https://lsvp.com/company/lightyear/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightyear
+  slug: lightyear
+  matched_by: name-slug
 - name: Link A Media
   status: active
   source: https://lsvp.com/company/link-a-media/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: link-a-media
+  slug: link-a-media
+  matched_by: name-slug
 - name: Liveprofile
   status: active
   source: https://lsvp.com/company/liveprofile/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: liveprofile
+  slug: liveprofile
+  matched_by: name-slug
 - name: Liveu
   status: active
   source: https://lsvp.com/company/liveu/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: liveu
+  slug: liveu
+  matched_by: name-slug
 - name: Lost Lake
   status: active
   source: https://lsvp.com/company/lost-lake/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lost-lake
+  slug: lost-lake
+  matched_by: name-slug
 - name: Luckypai
   status: active
   source: https://lsvp.com/company/luckypai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luckypai
+  slug: luckypai
+  matched_by: name-slug
 - name: Luel
   status: active
   source: https://lsvp.com/company/luel/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luel
+  slug: luel
+  matched_by: name-slug
 - name: Lunchclub
   status: active
   source: https://lsvp.com/company/lunchclub/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lunchclub
+  slug: lunchclub
+  matched_by: name-slug
 - name: Macroscope
   status: active
   source: https://lsvp.com/company/macroscope/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: macroscope
+  in_network: true
+  is_api_provider: true
+  slug: macroscope
+  matched_by: name-slug
 - name: Magic Spoon
   status: active
   source: https://lsvp.com/company/magic-spoon/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magic-spoon
+  slug: magic-spoon
+  matched_by: name-slug
 - name: Magicpin
   status: active
   source: https://lsvp.com/company/magicpin/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magicpin
+  slug: magicpin
+  matched_by: name-slug
 - name: Maker Comms
   status: active
   source: https://lsvp.com/company/maker-comms/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maker-comms
+  slug: maker-comms
+  matched_by: name-slug
 - name: Manex Ai
   status: active
   source: https://lsvp.com/company/manex-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manex-ai
+  slug: manex-ai
+  matched_by: name-slug
 - name: Markato
   status: active
   source: https://lsvp.com/company/markato/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: markato
+  slug: markato
+  matched_by: name-slug
 - name: Masergy
   status: active
   source: https://lsvp.com/company/masergy/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: masergy
+  slug: masergy
+  matched_by: name-slug
 - name: Materialize
   status: active
   source: https://lsvp.com/company/materialize/
@@ -2327,112 +2573,129 @@ companies:
 - name: Mayd
   status: active
   source: https://lsvp.com/company/mayd/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mayd
+  slug: mayd
+  matched_by: name-slug
 - name: Mdclone
   status: active
   source: https://lsvp.com/company/mdclone/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mdclone
+  slug: mdclone
+  matched_by: name-slug
 - name: Medikine
   status: active
   source: https://lsvp.com/company/medikine/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medikine
+  slug: medikine
+  matched_by: name-slug
 - name: Memoir Systems
   status: active
   source: https://lsvp.com/company/memoir-systems/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: memoir-systems
+  slug: memoir-systems
+  matched_by: name-slug
 - name: Memverge
   status: active
   source: https://lsvp.com/company/memverge/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: memverge
+  slug: memverge
+  matched_by: name-slug
 - name: Mend
   status: active
   source: https://lsvp.com/company/mend/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mend
+  in_network: true
+  is_api_provider: true
+  slug: mend
+  matched_by: name-slug
 - name: Metasolv Software
   status: active
   source: https://lsvp.com/company/metasolv-software/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metasolv-software
+  slug: metasolv-software
+  matched_by: name-slug
 - name: Millennial Fox
   status: active
   source: https://lsvp.com/company/millennial-fox/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: millennial-fox
+  slug: millennial-fox
+  matched_by: name-slug
 - name: Mist
   status: active
   source: https://lsvp.com/company/mist/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mist
+  in_network: true
+  is_api_provider: true
+  slug: mist
+  matched_by: name-slug
 - name: Mithril
   status: active
   source: https://lsvp.com/company/mithril/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mithril
+  in_network: true
+  is_api_provider: true
+  slug: mithril
+  matched_by: name-slug
 - name: Mito Ai
   status: active
   source: https://lsvp.com/company/mito-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mito-ai
+  slug: mito-ai
+  matched_by: name-slug
 - name: Modus
   status: active
   source: https://lsvp.com/company/modus/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modus
+  slug: modus
+  matched_by: name-slug
 - name: Moment
   status: active
   source: https://lsvp.com/company/moment/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moment
+  slug: moment
+  matched_by: name-slug
 - name: Multiplier
   status: active
   source: https://lsvp.com/company/multiplier/
   slug: multiplier
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: name-slug
 - name: Muni
   status: active
   source: https://lsvp.com/company/muni/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: muni
+  slug: muni
+  matched_by: name-slug
 - name: Mybuys
   status: active
   source: https://lsvp.com/company/mybuys/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mybuys
+  slug: mybuys
+  matched_by: name-slug
 - name: Mysten Labs
   status: active
   source: https://lsvp.com/company/mysten-labs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mysten-labs
+  slug: mysten-labs
+  matched_by: name-slug
 - name: Naboo
   status: active
   source: https://lsvp.com/company/naboo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: naboo
+  slug: naboo
+  matched_by: name-slug
 - name: Natera
   status: active
   source: https://lsvp.com/company/natera/
@@ -2443,15 +2706,17 @@ companies:
 - name: Neko Health
   status: active
   source: https://lsvp.com/company/neko-health/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neko-health
+  slug: neko-health
+  matched_by: name-slug
 - name: Neuralink
   status: active
   source: https://lsvp.com/company/neuralink/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neuralink
+  slug: neuralink
+  matched_by: name-slug
 - name: Nexthop Ai
   status: active
   source: https://lsvp.com/company/nexthop-ai/
@@ -2469,15 +2734,17 @@ companies:
 - name: Nicira Networks
   status: active
   source: https://lsvp.com/company/nicira-networks/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nicira-networks
+  slug: nicira-networks
+  matched_by: name-slug
 - name: Nimble Storage
   status: active
   source: https://lsvp.com/company/nimble-storage/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nimble-storage
+  slug: nimble-storage
+  matched_by: name-slug
 - name: Nirvana
   status: active
   source: https://lsvp.com/company/nirvana/
@@ -2488,21 +2755,24 @@ companies:
 - name: Noetica
   status: active
   source: https://lsvp.com/company/noetica/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noetica
+  slug: noetica
+  matched_by: name-slug
 - name: Nominal
   status: active
   source: https://lsvp.com/company/nominal/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nominal
+  slug: nominal
+  matched_by: name-slug
 - name: Normalyze
   status: active
   source: https://lsvp.com/company/normalyze/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: normalyze
+  slug: normalyze
+  matched_by: name-slug
 - name: Notch
   status: active
   source: https://lsvp.com/company/notch/
@@ -2513,111 +2783,129 @@ companies:
 - name: Nuance Labs
   status: active
   source: https://lsvp.com/company/nuance-labs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nuance-labs
+  slug: nuance-labs
+  matched_by: name-slug
 - name: Numerify
   status: active
   source: https://lsvp.com/company/numerify/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: numerify
+  slug: numerify
+  matched_by: name-slug
 - name: Nym
   status: active
   source: https://lsvp.com/company/nym/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nym
+  slug: nym
+  matched_by: name-slug
 - name: Nym Health
   status: active
   source: https://lsvp.com/company/nym-health/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nym-health
+  slug: nym-health
+  matched_by: name-slug
 - name: Observo Ai
   status: active
   source: https://lsvp.com/company/observo-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: observo-ai
+  slug: observo-ai
+  matched_by: name-slug
 - name: Ocean Security
   status: active
   source: https://lsvp.com/company/ocean-security/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ocean-security
+  in_network: true
+  is_api_provider: true
+  slug: ocean-security
+  matched_by: name-slug
 - name: Odyssey Therapeutics
   status: active
   source: https://lsvp.com/company/odyssey-therapeutics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: odyssey-therapeutics
+  slug: odyssey-therapeutics
+  matched_by: name-slug
 - name: Officebanao
   status: active
   source: https://lsvp.com/company/officebanao/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: officebanao
+  slug: officebanao
+  matched_by: name-slug
 - name: Okcredit
   status: active
   source: https://lsvp.com/company/okcredit/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: okcredit
+  slug: okcredit
+  matched_by: name-slug
 - name: Olema
   status: active
   source: https://lsvp.com/company/olema/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: olema
+  slug: olema
+  matched_by: name-slug
 - name: Oligo
   status: active
   source: https://lsvp.com/company/oligo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oligo
+  slug: oligo
+  matched_by: name-slug
 - name: Omnifold
   status: active
   source: https://lsvp.com/company/omnifold/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omnifold
+  slug: omnifold
+  matched_by: name-slug
 - name: One Assist
   status: active
   source: https://lsvp.com/company/one-assist/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: one-assist
+  slug: one-assist
+  matched_by: name-slug
 - name: One More Game
   status: active
   source: https://lsvp.com/company/one-more-game/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: one-more-game
+  slug: one-more-game
+  matched_by: name-slug
 - name: Orbis Education
   status: active
   source: https://lsvp.com/company/orbis-education/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orbis-education
+  slug: orbis-education
+  matched_by: name-slug
 - name: Origami Logic
   status: active
   source: https://lsvp.com/company/origami-logic/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: origami-logic
+  slug: origami-logic
+  matched_by: name-slug
 - name: Orqa
   status: active
   source: https://lsvp.com/company/orqa/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orqa
+  slug: orqa
+  matched_by: name-slug
 - name: Osmos
   status: active
   source: https://lsvp.com/company/osmos/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: osmos
+  slug: osmos
+  matched_by: name-slug
 - name: Outbrain
   status: active
   source: https://lsvp.com/company/outbrain/
@@ -2628,63 +2916,73 @@ companies:
 - name: Outschool
   status: active
   source: https://lsvp.com/company/outschool/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outschool
+  slug: outschool
+  matched_by: name-slug
 - name: Outsmart College
   status: active
   source: https://lsvp.com/company/outsmart-college/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outsmart-college
+  slug: outsmart-college
+  matched_by: name-slug
 - name: Overops
   status: active
   source: https://lsvp.com/company/overops/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: overops
+  in_network: true
+  is_api_provider: true
+  slug: overops
+  matched_by: name-slug
 - name: Oyo Rooms
   status: active
   source: https://lsvp.com/company/oyo-rooms/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oyo-rooms
+  slug: oyo-rooms
+  matched_by: name-slug
 - name: P0 Security
   status: active
   source: https://lsvp.com/company/p0-security/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: p0-security
+  in_network: true
+  is_api_provider: true
+  slug: p0-security
+  matched_by: name-slug
 - name: Pacific Fusion
   status: active
   source: https://lsvp.com/company/pacific-fusion/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pacific-fusion
+  slug: pacific-fusion
+  matched_by: name-slug
 - name: Paid
   status: active
   source: https://lsvp.com/company/paid/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: paid
+  in_network: true
+  is_api_provider: true
+  slug: paid
+  matched_by: name-slug
 - name: Panther
   status: active
   source: https://lsvp.com/company/panther/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: panther
+  in_network: true
+  is_api_provider: true
+  slug: panther
+  matched_by: name-slug
 - name: Parallel Finance
   status: active
   source: https://lsvp.com/company/parallel-finance/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parallel-finance
+  slug: parallel-finance
+  matched_by: name-slug
 - name: Parsable
   status: active
   source: https://lsvp.com/company/parsable/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parsable
+  slug: parsable
+  matched_by: name-slug
 - name: Particle
   status: active
   source: https://lsvp.com/company/particle/
@@ -2702,63 +3000,73 @@ companies:
 - name: Payitoff
   status: active
   source: https://lsvp.com/company/payitoff/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: payitoff
+  slug: payitoff
+  matched_by: name-slug
 - name: Pebble
   status: active
   source: https://lsvp.com/company/pebble/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pebble
+  slug: pebble
+  matched_by: name-slug
 - name: Pensando
   status: active
   source: https://lsvp.com/company/pensando/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pensando
+  slug: pensando
+  matched_by: name-slug
 - name: People Home Finance Ltd
   status: active
   source: https://lsvp.com/company/people-home-finance-ltd/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: people-home-finance-ltd
+  slug: people-home-finance-ltd
+  matched_by: name-slug
 - name: People Ai
   status: active
   source: https://lsvp.com/company/people-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: people-ai
+  slug: people-ai
+  matched_by: name-slug
 - name: Percolate
   status: active
   source: https://lsvp.com/company/percolate/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: percolate
+  slug: percolate
+  matched_by: name-slug
 - name: Periodic Labs
   status: active
   source: https://lsvp.com/company/periodic-labs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: periodic-labs
+  slug: periodic-labs
+  matched_by: name-slug
 - name: Pernixdata
   status: active
   source: https://lsvp.com/company/pernixdata/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pernixdata
+  slug: pernixdata
+  matched_by: name-slug
 - name: Personalis
   status: active
   source: https://lsvp.com/company/personalis/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: personalis
+  slug: personalis
+  matched_by: name-slug
 - name: Personetics
   status: active
   source: https://lsvp.com/company/personetics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: personetics
+  slug: personetics
+  matched_by: name-slug
 - name: Phantom
   status: active
   source: https://lsvp.com/company/phantom/
@@ -2769,21 +3077,24 @@ companies:
 - name: Pheon Therapeutics
   status: active
   source: https://lsvp.com/company/pheon-therapeutics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pheon-therapeutics
+  slug: pheon-therapeutics
+  matched_by: name-slug
 - name: Phone Com
   status: active
   source: https://lsvp.com/company/phone-com/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: phone-com
+  slug: phone-com
+  matched_by: name-slug
 - name: Physics Wallah
   status: active
   source: https://lsvp.com/company/physics-wallah/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: physics-wallah
+  slug: physics-wallah
+  matched_by: name-slug
 - name: Pie
   status: active
   source: https://lsvp.com/company/pie/
@@ -2801,69 +3112,80 @@ companies:
 - name: Pintu
   status: active
   source: https://lsvp.com/company/pintu/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pintu
+  slug: pintu
+  matched_by: name-slug
 - name: Pixel Technologies
   status: active
   source: https://lsvp.com/company/pixel-technologies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pixel-technologies
+  slug: pixel-technologies
+  matched_by: name-slug
 - name: Plan A
   status: active
   source: https://lsvp.com/company/plan-a/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plan-a
+  slug: plan-a
+  matched_by: name-slug
 - name: Playdom
   status: active
   source: https://lsvp.com/company/playdom/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: playdom
+  slug: playdom
+  matched_by: name-slug
 - name: Plexistor
   status: active
   source: https://lsvp.com/company/plexistor/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plexistor
+  slug: plexistor
+  matched_by: name-slug
 - name: Plexxi
   status: active
   source: https://lsvp.com/company/plexxi/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plexxi
+  slug: plexxi
+  matched_by: name-slug
 - name: Pliant Technology
   status: active
   source: https://lsvp.com/company/pliant-technology/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pliant-technology
+  slug: pliant-technology
+  matched_by: name-slug
 - name: Plug
   status: active
   source: https://lsvp.com/company/plug/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: plug
+  in_network: true
+  is_api_provider: true
+  slug: plug
+  matched_by: name-slug
 - name: Plushcare
   status: active
   source: https://lsvp.com/company/plushcare/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plushcare
+  slug: plushcare
+  matched_by: name-slug
 - name: Pocket Fm
   status: active
   source: https://lsvp.com/company/pocket-fm/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pocket-fm
+  slug: pocket-fm
+  matched_by: name-slug
 - name: Polar Signals
   status: active
   source: https://lsvp.com/company/polar-signals/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polar-signals
+  slug: polar-signals
+  matched_by: name-slug
 - name: Polygon
   status: active
   source: https://lsvp.com/company/polygon/
@@ -2874,21 +3196,24 @@ companies:
 - name: Poncho
   status: active
   source: https://lsvp.com/company/poncho/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poncho
+  slug: poncho
+  matched_by: name-slug
 - name: Ponder
   status: active
   source: https://lsvp.com/company/ponder/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ponder
+  slug: ponder
+  matched_by: name-slug
 - name: Pontera
   status: active
   source: https://lsvp.com/company/pontera/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pontera
+  slug: pontera
+  matched_by: name-slug
 - name: Predicthq
   status: active
   source: https://lsvp.com/company/predicthq/
@@ -2906,21 +3231,24 @@ companies:
 - name: Provigent
   status: active
   source: https://lsvp.com/company/provigent/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: provigent
+  slug: provigent
+  matched_by: name-slug
 - name: Proxima Fusion
   status: active
   source: https://lsvp.com/company/proxima-fusion/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proxima-fusion
+  slug: proxima-fusion
+  matched_by: name-slug
 - name: Pss Systems
   status: active
   source: https://lsvp.com/company/pss-systems/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pss-systems
+  slug: pss-systems
+  matched_by: name-slug
 - name: Pulse
   status: active
   source: https://lsvp.com/company/pulse/
@@ -2931,45 +3259,52 @@ companies:
 - name: Pushpins
   status: active
   source: https://lsvp.com/company/pushpins/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pushpins
+  slug: pushpins
+  matched_by: name-slug
 - name: Quantum Effect Dev
   status: active
   source: https://lsvp.com/company/quantum-effect-dev/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quantum-effect-dev
+  slug: quantum-effect-dev
+  matched_by: name-slug
 - name: Quantumscape
   status: active
   source: https://lsvp.com/company/quantumscape/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quantumscape
+  slug: quantumscape
+  matched_by: name-slug
 - name: Qubole
   status: active
   source: https://lsvp.com/company/qubole/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qubole
+  slug: qubole
+  matched_by: name-slug
 - name: Radiant Security
   status: active
   source: https://lsvp.com/company/radiant-security/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: radiant-security
+  slug: radiant-security
+  matched_by: name-slug
 - name: Rain
   status: active
   source: https://lsvp.com/company/rain/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rain
+  slug: rain
+  matched_by: name-slug
 - name: Raindrop
   status: active
   source: https://lsvp.com/company/raindrop/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: raindrop
+  slug: raindrop
+  matched_by: name-slug
 - name: Ramp
   status: active
   source: https://lsvp.com/company/ramp/
@@ -2980,9 +3315,10 @@ companies:
 - name: Rapsphere
   status: active
   source: https://lsvp.com/company/rapsphere/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rapsphere
+  slug: rapsphere
+  matched_by: name-slug
 - name: Razorpay
   status: active
   source: https://lsvp.com/company/razorpay/
@@ -2993,27 +3329,31 @@ companies:
 - name: Reactor
   status: active
   source: https://lsvp.com/company/reactor/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reactor
+  slug: reactor
+  matched_by: name-slug
 - name: Real
   status: active
   source: https://lsvp.com/company/real/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: real
+  slug: real
+  matched_by: name-slug
 - name: Recordgram
   status: active
   source: https://lsvp.com/company/recordgram/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recordgram
+  slug: recordgram
+  matched_by: name-slug
 - name: Redotpay
   status: active
   source: https://lsvp.com/company/redotpay/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: redotpay
+  slug: redotpay
+  matched_by: name-slug
 - name: Redpanda
   status: active
   source: https://lsvp.com/company/redpanda/
@@ -3024,9 +3364,10 @@ companies:
 - name: Reflection
   status: active
   source: https://lsvp.com/company/reflection/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reflection
+  slug: reflection
+  matched_by: name-slug
 - name: Reflektive
   status: active
   source: https://lsvp.com/company/reflektive/
@@ -3037,9 +3378,10 @@ companies:
 - name: Reindeer Ai
   status: active
   source: https://lsvp.com/company/reindeer-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reindeer-ai
+  slug: reindeer-ai
+  matched_by: name-slug
 - name: Reliable Robotics
   status: active
   source: https://lsvp.com/company/reliable-robotics/
@@ -3050,27 +3392,31 @@ companies:
 - name: Resolve Ai
   status: active
   source: https://lsvp.com/company/resolve-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resolve-ai
+  slug: resolve-ai
+  matched_by: name-slug
 - name: Revv
   status: active
   source: https://lsvp.com/company/revv/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: revv
+  slug: revv
+  matched_by: name-slug
 - name: Ricursive Intelligence
   status: active
   source: https://lsvp.com/company/ricursive-intelligence/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ricursive-intelligence
+  slug: ricursive-intelligence
+  matched_by: name-slug
 - name: Ripple
   status: active
   source: https://lsvp.com/company/ripple/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ripple
+  slug: ripple
+  matched_by: name-slug
 - name: Rippling
   status: active
   source: https://lsvp.com/company/rippling/
@@ -3081,39 +3427,45 @@ companies:
 - name: Riverpool
   status: active
   source: https://lsvp.com/company/riverpool/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: riverpool
+  slug: riverpool
+  matched_by: name-slug
 - name: Robco
   status: active
   source: https://lsvp.com/company/robco/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: robco
+  slug: robco
+  matched_by: name-slug
 - name: Rocksalt
   status: active
   source: https://lsvp.com/company/rocksalt/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rocksalt
+  slug: rocksalt
+  matched_by: name-slug
 - name: Roofstock
   status: active
   source: https://lsvp.com/company/roofstock/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roofstock
+  slug: roofstock
+  matched_by: name-slug
 - name: Mynd
   status: active
   source: https://lsvp.com/company/mynd/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mynd
+  slug: mynd
+  matched_by: name-slug
 - name: Rothys
   status: active
   source: https://lsvp.com/company/rothys/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rothys
+  slug: rothys
+  matched_by: name-slug
 - name: Runway
   status: active
   source: https://lsvp.com/company/runway/
@@ -3131,9 +3483,10 @@ companies:
 - name: Salto
   status: active
   source: https://lsvp.com/company/salto/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: salto
+  slug: salto
+  matched_by: name-slug
 - name: Saronic
   status: active
   source: https://lsvp.com/company/saronic/
@@ -3144,39 +3497,45 @@ companies:
 - name: Satellite Bio
   status: active
   source: https://lsvp.com/company/satellite-bio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: satellite-bio
+  slug: satellite-bio
+  matched_by: name-slug
 - name: Schematik
   status: active
   source: https://lsvp.com/company/schematik/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: schematik
+  slug: schematik
+  matched_by: name-slug
 - name: Science Corporation
   status: active
   source: https://lsvp.com/company/science-corporation/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: science-corporation
+  slug: science-corporation
+  matched_by: name-slug
 - name: Scodix
   status: active
   source: https://lsvp.com/company/scodix/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scodix
+  slug: scodix
+  matched_by: name-slug
 - name: Scorpion
   status: active
   source: https://lsvp.com/company/scorpion/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scorpion
+  slug: scorpion
+  matched_by: name-slug
 - name: Seel
   status: active
   source: https://lsvp.com/company/seel/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: seel
+  in_network: true
+  is_api_provider: true
+  slug: seel
+  matched_by: name-slug
 - name: Seismic
   status: active
   source: https://lsvp.com/company/seismic/
@@ -3187,15 +3546,17 @@ companies:
 - name: Seismic Therapeutic
   status: active
   source: https://lsvp.com/company/seismic-therapeutic/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seismic-therapeutic
+  slug: seismic-therapeutic
+  matched_by: name-slug
 - name: Select Star
   status: active
   source: https://lsvp.com/company/select-star/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: select-star
+  in_network: true
+  is_api_provider: true
+  slug: select-star
+  matched_by: name-slug
 - name: Semgrep
   status: active
   source: https://lsvp.com/company/semgrep/
@@ -3206,69 +3567,80 @@ companies:
 - name: Sentio
   status: active
   source: https://lsvp.com/company/sentio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sentio
+  in_network: true
+  is_api_provider: true
+  slug: sentio
+  matched_by: name-slug
 - name: Serverless
   status: active
   source: https://lsvp.com/company/serverless/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: serverless
+  slug: serverless
+  matched_by: name-slug
 - name: Seventh Spark
   status: active
   source: https://lsvp.com/company/seventh-spark/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seventh-spark
+  slug: seventh-spark
+  matched_by: name-slug
 - name: Shapes
   status: active
   source: https://lsvp.com/company/shapes/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: shapes
+  in_network: true
+  is_api_provider: true
+  slug: shapes
+  matched_by: name-slug
 - name: Sharechat
   status: active
   source: https://lsvp.com/company/sharechat/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sharechat
+  slug: sharechat
+  matched_by: name-slug
 - name: Shipper
   status: active
   source: https://lsvp.com/company/shipper/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shipper
+  slug: shipper
+  matched_by: name-slug
 - name: Shoedazzle
   status: active
   source: https://lsvp.com/company/shoedazzle/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shoedazzle
+  slug: shoedazzle
+  matched_by: name-slug
 - name: Shortwave
   status: active
   source: https://lsvp.com/company/shortwave/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shortwave
+  slug: shortwave
+  matched_by: name-slug
 - name: Signal Labs
   status: active
   source: https://lsvp.com/company/signal-labs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: signal-labs
+  slug: signal-labs
+  matched_by: name-slug
 - name: Sirocco
   status: active
   source: https://lsvp.com/company/sirocco/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sirocco
+  slug: sirocco
+  matched_by: name-slug
 - name: Skyfire
   status: active
   source: https://lsvp.com/company/skyfire/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skyfire
+  slug: skyfire
+  matched_by: name-slug
 - name: Slice
   status: active
   source: https://lsvp.com/company/slice/
@@ -3279,57 +3651,66 @@ companies:
 - name: Smartex
   status: active
   source: https://lsvp.com/company/smartex/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smartex
+  slug: smartex
+  matched_by: name-slug
 - name: Snaproute
   status: active
   source: https://lsvp.com/company/snaproute/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snaproute
+  slug: snaproute
+  matched_by: name-slug
 - name: Soba
   status: active
   source: https://lsvp.com/company/soba/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soba
+  slug: soba
+  matched_by: name-slug
 - name: Socket Plane
   status: active
   source: https://lsvp.com/company/socket-plane/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: socket-plane
+  slug: socket-plane
+  matched_by: name-slug
 - name: Soda Health
   status: active
   source: https://lsvp.com/company/soda-health/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: soda-health
+  in_network: true
+  is_api_provider: true
+  slug: soda-health
+  matched_by: name-slug
 - name: Solaredge
   status: active
   source: https://lsvp.com/company/solaredge/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: solaredge
+  in_network: true
+  is_api_provider: true
+  slug: solaredge
+  matched_by: name-slug
 - name: Solazyme
   status: active
   source: https://lsvp.com/company/solazyme/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solazyme
+  slug: solazyme
+  matched_by: name-slug
 - name: Sphinx
   status: active
   source: https://lsvp.com/company/sphinx/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sphinx
+  slug: sphinx
+  matched_by: name-slug
 - name: Spiff
   status: active
   source: https://lsvp.com/company/spiff/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spiff
+  slug: spiff
+  matched_by: name-slug
 - name: Split
   status: active
   source: https://lsvp.com/company/split/
@@ -3347,57 +3728,66 @@ companies:
 - name: Stacks Ai
   status: active
   source: https://lsvp.com/company/stacks-ai/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: stacks-ai
+  in_network: true
+  is_api_provider: true
+  slug: stacks-ai
+  matched_by: name-slug
 - name: Standard Economics
   status: active
   source: https://lsvp.com/company/standard-economics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: standard-economics
+  slug: standard-economics
+  matched_by: name-slug
 - name: Star Analytics
   status: active
   source: https://lsvp.com/company/star-analytics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: star-analytics
+  slug: star-analytics
+  matched_by: name-slug
 - name: Stickies
   status: active
   source: https://lsvp.com/company/stickies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stickies
+  slug: stickies
+  matched_by: name-slug
 - name: Straiker
   status: active
   source: https://lsvp.com/company/straiker/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: straiker
+  slug: straiker
+  matched_by: name-slug
 - name: Streamlio
   status: active
   source: https://lsvp.com/company/streamlio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: streamlio
+  slug: streamlio
+  matched_by: name-slug
 - name: Streamonce
   status: active
   source: https://lsvp.com/company/streamonce/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: streamonce
+  slug: streamonce
+  matched_by: name-slug
 - name: Styleseat
   status: active
   source: https://lsvp.com/company/styleseat/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: styleseat
+  slug: styleseat
+  matched_by: name-slug
 - name: Summer
   status: active
   source: https://lsvp.com/company/summer/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: summer
+  slug: summer
+  matched_by: name-slug
 - name: Suno
   status: active
   source: https://lsvp.com/company/suno/
@@ -3415,9 +3805,10 @@ companies:
 - name: Sycamore
   status: active
   source: https://lsvp.com/company/sycamore/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sycamore
+  slug: sycamore
+  matched_by: name-slug
 - name: Synctera
   status: active
   source: https://lsvp.com/company/synctera/
@@ -3428,27 +3819,31 @@ companies:
 - name: Table22
   status: active
   source: https://lsvp.com/company/table22/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: table22
+  slug: table22
+  matched_by: name-slug
 - name: Tabs
   status: active
   source: https://lsvp.com/company/tabs/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tabs
+  in_network: true
+  is_api_provider: true
+  slug: tabs
+  matched_by: name-slug
 - name: Talon
   status: active
   source: https://lsvp.com/company/talon/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: talon
+  slug: talon
+  matched_by: name-slug
 - name: Tana
   status: active
   source: https://lsvp.com/company/tana/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tana
+  in_network: true
+  is_api_provider: true
+  slug: tana
+  matched_by: name-slug
 - name: Taskrabbit
   status: active
   source: https://lsvp.com/company/taskrabbit/
@@ -3459,9 +3854,10 @@ companies:
 - name: Teads
   status: active
   source: https://lsvp.com/company/teads/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: teads
+  slug: teads
+  matched_by: name-slug
 - name: Telegram
   status: active
   source: https://lsvp.com/company/telegram/
@@ -3472,15 +3868,17 @@ companies:
 - name: Telogy Networks
   status: active
   source: https://lsvp.com/company/telogy-networks/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: telogy-networks
+  slug: telogy-networks
+  matched_by: name-slug
 - name: Tem
   status: active
   source: https://lsvp.com/company/tem/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tem
+  slug: tem
+  matched_by: name-slug
 - name: Temporal
   status: active
   source: https://lsvp.com/company/temporal/
@@ -3491,267 +3889,311 @@ companies:
 - name: Tennr
   status: active
   source: https://lsvp.com/company/tennr/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tennr
+  slug: tennr
+  matched_by: name-slug
 - name: Terminal
   status: active
   source: https://lsvp.com/company/terminal/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: terminal
+  slug: terminal
+  matched_by: name-slug
 - name: Tessell
   status: active
   source: https://lsvp.com/company/tessell/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tessell
+  in_network: true
+  is_api_provider: true
+  slug: tessell
+  matched_by: name-slug
 - name: Testim Io
   status: active
   source: https://lsvp.com/company/testim-io/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: testim-io
+  in_network: true
+  is_api_provider: true
+  slug: testim-io
+  matched_by: name-slug
 - name: The Honest Company
   status: active
   source: https://lsvp.com/company/the-honest-company/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-honest-company
+  slug: the-honest-company
+  matched_by: name-slug
 - name: The House Of Lrc
   status: active
   source: https://lsvp.com/company/the-house-of-lrc/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-house-of-lrc
+  slug: the-house-of-lrc
+  matched_by: name-slug
 - name: The Mobile First Company
   status: active
   source: https://lsvp.com/company/the-mobile-first-company/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: the-mobile-first-company
+  in_network: true
+  is_api_provider: true
+  slug: the-mobile-first-company
+  matched_by: name-slug
 - name: The Nudge
   status: active
   source: https://lsvp.com/company/the-nudge/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-nudge
+  slug: the-nudge
+  matched_by: name-slug
 - name: Thefind
   status: active
   source: https://lsvp.com/company/thefind/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thefind
+  slug: thefind
+  matched_by: name-slug
 - name: Theranica
   status: active
   source: https://lsvp.com/company/theranica/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: theranica
+  slug: theranica
+  matched_by: name-slug
 - name: Theta Lake
   status: active
   source: https://lsvp.com/company/theta-lake/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: theta-lake
+  slug: theta-lake
+  matched_by: name-slug
 - name: Thinking Machines
   status: active
   source: https://lsvp.com/company/thinking-machines/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thinking-machines
+  slug: thinking-machines
+  matched_by: name-slug
 - name: Thunkable
   status: active
   source: https://lsvp.com/company/thunkable/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thunkable
+  slug: thunkable
+  matched_by: name-slug
 - name: Timesten
   status: active
   source: https://lsvp.com/company/timesten/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: timesten
+  slug: timesten
+  matched_by: name-slug
 - name: Tollbit
   status: active
   source: https://lsvp.com/company/tollbit/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tollbit
+  in_network: true
+  is_api_provider: true
+  slug: tollbit
+  matched_by: name-slug
 - name: Tome
   status: active
   source: https://lsvp.com/company/tome/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tome
+  slug: tome
+  matched_by: name-slug
 - name: Tonkean
   status: active
   source: https://lsvp.com/company/tonkean/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tonkean
+  slug: tonkean
+  matched_by: name-slug
 - name: Toonimo
   status: active
   source: https://lsvp.com/company/toonimo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: toonimo
+  slug: toonimo
+  matched_by: name-slug
 - name: Tourhero
   status: active
   source: https://lsvp.com/company/tourhero/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tourhero
+  slug: tourhero
+  matched_by: name-slug
 - name: Treex Robotics
   status: active
   source: https://lsvp.com/company/treex-robotics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: treex-robotics
+  slug: treex-robotics
+  matched_by: name-slug
 - name: Trendsi
   status: active
   source: https://lsvp.com/company/trendsi/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trendsi
+  slug: trendsi
+  matched_by: name-slug
 - name: Triana Biomedicines
   status: active
   source: https://lsvp.com/company/triana-biomedicines/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: triana-biomedicines
+  slug: triana-biomedicines
+  matched_by: name-slug
 - name: Tripledot
   status: active
   source: https://lsvp.com/company/tripledot/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tripledot
+  slug: tripledot
+  matched_by: name-slug
 - name: Trust
   status: active
   source: https://lsvp.com/company/trust/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trust
+  slug: trust
+  matched_by: name-slug
 - name: Truth Systems
   status: active
   source: https://lsvp.com/company/truth-systems/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: truth-systems
+  in_network: true
+  is_api_provider: true
+  slug: truth-systems
+  matched_by: name-slug
 - name: Tutorvista
   status: active
   source: https://lsvp.com/company/tutorvista/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tutorvista
+  slug: tutorvista
+  matched_by: name-slug
 - name: Udaan
   status: active
   source: https://lsvp.com/company/udaan/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: udaan
+  slug: udaan
+  matched_by: name-slug
 - name: Unconventional Ai
   status: active
   source: https://lsvp.com/company/unconventional-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unconventional-ai
+  slug: unconventional-ai
+  matched_by: name-slug
 - name: Uni
   status: active
   source: https://lsvp.com/company/uni/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: uni
+  slug: uni
+  matched_by: name-slug
 - name: United Dwelling
   status: active
   source: https://lsvp.com/company/united-dwelling/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: united-dwelling
+  slug: united-dwelling
+  matched_by: name-slug
 - name: Unsloth
   status: active
   source: https://lsvp.com/company/unsloth/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unsloth
+  slug: unsloth
+  matched_by: name-slug
 - name: Varada
   status: active
   source: https://lsvp.com/company/varada/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: varada
+  slug: varada
+  matched_by: name-slug
 - name: Varagesale
   status: active
   source: https://lsvp.com/company/varagesale/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: varagesale
+  slug: varagesale
+  matched_by: name-slug
 - name: Verkada
   status: active
   source: https://lsvp.com/company/verkada/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verkada
+  slug: verkada
+  matched_by: name-slug
 - name: Vestwell
   status: active
   source: https://lsvp.com/company/vestwell/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vestwell
+  slug: vestwell
+  matched_by: name-slug
 - name: Vexata
   status: active
   source: https://lsvp.com/company/vexata/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vexata
+  slug: vexata
+  matched_by: name-slug
 - name: Virsa Systems
   status: active
   source: https://lsvp.com/company/virsa-systems/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virsa-systems
+  slug: virsa-systems
+  matched_by: name-slug
 - name: Virtual Instruments
   status: active
   source: https://lsvp.com/company/virtual-instruments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virtual-instruments
+  slug: virtual-instruments
+  matched_by: name-slug
 - name: Virtue Ai
   status: active
   source: https://lsvp.com/company/virtue-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virtue-ai
+  slug: virtue-ai
+  matched_by: name-slug
 - name: Volley
   status: active
   source: https://lsvp.com/company/volley/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: volley
+  slug: volley
+  matched_by: name-slug
 - name: Voltron Data
   status: active
   source: https://lsvp.com/company/voltron-data/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voltron-data
+  slug: voltron-data
+  matched_by: name-slug
 - name: Waveset
   status: active
   source: https://lsvp.com/company/waveset/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: waveset
+  slug: waveset
+  matched_by: name-slug
 - name: Webull
   status: active
   source: https://lsvp.com/company/webull/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: webull
+  slug: webull
+  matched_by: name-slug
 - name: Weee
   status: active
   source: https://lsvp.com/company/weee/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: weee
+  slug: weee
+  matched_by: name-slug
 - name: Whatnot
   status: active
   source: https://lsvp.com/company/whatnot/
@@ -3762,27 +4204,31 @@ companies:
 - name: Wheelocity
   status: active
   source: https://lsvp.com/company/wheelocity/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wheelocity
+  slug: wheelocity
+  matched_by: name-slug
 - name: Wi Charge
   status: active
   source: https://lsvp.com/company/wi-charge/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wi-charge
+  slug: wi-charge
+  matched_by: name-slug
 - name: Wintermute
   status: active
   source: https://lsvp.com/company/wintermute/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wintermute
+  slug: wintermute
+  matched_by: name-slug
 - name: Witag
   status: active
   source: https://lsvp.com/company/witag/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: witag
+  slug: witag
+  matched_by: name-slug
 - name: Workos
   status: active
   source: https://lsvp.com/company/workos/
@@ -3800,105 +4246,122 @@ companies:
 - name: Xaira
   status: active
   source: https://lsvp.com/company/xaira/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xaira
+  slug: xaira
+  matched_by: name-slug
 - name: Xembly
   status: active
   source: https://lsvp.com/company/xembly/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xembly
+  slug: xembly
+  matched_by: name-slug
 - name: Xentral
   status: active
   source: https://lsvp.com/company/xentral/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: xentral
+  in_network: true
+  is_api_provider: true
+  slug: xentral
+  matched_by: name-slug
 - name: Xtremio
   status: active
   source: https://lsvp.com/company/xtremio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xtremio
+  slug: xtremio
+  matched_by: name-slug
 - name: Yaysay
   status: active
   source: https://lsvp.com/company/yaysay/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yaysay
+  slug: yaysay
+  matched_by: name-slug
 - name: Yellow Ai
   status: active
   source: https://lsvp.com/company/yellow-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yellow-ai
+  slug: yellow-ai
+  matched_by: name-slug
 - name: Youtrip
   status: active
   source: https://lsvp.com/company/youtrip/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: youtrip
+  slug: youtrip
+  matched_by: name-slug
 - name: Yubi
   status: active
   source: https://lsvp.com/company/yubi/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yubi
+  slug: yubi
+  matched_by: name-slug
 - name: Yuga Labs
   status: active
   source: https://lsvp.com/company/yuga-labs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yuga-labs
+  slug: yuga-labs
+  matched_by: name-slug
 - name: Zag Bio
   status: active
   source: https://lsvp.com/company/zag-bio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zag-bio
+  slug: zag-bio
+  matched_by: name-slug
 - name: Zapp
   status: active
   source: https://lsvp.com/company/zapp/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zapp
+  slug: zapp
+  matched_by: name-slug
 - name: Zebec
   status: active
   source: https://lsvp.com/company/zebec/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zebec
+  slug: zebec
+  matched_by: name-slug
 - name: Zepto
   status: active
   source: https://lsvp.com/company/zepto/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zepto
+  slug: zepto
+  matched_by: name-slug
 - name: Zerion
   status: active
   source: https://lsvp.com/company/zerion/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zerion
+  in_network: true
+  is_api_provider: true
+  slug: zerion
+  matched_by: name-slug
 - name: Zest Ai
   status: active
   source: https://lsvp.com/company/zest-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zest-ai
+  slug: zest-ai
+  matched_by: name-slug
 - name: Zetwerk
   status: active
   source: https://lsvp.com/company/zetwerk/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zetwerk
+  slug: zetwerk
+  matched_by: name-slug
 - name: Zocomputer
   status: active
   source: https://lsvp.com/company/zocomputer/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zocomputer
+  in_network: true
+  is_api_provider: true
+  slug: zocomputer
+  matched_by: name-slug
 - name: Zscaler
   status: active
   source: https://lsvp.com/company/zscaler/
@@ -3909,6 +4372,7 @@ companies:
 - name: Zyg
   status: active
   source: https://lsvp.com/company/zyg/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zyg
+  slug: zyg
+  matched_by: name-slug
