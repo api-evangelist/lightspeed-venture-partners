@@ -235,7 +235,7 @@ companies:
   stage: series-c
   status: active
   source: https://lsvp.com/companies/
-  slug: alloy
+  slug: alloy-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1222,7 +1222,7 @@ companies:
 - name: Cartesia
   status: active
   source: https://lsvp.com/company/cartesia/
-  slug: cartesia
+  slug: cartesia-ai
   in_network: true
   is_api_provider: true
   matched_by: name-slug
@@ -2421,7 +2421,7 @@ companies:
   source: https://lsvp.com/company/lemon-markets/
   in_network: true
   is_api_provider: true
-  slug: lemon-markets
+  slug: lemonmarkets
   matched_by: name-slug
 - name: Level
   status: active
@@ -3688,7 +3688,7 @@ companies:
   source: https://lsvp.com/company/solaredge/
   in_network: true
   is_api_provider: true
-  slug: solaredge
+  slug: solar-edge
   matched_by: name-slug
 - name: Solazyme
   status: active
