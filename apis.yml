@@ -52,10 +52,12 @@ tags:
   - Fintech
   - Global
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://lsvp.com/feed/
+    type: BlogRSS
   - type: Website
     url: https://lsvp.com/
   - type: Portfolio
