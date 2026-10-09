@@ -986,7 +986,7 @@ companies:
   source: https://lsvp.com/company/balance/
   in_network: true
   is_api_provider: false
-  slug: balance
+  slug: getbalance
   matched_by: name-slug
 - name: Barefoot Networks
   status: active
@@ -3189,10 +3189,9 @@ companies:
 - name: Polygon
   status: active
   source: https://lsvp.com/company/polygon/
-  slug: polygon
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: polygon-technology
 - name: Poncho
   status: active
   source: https://lsvp.com/company/poncho/
