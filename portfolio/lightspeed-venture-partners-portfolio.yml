@@ -2,10 +2,10 @@ generated: '2026-07-17'
 method: searched
 source: https://lsvp.com/companies/
 summary:
-  portfolio_total: 604
-  in_network: 568
-  api_providers: 143
-  missing: 36
+  portfolio_total: 597
+  in_network: 557
+  api_providers: 142
+  missing: 40
   stubs_created: 0
 companies:
 - name: Anthropic
@@ -399,202 +399,252 @@ companies:
   slug: aqua-security
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aquasec.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Arctic Wolf
   status: active
   source: https://lsvp.com/company/arctic-wolf/
   in_network: true
   is_api_provider: true
   slug: arctic-wolf
-  matched_by: name-slug
+  matched_by: domain
+  url: https://arcticwolf.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Axonius
   status: active
   source: https://lsvp.com/company/axonius/
   slug: axonius
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://axonius.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Believer
   status: active
   source: https://lsvp.com/company/believer/
   in_network: true
   is_api_provider: false
   slug: believer
-  matched_by: name-slug
+  matched_by: domain
+  url: https://believer.gg
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Clickhouse
   status: active
   source: https://lsvp.com/company/clickhouse/
   slug: clickhouse
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://clickhouse.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Clickup
   status: active
   source: https://lsvp.com/company/clickup/
   slug: clickup
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://clickup.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Daily Harvest
   status: active
   source: https://lsvp.com/company/daily-harvest/
   in_network: true
   is_api_provider: false
   slug: daily-harvest
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.daily-harvest.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Dexterity
   status: active
   source: https://lsvp.com/company/dexterity/
   slug: dexterity
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://dexterity.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Eightfold
   status: active
   source: https://lsvp.com/company/eightfold/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: eightfold
+  in_network: true
+  is_api_provider: true
+  url: https://eightfold.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: eightfold-ai
+  matched_by: domain
 - name: Forty Seven 2
   status: active
   source: https://lsvp.com/company/forty-seven-2/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forty-seven-2
+  url: https://fortyseveninc.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: forty-seven
+  matched_by: domain
 - name: Found
   status: active
   source: https://lsvp.com/company/found/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: found
+  url: https://found.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: found-business
+  matched_by: domain
 - name: Glean
   status: active
   source: https://lsvp.com/company/glean/
   slug: glean
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
-- name: Grafana
-  status: active
-  source: https://lsvp.com/company/grafana/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: grafana
+  matched_by: domain
+  url: https://glean.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Haus Laboratories
   status: active
   source: https://lsvp.com/company/haus-laboratories/
   in_network: true
   is_api_provider: false
   slug: haus-laboratories
-  matched_by: name-slug
+  matched_by: domain
+  url: https://HausLabs.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Inworld Ai
   status: active
   source: https://lsvp.com/company/inworld-ai/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: inworld-ai
+  in_network: true
+  is_api_provider: true
+  url: https://inworld.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: inworld
+  matched_by: domain
 - name: Magic Eden
   status: active
   source: https://lsvp.com/company/magic-eden/
   slug: magic-eden
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://magiceden.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Matillion
   status: active
   source: https://lsvp.com/company/matillion/
   slug: matillion
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://matillion.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Methodical Games
   status: active
   source: https://lsvp.com/company/methodical-games/
   in_network: true
   is_api_provider: false
   slug: methodical-games
-  matched_by: name-slug
-- name: Mistralai
-  status: active
-  source: https://lsvp.com/company/mistralai/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mistralai
+  matched_by: domain
+  url: https://methodical.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Moveworks
   status: active
   source: https://lsvp.com/company/moveworks/
   slug: moveworks
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://moveworks.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Noname Security
   status: active
   source: https://lsvp.com/company/noname-security/
   slug: noname-security
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nonamesecurity.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Offchain Labs
   status: active
   source: https://lsvp.com/company/offchain-labs/
   in_network: true
   is_api_provider: false
-  slug: offchain-labs
-  matched_by: name-slug
+  slug: offchain-labs-arbitrum
+  matched_by: domain
+  url: https://offchainlabs.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Orca Bio
   status: active
   source: https://lsvp.com/company/orca-bio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orca-bio
+  url: https://orcabio.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: orcabio
+  matched_by: domain
 - name: Payhawk
   status: active
   source: https://lsvp.com/company/payhawk/
   slug: payhawk
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://payhawk.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Personio
   status: active
   source: https://lsvp.com/company/personio/
   slug: personio
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://personio.de
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pika
   status: active
   source: https://lsvp.com/company/pika/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: pika
+  in_network: true
+  is_api_provider: true
+  url: https://pika.art
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: pika-labs
+  matched_by: domain
 - name: Resilience
   status: active
   source: https://lsvp.com/company/resilience/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: resilience
-  matched_by: name-slug
+  url: https://resilienceinsurance.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: resilience
+  suggested_slug: resilienceinsurance-com
 - name: Scaleops
   status: active
   source: https://lsvp.com/company/scaleops/
   slug: scaleops
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://scaleops.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Skild Ai
   status: active
   source: https://lsvp.com/company/skild-ai/
   slug: skild-ai
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://skild.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Snorkel Ai
   status: active
   source: https://lsvp.com/company/snorkel-ai/
   slug: snorkel-ai
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://snorkel.ai/company/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Teneobio
   status: active
   source: https://lsvp.com/company/teneobio/
@@ -602,54 +652,71 @@ companies:
   is_api_provider: false
   slug: teneobio
   matched_by: name-slug
+  url: https://teneobio.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Typeface
   status: active
   source: https://lsvp.com/company/typeface/
   in_network: true
   is_api_provider: true
   slug: typeface
-  matched_by: name-slug
+  matched_by: domain
+  url: https://typeface.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Vinted
   status: active
   source: https://lsvp.com/company/vinted/
   in_network: true
   is_api_provider: false
   slug: vinted
-  matched_by: name-slug
+  matched_by: domain
+  url: https://vinted.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Wheel 3
   status: active
   source: https://lsvp.com/company/wheel-3/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wheel-3
+  url: https://wheel.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: wheel
+  matched_by: domain
 - name: Yugabyte
   status: active
   source: https://lsvp.com/company/yugabyte/
   in_network: true
   is_api_provider: true
   slug: yugabyte
-  matched_by: name-slug
+  matched_by: domain
+  url: https://yugabyte.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: 1047 Games
   status: active
   source: https://lsvp.com/company/1047-games/
   in_network: true
   is_api_provider: false
   slug: 1047-games
-  matched_by: name-slug
+  matched_by: domain
+  url: https://1047games.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: 1password
   status: active
   source: https://lsvp.com/company/1password/
   slug: 1password
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://1password.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: A Security
   status: active
   source: https://lsvp.com/company/a-security/
   in_network: true
   is_api_provider: false
   slug: a-security
-  matched_by: name-slug
+  matched_by: domain
+  url: https://a.security/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Abata Therapeutics
   status: active
   source: https://lsvp.com/company/abata-therapeutics/
@@ -657,34 +724,44 @@ companies:
   is_api_provider: false
   slug: abata-therapeutics
   matched_by: name-slug
+  url: https://abatatx.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Abridge
   status: active
   source: https://lsvp.com/company/abridge/
   slug: abridge
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://abridge.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Abstract
   status: active
   source: https://lsvp.com/company/abstract/
   slug: abstract
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://abstract.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Acceldata
   status: active
   source: https://lsvp.com/company/acceldata/
   slug: acceldata
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://acceldata.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Acko
   status: active
   source: https://lsvp.com/company/acko/
   slug: acko
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://acko.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Aerohive
   status: active
   source: https://lsvp.com/company/aerohive/
@@ -692,12 +769,17 @@ companies:
   is_api_provider: false
   slug: aerohive
   matched_by: name-slug
+  url: https://aerohive.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Affirmed Networks
   status: active
   source: https://lsvp.com/company/affirmed-networks/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: affirmed-networks
+  url: https://affirmednetworks.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: affirmed
+  matched_by: domain
 - name: Air Doctor
   status: active
   source: https://lsvp.com/company/air-doctor/
@@ -711,28 +793,36 @@ companies:
   slug: alchemy
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.alchemy.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Aledade
   status: active
   source: https://lsvp.com/company/aledade/
   in_network: true
   is_api_provider: false
   slug: aledade
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aledade.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Alif Semiconductor
   status: active
   source: https://lsvp.com/company/alif-semiconductor/
   in_network: true
   is_api_provider: false
   slug: alif-semiconductor
-  matched_by: name-slug
+  matched_by: domain
+  url: https://alifsemi.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Almanac Health
   status: active
   source: https://lsvp.com/company/almanac-health/
   in_network: true
   is_api_provider: false
   slug: almanac-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://almanac.chat/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Alooma
   status: active
   source: https://lsvp.com/company/alooma/
@@ -740,26 +830,35 @@ companies:
   is_api_provider: false
   slug: alooma
   matched_by: name-slug
+  url: https://alooma.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Alpha9
   status: active
   source: https://lsvp.com/company/alpha9/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alpha9
+  url: https://a9oncology.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: alpha-9-oncology
+  matched_by: domain
 - name: Amca
   status: active
   source: https://lsvp.com/company/amca/
   in_network: true
   is_api_provider: false
   slug: amca
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.amca.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ancora Biotech
   status: active
   source: https://lsvp.com/company/ancora-biotech/
   in_network: true
   is_api_provider: false
   slug: ancora-biotech
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ancorabiotech.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Andera
   status: active
   source: https://lsvp.com/company/andera/
@@ -767,40 +866,53 @@ companies:
   is_api_provider: false
   slug: andera
   matched_by: name-slug
+  url: https://andera.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Anduril
   status: active
   source: https://lsvp.com/company/anduril/
   slug: anduril
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.anduril.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Antares Therapeutics
   status: active
   source: https://lsvp.com/company/antares-therapeutics/
   in_network: true
   is_api_provider: false
   slug: antares-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://antaresrx.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Apex Ai
   status: active
   source: https://lsvp.com/company/apex-ai/
   in_network: true
   is_api_provider: false
   slug: apex-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://apex.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Appzen
   status: active
   source: https://lsvp.com/company/appzen/
   in_network: true
   is_api_provider: true
   slug: appzen
-  matched_by: name-slug
+  matched_by: domain
+  url: https://appzen.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Aquant Io
   status: active
   source: https://lsvp.com/company/aquant-io/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: aquant-io
+  in_network: true
+  is_api_provider: true
+  url: https://www.aquant.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: aquant
+  matched_by: domain
 - name: Aquantia
   status: active
   source: https://lsvp.com/company/aquantia/
@@ -808,6 +920,8 @@ companies:
   is_api_provider: false
   slug: aquantia
   matched_by: name-slug
+  url: https://aquantia.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Arbor Networks
   status: active
   source: https://lsvp.com/company/arbor-networks/
@@ -815,6 +929,8 @@ companies:
   is_api_provider: false
   slug: arbor-networks
   matched_by: name-slug
+  url: https://arbornetworks.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Archive
   status: active
   source: https://lsvp.com/company/archive/
@@ -822,103 +938,125 @@ companies:
   is_api_provider: false
   slug: archive
   matched_by: name-slug
+  url: https://archiveresale.co
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Arena
   status: active
   source: https://lsvp.com/company/arena/
   in_network: true
   is_api_provider: false
-  slug: arena
-  matched_by: name-slug
+  slug: arena-intelligence
+  matched_by: domain
+  url: https://arena.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Arilinc
   status: active
   source: https://lsvp.com/company/arilinc/
   in_network: true
   is_api_provider: false
   slug: arilinc
-  matched_by: name-slug
+  matched_by: domain
+  url: https://arilinc.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Arrcus
   status: active
   source: https://lsvp.com/company/arrcus/
   in_network: true
   is_api_provider: false
   slug: arrcus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://arrcus.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Artofsport
   status: active
   source: https://lsvp.com/company/artofsport/
   in_network: true
   is_api_provider: false
   slug: artofsport
-  matched_by: name-slug
+  matched_by: domain
+  url: https://artofsport.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Aspire
   status: active
   source: https://lsvp.com/company/aspire/
   in_network: true
   is_api_provider: false
   slug: aspire
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aspireapp.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Assort Health
   status: active
   source: https://lsvp.com/company/assort-health/
   in_network: true
   is_api_provider: false
   slug: assort-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.assorthealth.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Astro Sea
   status: active
   source: https://lsvp.com/company/astro-sea/
   in_network: true
   is_api_provider: false
   slug: astro-sea
-  matched_by: name-slug
-- name: Astro
-  status: active
-  source: https://lsvp.com/company/astro/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: astro
+  matched_by: domain
+  url: https://www.astronauts.id/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Athos
   status: active
   source: https://lsvp.com/company/athos/
   in_network: true
   is_api_provider: false
   slug: athos
-  matched_by: name-slug
+  matched_by: domain
+  url: https://liveathos.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Audiomob
   status: active
   source: https://lsvp.com/company/audiomob/
   in_network: true
   is_api_provider: false
   slug: audiomob
-  matched_by: name-slug
+  matched_by: domain
+  url: https://audiomob.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Audius
   status: active
   source: https://lsvp.com/company/audius/
   slug: audius
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://audius.co/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Augment
   status: active
   source: https://lsvp.com/company/augment/
   in_network: true
-  is_api_provider: true
-  slug: augment
-  matched_by: name-slug
+  is_api_provider: false
+  slug: augment-code
+  matched_by: domain
+  url: https://augmentcode.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Aurora
   status: active
   source: https://lsvp.com/company/aurora/
   in_network: true
   is_api_provider: false
-  slug: aurora
-  matched_by: name-slug
+  slug: aurora-innovation
+  matched_by: domain
+  url: https://aurora.tech
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Autograph
   status: active
   source: https://lsvp.com/company/autograph/
   in_network: true
   is_api_provider: false
   slug: autograph
-  matched_by: name-slug
+  matched_by: domain
+  url: https://autograph.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Avamar
   status: active
   source: https://lsvp.com/company/avamar/
@@ -932,14 +1070,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: avarra
-  matched_by: name-slug
+  matched_by: domain
+  url: https://avarra.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Avec
   status: active
   source: https://lsvp.com/company/avec/
   in_network: true
   is_api_provider: false
   slug: avec
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.avec.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Avere Systems
   status: active
   source: https://lsvp.com/company/avere-systems/
@@ -947,13 +1089,17 @@ companies:
   is_api_provider: false
   slug: avere-systems
   matched_by: name-slug
+  url: https://averesystems.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Avi Networks
   status: active
   source: https://lsvp.com/company/avi-networks/
   slug: avi-networks
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://avinetworks.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Awa Studios
   status: active
   source: https://lsvp.com/company/awa-studios/
@@ -961,19 +1107,26 @@ companies:
   is_api_provider: false
   slug: awa-studios
   matched_by: name-slug
+  url: https://awastudios.net
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Axiom Trust
   status: active
   source: https://lsvp.com/company/axiom-trust/
   in_network: true
   is_api_provider: false
   slug: axiom-trust
-  matched_by: name-slug
+  matched_by: domain
+  url: https://axiom-trust.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Balance
   status: active
   source: https://lsvp.com/company/balance/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: balance
+  url: https://getbalance.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: getbalance
+  matched_by: domain
 - name: Barefoot Networks
   status: active
   source: https://lsvp.com/company/barefoot-networks/
@@ -981,34 +1134,44 @@ companies:
   is_api_provider: false
   slug: barefoot-networks
   matched_by: name-slug
+  url: https://barefootnetworks.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Base Power
   status: active
   source: https://lsvp.com/company/base-power/
   in_network: true
   is_api_provider: false
   slug: base-power
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.basepowercompany.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Beacon Software
   status: active
   source: https://lsvp.com/company/beacon-software/
   in_network: true
   is_api_provider: false
   slug: beacon-software
-  matched_by: name-slug
+  matched_by: domain
+  url: https://beaconsoftware.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Beehiiv
   status: active
   source: https://lsvp.com/company/beehiiv/
   slug: beehiiv
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://beehiiv.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Beek
   status: active
   source: https://lsvp.com/company/beek/
   in_network: true
   is_api_provider: false
   slug: beek
-  matched_by: name-slug
+  matched_by: domain
+  url: https://beek.io/en
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Beme
   status: active
   source: https://lsvp.com/company/beme/
@@ -1016,6 +1179,8 @@ companies:
   is_api_provider: false
   slug: beme
   matched_by: name-slug
+  url: https://beme.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Berry Health
   status: active
   source: https://lsvp.com/company/berry-health/
@@ -1023,13 +1188,17 @@ companies:
   is_api_provider: false
   slug: berry-health
   matched_by: name-slug
+  url: https://ourberry.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Betdex
   status: active
   source: https://lsvp.com/company/betdex/
   in_network: true
   is_api_provider: false
   slug: betdex
-  matched_by: name-slug
+  matched_by: domain
+  url: https://betdex.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Betty Labs
   status: active
   source: https://lsvp.com/company/betty-labs/
@@ -1037,13 +1206,17 @@ companies:
   is_api_provider: false
   slug: betty-labs
   matched_by: name-slug
+  url: https://bettylabs.io/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Big Sur Ai
   status: active
   source: https://lsvp.com/company/big-sur-ai/
   in_network: true
   is_api_provider: false
   slug: big-sur-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bigsur.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Binaris
   status: active
   source: https://lsvp.com/company/binaris/
@@ -1051,47 +1224,62 @@ companies:
   is_api_provider: false
   slug: binaris
   matched_by: name-slug
+  url: https://binaris.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Blameless
   status: active
   source: https://lsvp.com/company/blameless/
   slug: blameless
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://blameless.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Blink
   status: active
   source: https://lsvp.com/company/blink/
-  slug: blink
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  url: https://blinkops.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: blink
+  suggested_slug: blinkops-com
 - name: Blockchain
   status: active
   source: https://lsvp.com/company/blockchain/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: blockchain
+  in_network: true
+  is_api_provider: true
+  url: https://blockchain.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: blockchain.com
+  matched_by: domain
 - name: Bloomreach
   status: active
   source: https://lsvp.com/company/bloomreach/
   slug: bloomreach
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bloomreach.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Blue Nile
   status: active
   source: https://lsvp.com/company/blue-nile/
   in_network: true
   is_api_provider: false
   slug: blue-nile
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bluenile.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Bluebirds
   status: active
   source: https://lsvp.com/company/bluebirds/
   in_network: true
   is_api_provider: false
   slug: bluebirds
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bluebirds.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Bluelearn
   status: active
   source: https://lsvp.com/company/bluelearn/
@@ -1099,55 +1287,71 @@ companies:
   is_api_provider: false
   slug: bluelearn
   matched_by: name-slug
+  url: https://bluelearn.in
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Bluevine
   status: active
   source: https://lsvp.com/company/bluevine/
   slug: bluevine
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bluevine.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Bonnet
   status: active
   source: https://lsvp.com/company/bonnet/
   in_network: true
   is_api_provider: false
   slug: bonnet
-  matched_by: name-slug
+  matched_by: domain
+  url: https://joinbonnet.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Bonobos
   status: active
   source: https://lsvp.com/company/bonobos/
   in_network: true
   is_api_provider: false
   slug: bonobos
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bonobos.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Brale
   status: active
   source: https://lsvp.com/company/brale/
   in_network: true
   is_api_provider: true
   slug: brale
-  matched_by: name-slug
+  matched_by: domain
+  url: https://brale.xyz/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Bridgetown Research
   status: active
   source: https://lsvp.com/company/bridgetown-research/
   in_network: true
   is_api_provider: false
   slug: bridgetown-research
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.bridgetownresearch.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Brigit
   status: active
   source: https://lsvp.com/company/brigit/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: brigit
-  matched_by: name-slug
+  url: https://brigit.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: brigit
+  suggested_slug: brigit-com
 - name: Brocade
   status: active
   source: https://lsvp.com/company/brocade/
   slug: brocade
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://brocade.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Bromium
   status: active
   source: https://lsvp.com/company/bromium/
@@ -1155,27 +1359,35 @@ companies:
   is_api_provider: false
   slug: bromium
   matched_by: name-slug
+  url: https://bromium.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Buildingconnected
   status: active
   source: https://lsvp.com/company/buildingconnected/
   in_network: true
   is_api_provider: false
   slug: buildingconnected
-  matched_by: name-slug
+  matched_by: domain
+  url: https://BuildingConnected.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Buildots
   status: active
   source: https://lsvp.com/company/buildots/
   slug: buildots
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://buildots.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Byjus
   status: active
   source: https://lsvp.com/company/byjus/
   in_network: true
   is_api_provider: false
   slug: byjus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://byjus.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Calista Technologies
   status: active
   source: https://lsvp.com/company/calista-technologies/
@@ -1183,47 +1395,62 @@ companies:
   is_api_provider: false
   slug: calista-technologies
   matched_by: name-slug
+  url: https://calistatechnologies.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Calm
   status: active
   source: https://lsvp.com/company/calm/
   in_network: true
   is_api_provider: true
   slug: calm
-  matched_by: name-slug
+  matched_by: domain
+  url: https://calm.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Cameo
   status: active
   source: https://lsvp.com/company/cameo/
   in_network: true
   is_api_provider: false
   slug: cameo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cameo.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Candis
   status: active
   source: https://lsvp.com/company/candis/
   in_network: true
   is_api_provider: true
   slug: candis
-  matched_by: name-slug
+  matched_by: domain
+  url: https://candis.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Cartesia
   status: active
   source: https://lsvp.com/company/cartesia/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cartesia
+  in_network: true
+  is_api_provider: true
+  url: https://cartesia.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: cartesia-ai
+  matched_by: domain
 - name: Casap
   status: active
   source: https://lsvp.com/company/casap/
   in_network: true
   is_api_provider: true
   slug: casap
-  matched_by: name-slug
+  matched_by: domain
+  url: https://casaphq.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Castelion
   status: active
   source: https://lsvp.com/company/castelion/
   in_network: true
   is_api_provider: false
   slug: castelion
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.castelion.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Celequest
   status: active
   source: https://lsvp.com/company/celequest/
@@ -1231,41 +1458,53 @@ companies:
   is_api_provider: false
   slug: celequest
   matched_by: name-slug
+  url: https://celequest.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Celona
   status: active
   source: https://lsvp.com/company/celona/
   in_network: true
   is_api_provider: false
   slug: celona
-  matched_by: name-slug
+  matched_by: domain
+  url: https://celona.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Certik
   status: active
   source: https://lsvp.com/company/certik/
   in_network: true
   is_api_provider: true
   slug: certik
-  matched_by: name-slug
+  matched_by: domain
+  url: https://certik.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Chainguard
   status: active
   source: https://lsvp.com/company/chainguard/
   slug: chainguard
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://chainguard.dev
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Chaoslabs
   status: active
   source: https://lsvp.com/company/chaoslabs/
   in_network: true
   is_api_provider: false
   slug: chaoslabs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://chaoslabs.xyz
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Character Ai
   status: active
   source: https://lsvp.com/company/character-ai/
   slug: character-ai
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://character.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Cheddar
   status: active
   source: https://lsvp.com/company/cheddar/
@@ -1279,7 +1518,9 @@ companies:
   slug: ciena
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ciena.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Citadel
   status: active
   source: https://lsvp.com/company/citadel/
@@ -1287,6 +1528,8 @@ companies:
   is_api_provider: false
   slug: citadel
   matched_by: name-slug
+  url: https://DroneCitadel.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Clark
   status: active
   source: https://lsvp.com/company/clark/
@@ -1300,7 +1543,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cleanco
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cleanliquor.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Clever
   status: active
   source: https://lsvp.com/company/clever/
@@ -1314,7 +1559,9 @@ companies:
   slug: cloudbees
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cloudbees.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Clutch
   status: active
   source: https://lsvp.com/company/clutch/
@@ -1322,34 +1569,44 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  url: https://clutch.security
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Cohere Technologies
   status: active
   source: https://lsvp.com/company/cohere-technologies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cohere-technologies
-  matched_by: name-slug
+  url: https://cohere-technologies.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: cohere-technologies
+  suggested_slug: cohere-technologies-com
 - name: Community Labs
   status: active
   source: https://lsvp.com/company/community-labs/
   in_network: true
   is_api_provider: false
   slug: community-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://communitylabs.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Composio
   status: active
   source: https://lsvp.com/company/composio/
   slug: composio
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://composio.dev/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Comprehend
   status: active
   source: https://lsvp.com/company/comprehend/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: comprehend
-  matched_by: name-slug
+  url: https://comprehend.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: comprehend
+  suggested_slug: comprehend-com
 - name: Confluera
   status: active
   source: https://lsvp.com/company/confluera/
@@ -1357,13 +1614,17 @@ companies:
   is_api_provider: false
   slug: confluera
   matched_by: name-slug
+  url: https://www.confluera.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Cosmart
   status: active
   source: https://lsvp.com/company/cosmart/
   in_network: true
   is_api_provider: false
   slug: cosmart
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cosmart.id
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Craftsvilla
   status: active
   source: https://lsvp.com/company/craftsvilla/
@@ -1371,6 +1632,8 @@ companies:
   is_api_provider: false
   slug: craftsvilla
   matched_by: name-slug
+  url: https://craftsvilla.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Crowdamp
   status: active
   source: https://lsvp.com/company/crowdamp/
@@ -1391,28 +1654,36 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cumbuca
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cumbuca.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Curve Health
   status: active
   source: https://lsvp.com/company/curve-health/
   in_network: true
   is_api_provider: false
   slug: curve-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://curvehealth.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Cycognito
   status: active
   source: https://lsvp.com/company/cycognito/
   in_network: true
   is_api_provider: true
   slug: cycognito
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cycognito.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: D2g Oncology
   status: active
   source: https://lsvp.com/company/d2g-oncology/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: d2g-oncology
-  matched_by: name-slug
+  url: https://d2g-oncology.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: d2g-oncology
+  suggested_slug: d2g-oncology-com
 - name: Data Sutram
   status: active
   source: https://lsvp.com/company/data-sutram/
@@ -1420,13 +1691,17 @@ companies:
   is_api_provider: false
   slug: data-sutram
   matched_by: name-slug
+  url: https://datasutram.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Databricks
   status: active
   source: https://lsvp.com/company/databricks/
   slug: databricks
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://databricks.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Datafleets
   status: active
   source: https://lsvp.com/company/datafleets/
@@ -1434,20 +1709,26 @@ companies:
   is_api_provider: false
   slug: datafleets
   matched_by: name-slug
+  url: https://datafleets.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Datastax
   status: active
   source: https://lsvp.com/company/datastax/
   in_network: true
   is_api_provider: true
   slug: datastax
-  matched_by: name-slug
+  matched_by: domain
+  url: https://datastax.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Datorama
   status: active
   source: https://lsvp.com/company/datorama/
   in_network: true
   is_api_provider: false
   slug: datorama
-  matched_by: name-slug
+  matched_by: domain
+  url: https://datorama.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Datos Io
   status: active
   source: https://lsvp.com/company/datos-io/
@@ -1455,6 +1736,8 @@ companies:
   is_api_provider: false
   slug: datos-io
   matched_by: name-slug
+  url: https://datos.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Datrium
   status: active
   source: https://lsvp.com/company/datrium/
@@ -1462,55 +1745,71 @@ companies:
   is_api_provider: false
   slug: datrium
   matched_by: name-slug
+  url: https://www.datrium.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Daybreak
   status: active
   source: https://lsvp.com/company/daybreak/
   in_network: true
   is_api_provider: false
   slug: daybreak
-  matched_by: name-slug
+  matched_by: domain
+  url: https://daybreakhealth.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Delphix
   status: active
   source: https://lsvp.com/company/delphix/
   in_network: true
   is_api_provider: true
   slug: delphix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://delphix.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Descope
   status: active
   source: https://lsvp.com/company/descope/
   slug: descope
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://descope.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Dialogue Ai
   status: active
   source: https://lsvp.com/company/dialogue-ai/
   in_network: true
   is_api_provider: false
   slug: dialogue-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://dialogueai.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Distyl
   status: active
   source: https://lsvp.com/company/distyl/
   in_network: true
   is_api_provider: false
   slug: distyl
-  matched_by: name-slug
+  matched_by: domain
+  url: https://distyl.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Docker
   status: active
   source: https://lsvp.com/company/docker/
   slug: docker
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://docker.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Doctronic
   status: active
   source: https://lsvp.com/company/doctronic/
   in_network: true
   is_api_provider: false
   slug: doctronic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.doctronic.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Double Click
   status: active
   source: https://lsvp.com/company/double-click/
@@ -1518,48 +1817,62 @@ companies:
   is_api_provider: false
   slug: double-click
   matched_by: name-slug
+  url: https://doubleclick.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Dremio
   status: active
   source: https://lsvp.com/company/dremio/
   in_network: true
   is_api_provider: false
   slug: dremio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://dremio.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Dualbird
   status: active
   source: https://lsvp.com/company/dualbird/
   in_network: true
   is_api_provider: false
   slug: dualbird
-  matched_by: name-slug
+  matched_by: domain
+  url: https://dualbird.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Dualentry
   status: active
   source: https://lsvp.com/company/dualentry/
   in_network: true
   is_api_provider: false
   slug: dualentry
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.dualentry.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Dukaan
   status: active
   source: https://lsvp.com/company/dukaan/
   in_network: true
   is_api_provider: false
   slug: dukaan
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mydukaan.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Eagle
   status: active
   source: https://lsvp.com/company/eagle/
   in_network: true
   is_api_provider: false
   slug: eagle
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.eagleeng.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Eco
   status: active
   source: https://lsvp.com/company/eco/
   in_network: true
   is_api_provider: true
   slug: eco
-  matched_by: name-slug
+  matched_by: domain
+  url: https://eco.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Edgespring
   status: active
   source: https://lsvp.com/company/edgespring/
@@ -1567,13 +1880,17 @@ companies:
   is_api_provider: false
   slug: edgespring
   matched_by: name-slug
+  url: https://edgespring.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ehealth
   status: active
   source: https://lsvp.com/company/ehealth/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ehealth
-  matched_by: name-slug
+  url: https://ehealthinsurance.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: ehealth
+  suggested_slug: ehealthinsurance-com
 - name: Elastifile
   status: active
   source: https://lsvp.com/company/elastifile/
@@ -1581,13 +1898,17 @@ companies:
   is_api_provider: false
   slug: elastifile
   matched_by: name-slug
+  url: https://elastifile.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Elementor
   status: active
   source: https://lsvp.com/company/elementor/
   in_network: true
   is_api_provider: false
   slug: elementor
-  matched_by: name-slug
+  matched_by: domain
+  url: https://Elementor.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Elementum
   status: active
   source: https://lsvp.com/company/elementum/
@@ -1595,13 +1916,17 @@ companies:
   is_api_provider: true
   slug: elementum
   matched_by: name-slug
+  url: https://elementum.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Enable
   status: active
   source: https://lsvp.com/company/enable/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: enable
-  matched_by: name-slug
+  url: https://enable.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: enable
+  suggested_slug: enable-com
 - name: Endor Labs
   status: active
   source: https://lsvp.com/company/endor-labs/
@@ -1615,14 +1940,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: endowus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://endowus.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Enlaza Therapeutics
   status: active
   source: https://lsvp.com/company/enlaza-therapeutics/
   in_network: true
   is_api_provider: false
   slug: enlaza-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://enlazatx.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ensilo
   status: active
   source: https://lsvp.com/company/ensilo/
@@ -1630,13 +1959,17 @@ companies:
   is_api_provider: false
   slug: ensilo
   matched_by: name-slug
+  url: https://ensilo.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Eon
   status: active
   source: https://lsvp.com/company/eon/
   in_network: true
   is_api_provider: true
   slug: eon
-  matched_by: name-slug
+  matched_by: domain
+  url: https://eon.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Epsagon
   status: active
   source: https://lsvp.com/company/epsagon/
@@ -1644,6 +1977,8 @@ companies:
   is_api_provider: false
   slug: epsagon
   matched_by: name-slug
+  url: https://epsagon.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Evariant
   status: active
   source: https://lsvp.com/company/evariant/
@@ -1657,7 +1992,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: eve
-  matched_by: name-slug
+  matched_by: domain
+  url: https://eve.legal
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Eve Com
   status: active
   source: https://lsvp.com/company/eve-com/
@@ -1665,27 +2002,35 @@ companies:
   is_api_provider: false
   slug: eve-com
   matched_by: name-slug
+  url: https://eve.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Evenup
   status: active
   source: https://lsvp.com/company/evenup/
   slug: evenup
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://evenuplaw.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Everstring
   status: active
   source: https://lsvp.com/company/everstring/
   in_network: true
   is_api_provider: false
   slug: everstring
-  matched_by: name-slug
+  matched_by: domain
+  url: https://everstring.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Everyrealm
   status: active
   source: https://lsvp.com/company/everyrealm/
   in_network: true
   is_api_provider: false
   slug: everyrealm
-  matched_by: name-slug
+  matched_by: domain
+  url: https://everyrealm.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Evolv
   status: active
   source: https://lsvp.com/company/evolv/
@@ -1696,16 +2041,21 @@ companies:
 - name: Exa
   status: active
   source: https://lsvp.com/company/exa/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: exa
+  in_network: true
+  is_api_provider: true
+  url: https://exa.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: exa-ai
+  matched_by: domain
 - name: Exabeam
   status: active
   source: https://lsvp.com/company/exabeam/
   in_network: true
   is_api_provider: false
   slug: exabeam
-  matched_by: name-slug
+  matched_by: domain
+  url: https://exabeam.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Extensity
   status: active
   source: https://lsvp.com/company/extensity/
@@ -1720,20 +2070,26 @@ companies:
   is_api_provider: false
   slug: eyeview
   matched_by: name-slug
+  url: https://eyeviewdigital.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ezcater
   status: active
   source: https://lsvp.com/company/ezcater/
   in_network: true
   is_api_provider: false
   slug: ezcater
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ezcater.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Falconx
   status: active
   source: https://lsvp.com/company/falconx/
   in_network: true
   is_api_provider: false
   slug: falconx
-  matched_by: name-slug
+  matched_by: domain
+  url: https://falconx.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fan Controlled Football
   status: active
   source: https://lsvp.com/company/fan-controlled-football/
@@ -1748,13 +2104,17 @@ companies:
   is_api_provider: false
   slug: faraway
   matched_by: name-slug
+  url: https://faraway.gg
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Farther
   status: active
   source: https://lsvp.com/company/farther/
   in_network: true
   is_api_provider: false
   slug: farther
-  matched_by: name-slug
+  matched_by: domain
+  url: https://farther.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fashionara
   status: active
   source: https://lsvp.com/company/fashionara/
@@ -1762,41 +2122,53 @@ companies:
   is_api_provider: false
   slug: fashionara
   matched_by: name-slug
+  url: https://fashionara.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fathom
   status: active
   source: https://lsvp.com/company/fathom/
-  slug: fathom
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  url: https://fathomhealth.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: fathom
+  suggested_slug: fathomhealth-com
 - name: Fiddler
   status: active
   source: https://lsvp.com/company/fiddler/
-  slug: fiddler
+  slug: fiddler-labs
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fiddler.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fidu
   status: active
   source: https://lsvp.com/company/fidu/
   in_network: true
   is_api_provider: false
   slug: fidu
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fidu.la
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Finaloop
   status: active
   source: https://lsvp.com/company/finaloop/
   in_network: true
   is_api_provider: false
   slug: finaloop
-  matched_by: name-slug
+  matched_by: domain
+  url: https://finaloop.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Finix
   status: active
   source: https://lsvp.com/company/finix/
   in_network: true
   is_api_provider: true
-  slug: finix
-  matched_by: name-slug
+  slug: finix-payments
+  matched_by: domain
+  url: https://finixpayments.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fireglass
   status: active
   source: https://lsvp.com/company/fireglass/
@@ -1804,41 +2176,53 @@ companies:
   is_api_provider: false
   slug: fireglass
   matched_by: name-slug
+  url: https://fire.glass
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fireworks Ai
   status: active
   source: https://lsvp.com/company/fireworks-ai/
   slug: fireworks-ai
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fireworks.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fivestars
   status: active
   source: https://lsvp.com/company/fivestars/
   in_network: true
   is_api_provider: false
   slug: fivestars
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fivestars.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fizz
   status: active
   source: https://lsvp.com/company/fizz/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: fizz
-  matched_by: name-slug
+  url: https://fizzsocial.app
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: fizz
+  suggested_slug: fizzsocial-app
 - name: Flex
   status: active
   source: https://lsvp.com/company/flex/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: flex
-  matched_by: name-slug
+  url: https://getflex.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: flex
+  suggested_slug: getflex-com
 - name: Flickplay
   status: active
   source: https://lsvp.com/company/flickplay/
   in_network: true
   is_api_provider: false
   slug: flickplay
-  matched_by: name-slug
+  matched_by: domain
+  url: https://flickplay.co/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Flink
   status: active
   source: https://lsvp.com/company/flink/
@@ -1846,48 +2230,62 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: name-slug
+  url: https://miflink.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Flip
   status: active
   source: https://lsvp.com/company/flip/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: flip
-  matched_by: name-slug
+  url: https://justflip.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: flip
+  suggested_slug: justflip-com
 - name: Flixster
   status: active
   source: https://lsvp.com/company/flixster/
   in_network: true
   is_api_provider: false
   slug: flixster
-  matched_by: name-slug
+  matched_by: domain
+  url: https://flixster.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Flockjay
   status: active
   source: https://lsvp.com/company/flockjay/
   in_network: true
   is_api_provider: false
   slug: flockjay
-  matched_by: name-slug
+  matched_by: domain
+  url: https://flockjay.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Flow
   status: active
   source: https://lsvp.com/company/flow/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: flow
-  matched_by: name-slug
+  url: https://flowspecialty.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: flow
+  suggested_slug: flowspecialty-com
 - name: Forage
   status: active
   source: https://lsvp.com/company/forage/
-  in_network: true
-  is_api_provider: true
-  slug: forage
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  url: https://theforage.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: forage
+  suggested_slug: theforage-com
 - name: Fordefi
   status: active
   source: https://lsvp.com/company/fordefi/
   in_network: true
   is_api_provider: true
   slug: fordefi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fordefi.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fourthwall
   status: active
   source: https://lsvp.com/company/fourthwall/
@@ -1901,21 +2299,27 @@ companies:
   in_network: true
   is_api_provider: false
   slug: freespira
-  matched_by: name-slug
+  matched_by: domain
+  url: https://freespira.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Freshmenu
   status: active
   source: https://lsvp.com/company/freshmenu/
   in_network: true
   is_api_provider: false
   slug: freshmenu
-  matched_by: name-slug
+  matched_by: domain
+  url: https://freshmenu.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Frontera
   status: active
   source: https://lsvp.com/company/frontera/
   in_network: true
   is_api_provider: false
   slug: frontera
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fronterahealth.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Frontrow
   status: active
   source: https://lsvp.com/company/frontrow/
@@ -1923,6 +2327,8 @@ companies:
   is_api_provider: false
   slug: frontrow
   matched_by: name-slug
+  url: https://frontrow.co.in
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Frubana
   status: active
   source: https://lsvp.com/company/frubana/
@@ -1930,13 +2336,17 @@ companies:
   is_api_provider: false
   slug: frubana
   matched_by: name-slug
+  url: https://frubana.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fullview
   status: active
   source: https://lsvp.com/company/fullview/
   in_network: true
   is_api_provider: true
   slug: fullview
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fullview.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Fusion Io
   status: active
   source: https://lsvp.com/company/fusion-io/
@@ -1949,7 +2359,9 @@ companies:
   slug: gainsight
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gainsight.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Galileo Technology
   status: active
   source: https://lsvp.com/company/galileo-technology/
@@ -1963,28 +2375,36 @@ companies:
   in_network: true
   is_api_provider: false
   slug: gardens
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gardens.dev
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Geniebook
   status: active
   source: https://lsvp.com/company/geniebook/
   in_network: true
   is_api_provider: false
   slug: geniebook
-  matched_by: name-slug
+  matched_by: domain
+  url: https://geniebook.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Giphy
   status: active
   source: https://lsvp.com/company/giphy/
   slug: giphy
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://giphy.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Girlboss
   status: active
   source: https://lsvp.com/company/girlboss/
   in_network: true
   is_api_provider: false
   slug: girlboss
-  matched_by: name-slug
+  matched_by: domain
+  url: https://girlboss.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Glo Pharma
   status: active
   source: https://lsvp.com/company/glo-pharma/
@@ -1998,14 +2418,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: goodfire
-  matched_by: name-slug
+  matched_by: domain
+  url: https://goodfire.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Goop
   status: active
   source: https://lsvp.com/company/goop/
   in_network: true
   is_api_provider: false
   slug: goop
-  matched_by: name-slug
+  matched_by: domain
+  url: https://goop.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Granola
   status: active
   source: https://lsvp.com/company/granola/
@@ -2013,6 +2437,8 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: name-slug
+  url: https://granola.so
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Growth Networks
   status: active
   source: https://lsvp.com/company/growth-networks/
@@ -2026,56 +2452,72 @@ companies:
   in_network: true
   is_api_provider: false
   slug: gyde
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gydehealth.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Handshake
   status: active
   source: https://lsvp.com/company/handshake/
   in_network: true
   is_api_provider: false
   slug: handshake
-  matched_by: name-slug
+  matched_by: domain
+  url: https://joinhandshake.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Harmony
   status: active
   source: https://lsvp.com/company/harmony/
   in_network: true
   is_api_provider: true
   slug: harmony
-  matched_by: name-slug
+  matched_by: domain
+  url: https://harmony.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Hasura
   status: active
   source: https://lsvp.com/company/hasura/
   slug: hasura
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://hasura.io/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Helion
   status: active
   source: https://lsvp.com/company/helion/
   slug: helion
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://helionenergy.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Helsing
   status: active
   source: https://lsvp.com/company/helsing/
   slug: helsing
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://helsing.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Heptio
   status: active
   source: https://lsvp.com/company/heptio/
   in_network: true
   is_api_provider: false
   slug: heptio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://heptio.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Herald
   status: active
   source: https://lsvp.com/company/herald/
   slug: herald
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://heraldapi.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Herbeast
   status: active
   source: https://lsvp.com/company/herbeast/
@@ -2083,48 +2525,62 @@ companies:
   is_api_provider: false
   slug: herbeast
   matched_by: name-slug
+  url: https://herbeast.cn
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Heygo
   status: active
   source: https://lsvp.com/company/heygo/
   in_network: true
   is_api_provider: false
   slug: heygo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://heygo.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Hidden Leaf Games
   status: active
   source: https://lsvp.com/company/hidden-leaf-games/
   in_network: true
   is_api_provider: false
   slug: hidden-leaf-games
-  matched_by: name-slug
+  matched_by: domain
+  url: https://hiddenleafgames.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Highfive
   status: active
   source: https://lsvp.com/company/highfive/
   in_network: true
   is_api_provider: false
   slug: highfive
-  matched_by: name-slug
+  matched_by: domain
+  url: https://highfive.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Hillevax
   status: active
   source: https://lsvp.com/company/hillevax/
   in_network: true
   is_api_provider: false
   slug: hillevax
-  matched_by: name-slug
+  matched_by: domain
+  url: https://hillevax.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Holo
   status: active
   source: https://lsvp.com/company/holo/
   in_network: true
   is_api_provider: false
   slug: holo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://holoam.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Homary
   status: active
   source: https://lsvp.com/company/homary/
   in_network: true
   is_api_provider: false
   slug: homary
-  matched_by: name-slug
+  matched_by: domain
+  url: https://homary.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Honeylove
   status: active
   source: https://lsvp.com/company/honeylove/
@@ -2132,27 +2588,35 @@ companies:
   is_api_provider: false
   slug: honeylove
   matched_by: name-slug
+  url: https://honeylove.co
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Hook
   status: active
   source: https://lsvp.com/company/hook/
   in_network: true
   is_api_provider: false
   slug: hook
-  matched_by: name-slug
+  matched_by: domain
+  url: https://hook.co/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Hungryroot
   status: active
   source: https://lsvp.com/company/hungryroot/
   in_network: true
   is_api_provider: false
   slug: hungryroot
-  matched_by: name-slug
+  matched_by: domain
+  url: https://hungryroot.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Hyperguest
   status: active
   source: https://lsvp.com/company/hyperguest/
   in_network: true
   is_api_provider: false
   slug: hyperguest
-  matched_by: name-slug
+  matched_by: domain
+  url: https://hyperguest.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ihaveu
   status: active
   source: https://lsvp.com/company/ihaveu/
@@ -2160,20 +2624,26 @@ companies:
   is_api_provider: false
   slug: ihaveu
   matched_by: name-slug
+  url: https://ihaveu.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Illumix
   status: active
   source: https://lsvp.com/company/illumix/
   in_network: true
   is_api_provider: false
   slug: illumix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://illumix.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Immunos Therapeutics
   status: active
   source: https://lsvp.com/company/immunos-therapeutics/
   in_network: true
   is_api_provider: false
   slug: immunos-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://immunostherapeutics.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Impira
   status: active
   source: https://lsvp.com/company/impira/
@@ -2181,19 +2651,26 @@ companies:
   is_api_provider: false
   slug: impira
   matched_by: name-slug
+  url: https://impira.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Indian Energy Exchange
   status: active
   source: https://lsvp.com/company/indian-energy-exchange/
   in_network: true
   is_api_provider: false
   slug: indian-energy-exchange
-  matched_by: name-slug
+  matched_by: domain
+  url: https://iexindia.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ineffable Intelligence
   status: active
   source: https://lsvp.com/company/ineffable-intelligence/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ineffable-intelligence
+  url: https://www.ineffable.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: ineffable
+  matched_by: domain
 - name: Vllm Inferact
   status: active
   source: https://lsvp.com/company/vllm-inferact/
@@ -2207,20 +2684,26 @@ companies:
   is_api_provider: false
   slug: infiot
   matched_by: name-slug
+  url: https://infiot.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Influitive
   status: active
   source: https://lsvp.com/company/influitive/
   in_network: true
   is_api_provider: true
   slug: influitive
-  matched_by: name-slug
+  matched_by: domain
+  url: https://influitive.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Informatica
   status: active
   source: https://lsvp.com/company/informatica/
   slug: informatica
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://informatica.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Insightera
   status: active
   source: https://lsvp.com/company/insightera/
@@ -2234,7 +2717,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: intenseye
-  matched_by: name-slug
+  matched_by: domain
+  url: https://intenseye.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Io Turbine
   status: active
   source: https://lsvp.com/company/io-turbine/
@@ -2242,13 +2727,17 @@ companies:
   is_api_provider: false
   slug: io-turbine
   matched_by: name-slug
+  url: https://ioturbine.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Its Good
   status: active
   source: https://lsvp.com/company/its-good/
   in_network: true
   is_api_provider: false
   slug: its-good
-  matched_by: name-slug
+  matched_by: domain
+  url: https://itsgood.life
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Itzcash
   status: active
   source: https://lsvp.com/company/itzcash/
@@ -2262,21 +2751,27 @@ companies:
   in_network: true
   is_api_provider: false
   slug: jarvie
-  matched_by: name-slug
+  matched_by: domain
+  url: https://heyjarvie.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Joopiter
   status: active
   source: https://lsvp.com/company/joopiter/
   in_network: true
   is_api_provider: false
   slug: joopiter
-  matched_by: name-slug
+  matched_by: domain
+  url: https://joopiter.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Judgment Labs
   status: active
   source: https://lsvp.com/company/judgment-labs/
   in_network: true
   is_api_provider: false
   slug: judgment-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://judgmentlabs.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Jumprope
   status: active
   source: https://lsvp.com/company/jumprope/
@@ -2284,27 +2779,35 @@ companies:
   is_api_provider: false
   slug: jumprope
   matched_by: name-slug
+  url: https://jumprope.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: K Id
   status: active
   source: https://lsvp.com/company/k-id/
   in_network: true
   is_api_provider: false
   slug: k-id
-  matched_by: name-slug
+  matched_by: domain
+  url: https://k-id.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: K2 Space
   status: active
   source: https://lsvp.com/company/k2-space/
   in_network: true
   is_api_provider: false
   slug: k2-space
-  matched_by: name-slug
+  matched_by: domain
+  url: https://k2space.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Karius
   status: active
   source: https://lsvp.com/company/karius/
   in_network: true
   is_api_provider: false
   slug: karius
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kariusdx.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Kespry
   status: active
   source: https://lsvp.com/company/kespry/
@@ -2312,33 +2815,44 @@ companies:
   is_api_provider: false
   slug: kespry
   matched_by: name-slug
+  url: https://kespry.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ketryx
   status: active
   source: https://lsvp.com/company/ketryx/
   in_network: true
   is_api_provider: true
   slug: ketryx
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ketryx.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Keychain
   status: active
   source: https://lsvp.com/company/keychain/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: keychain
+  url: https://keychain.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: keychain-logisitics
+  matched_by: domain
 - name: Kikoff
   status: active
   source: https://lsvp.com/company/kikoff/
   in_network: true
   is_api_provider: false
   slug: kikoff
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kikoff.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Kirilys Therapeutics
   status: active
   source: https://lsvp.com/company/kirilys-therapeutics/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: kirilys-therapeutics
-  matched_by: name-slug
+  url: https://kirilys.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: kirilys-therapeutics
+  suggested_slug: kirilys-com
 - name: Kiva Software
   status: active
   source: https://lsvp.com/company/kiva-software/
@@ -2352,14 +2866,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kodiak
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kodiak.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Kongregate
   status: active
   source: https://lsvp.com/company/kongregate/
   in_network: true
   is_api_provider: true
   slug: kongregate
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kongregate.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Kosmix
   status: active
   source: https://lsvp.com/company/kosmix/
@@ -2367,40 +2885,53 @@ companies:
   is_api_provider: false
   slug: kosmix
   matched_by: name-slug
+  url: https://kosmix.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Kumospace
   status: active
   source: https://lsvp.com/company/kumospace/
   in_network: true
   is_api_provider: true
   slug: kumospace
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kumospace.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ladder
   status: active
   source: https://lsvp.com/company/ladder/
   in_network: true
   is_api_provider: false
   slug: ladder
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ladderlife.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Langfuse
   status: active
   source: https://lsvp.com/company/langfuse/
   slug: langfuse
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://langfuse.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ledgerx
   status: active
   source: https://lsvp.com/company/ledgerx/
   in_network: true
   is_api_provider: false
   slug: ledgerx
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ledgerx.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Lemon Markets
   status: active
   source: https://lsvp.com/company/lemon-markets/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lemon-markets
+  in_network: true
+  is_api_provider: true
+  url: https://lemon.markets
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: lemonmarkets
+  matched_by: domain
 - name: Level
   status: active
   source: https://lsvp.com/company/level/
@@ -2408,13 +2939,17 @@ companies:
   is_api_provider: false
   slug: level
   matched_by: name-slug
+  url: https://level.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Lightfield
   status: active
   source: https://lsvp.com/company/lightfield/
   in_network: true
   is_api_provider: true
   slug: lightfield
-  matched_by: name-slug
+  matched_by: domain
+  url: https://lightfield.app/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Lightlogic
   status: active
   source: https://lsvp.com/company/lightlogic/
@@ -2428,7 +2963,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: lightsource
-  matched_by: name-slug
+  matched_by: domain
+  url: https://lightsource.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Lightspeed International
   status: active
   source: https://lsvp.com/company/lightspeed-international/
@@ -2439,10 +2976,12 @@ companies:
 - name: Lightyear
   status: active
   source: https://lsvp.com/company/lightyear/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: lightyear
-  matched_by: name-slug
+  url: https://golightyear.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: lightyear
+  suggested_slug: golightyear-com
 - name: Link A Media
   status: active
   source: https://lsvp.com/company/link-a-media/
@@ -2463,7 +3002,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: liveu
-  matched_by: name-slug
+  matched_by: domain
+  url: https://liveu.tv
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Lost Lake
   status: active
   source: https://lsvp.com/company/lost-lake/
@@ -2484,7 +3025,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: luel
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.luel.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Lunchclub
   status: active
   source: https://lsvp.com/company/lunchclub/
@@ -2492,27 +3035,35 @@ companies:
   is_api_provider: false
   slug: lunchclub
   matched_by: name-slug
+  url: https://lunchclub.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Macroscope
   status: active
   source: https://lsvp.com/company/macroscope/
   in_network: true
   is_api_provider: true
   slug: macroscope
-  matched_by: name-slug
+  matched_by: domain
+  url: https://macroscope.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Magic Spoon
   status: active
   source: https://lsvp.com/company/magic-spoon/
   in_network: true
   is_api_provider: false
   slug: magic-spoon
-  matched_by: name-slug
+  matched_by: domain
+  url: https://magicspoon.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Magicpin
   status: active
   source: https://lsvp.com/company/magicpin/
   in_network: true
   is_api_provider: false
   slug: magicpin
-  matched_by: name-slug
+  matched_by: domain
+  url: https://magicpin.in
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Maker Comms
   status: active
   source: https://lsvp.com/company/maker-comms/
@@ -2526,14 +3077,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: manex-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.manex.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Markato
   status: active
   source: https://lsvp.com/company/markato/
   in_network: true
   is_api_provider: false
   slug: markato
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.markato.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Masergy
   status: active
   source: https://lsvp.com/company/masergy/
@@ -2541,34 +3096,44 @@ companies:
   is_api_provider: false
   slug: masergy
   matched_by: name-slug
+  url: https://masergy.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Materialize
   status: active
   source: https://lsvp.com/company/materialize/
   slug: materialize
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://materialize.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Mayd
   status: active
   source: https://lsvp.com/company/mayd/
   in_network: true
   is_api_provider: false
   slug: mayd
-  matched_by: name-slug
+  matched_by: domain
+  url: https://getmayd.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Mdclone
   status: active
   source: https://lsvp.com/company/mdclone/
   in_network: true
   is_api_provider: false
   slug: mdclone
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mdclone.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Medikine
   status: active
   source: https://lsvp.com/company/medikine/
   in_network: true
   is_api_provider: false
   slug: medikine
-  matched_by: name-slug
+  matched_by: domain
+  url: https://medikine.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Memoir Systems
   status: active
   source: https://lsvp.com/company/memoir-systems/
@@ -2576,20 +3141,26 @@ companies:
   is_api_provider: false
   slug: memoir-systems
   matched_by: name-slug
+  url: https://memoir-systems.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Memverge
   status: active
   source: https://lsvp.com/company/memverge/
   in_network: true
   is_api_provider: false
   slug: memverge
-  matched_by: name-slug
+  matched_by: domain
+  url: https://memverge.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Mend
   status: active
   source: https://lsvp.com/company/mend/
-  in_network: true
-  is_api_provider: true
-  slug: mend
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  url: https://letsmend.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: mend
+  suggested_slug: letsmend-com
 - name: Metasolv Software
   status: active
   source: https://lsvp.com/company/metasolv-software/
@@ -2604,48 +3175,62 @@ companies:
   is_api_provider: false
   slug: millennial-fox
   matched_by: name-slug
+  url: https://millennialfox.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Mist
   status: active
   source: https://lsvp.com/company/mist/
   in_network: true
   is_api_provider: true
   slug: mist
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mist.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Mithril
   status: active
   source: https://lsvp.com/company/mithril/
   in_network: true
   is_api_provider: true
   slug: mithril
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mithril.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Mito Ai
   status: active
   source: https://lsvp.com/company/mito-ai/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: mito-ai
-  matched_by: name-slug
+  url: https://mito.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: mito-ai
+  suggested_slug: mito-ai
 - name: Modus
   status: active
   source: https://lsvp.com/company/modus/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: modus
-  matched_by: name-slug
+  url: https://www.modusalliance.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: modus
+  suggested_slug: modusalliance-com
 - name: Moment
   status: active
   source: https://lsvp.com/company/moment/
   in_network: true
   is_api_provider: true
   slug: moment
-  matched_by: name-slug
+  matched_by: domain
+  url: https://moment.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Multiplier
   status: active
   source: https://lsvp.com/company/multiplier/
-  slug: multiplier
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  url: https://www.multiplierholdings.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: multiplier
+  suggested_slug: multiplierholdings-com
 - name: Muni
   status: active
   source: https://lsvp.com/company/muni/
@@ -2653,6 +3238,8 @@ companies:
   is_api_provider: false
   slug: muni
   matched_by: name-slug
+  url: https://munitienda.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Mybuys
   status: active
   source: https://lsvp.com/company/mybuys/
@@ -2660,13 +3247,17 @@ companies:
   is_api_provider: false
   slug: mybuys
   matched_by: name-slug
+  url: https://mybuys.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Mysten Labs
   status: active
   source: https://lsvp.com/company/mysten-labs/
   in_network: true
   is_api_provider: false
   slug: mysten-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mystenlabs.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Naboo
   status: active
   source: https://lsvp.com/company/naboo/
@@ -2674,34 +3265,44 @@ companies:
   is_api_provider: false
   slug: naboo
   matched_by: name-slug
+  url: https://www.naboo.app/en-us
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Natera
   status: active
   source: https://lsvp.com/company/natera/
   slug: natera
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://natera.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Neko Health
   status: active
   source: https://lsvp.com/company/neko-health/
   in_network: true
   is_api_provider: false
   slug: neko-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nekohealth.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Neuralink
   status: active
   source: https://lsvp.com/company/neuralink/
   in_network: true
   is_api_provider: false
   slug: neuralink
-  matched_by: name-slug
+  matched_by: domain
+  url: https://neuralink.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Nexthop Ai
   status: active
   source: https://lsvp.com/company/nexthop-ai/
   slug: nexthop-ai
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nexthop.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Nexus
   status: active
   source: https://lsvp.com/company/nexus/
@@ -2709,206 +3310,259 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: name-slug
+  url: https://nexus.xyz
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Nicira Networks
   status: active
   source: https://lsvp.com/company/nicira-networks/
   in_network: true
   is_api_provider: false
   slug: nicira-networks
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nicira.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Nimble Storage
   status: active
   source: https://lsvp.com/company/nimble-storage/
   in_network: true
   is_api_provider: false
   slug: nimble-storage
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nimblestorage.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Nirvana
   status: active
   source: https://lsvp.com/company/nirvana/
-  slug: nirvana
+  slug: nirvana-tech
   in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  is_api_provider: false
+  matched_by: domain
+  url: https://nirvanatech.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Noetica
   status: active
   source: https://lsvp.com/company/noetica/
   in_network: true
   is_api_provider: false
   slug: noetica
-  matched_by: name-slug
+  matched_by: domain
+  url: https://noetica.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Nominal
   status: active
   source: https://lsvp.com/company/nominal/
   in_network: true
   is_api_provider: false
   slug: nominal
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nominal.io/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Normalyze
   status: active
   source: https://lsvp.com/company/normalyze/
   in_network: true
   is_api_provider: false
   slug: normalyze
-  matched_by: name-slug
+  matched_by: domain
+  url: https://normalyze.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Notch
   status: active
   source: https://lsvp.com/company/notch/
   in_network: false
   is_api_provider: false
   suggested_slug: notch
+  url: https://www.notch.cx/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Nuance Labs
   status: active
   source: https://lsvp.com/company/nuance-labs/
   in_network: true
   is_api_provider: false
   slug: nuance-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nuancelabs.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Numerify
   status: active
   source: https://lsvp.com/company/numerify/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: numerify
-  matched_by: name-slug
+  url: https://numerify.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: numerify
+  suggested_slug: numerify-com
 - name: Nym
   status: active
   source: https://lsvp.com/company/nym/
   in_network: true
   is_api_provider: false
   slug: nym
-  matched_by: name-slug
-- name: Nym Health
-  status: active
-  source: https://lsvp.com/company/nym-health/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nym-health
+  matched_by: domain
+  url: https://nym.health
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Observo Ai
   status: active
   source: https://lsvp.com/company/observo-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: observo-ai
+  url: https://observo.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: observo
+  matched_by: domain
 - name: Ocean Security
   status: active
   source: https://lsvp.com/company/ocean-security/
   in_network: true
   is_api_provider: true
   slug: ocean-security
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ocean.security
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Odyssey Therapeutics
   status: active
   source: https://lsvp.com/company/odyssey-therapeutics/
   in_network: true
   is_api_provider: false
   slug: odyssey-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://odysseytx.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Officebanao
   status: active
   source: https://lsvp.com/company/officebanao/
   in_network: true
   is_api_provider: false
   slug: officebanao
-  matched_by: name-slug
+  matched_by: domain
+  url: https://officebanao.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Okcredit
   status: active
   source: https://lsvp.com/company/okcredit/
   in_network: true
   is_api_provider: false
   slug: okcredit
-  matched_by: name-slug
+  matched_by: domain
+  url: https://okcredit.in
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Olema
   status: active
   source: https://lsvp.com/company/olema/
   in_network: true
   is_api_provider: false
   slug: olema
-  matched_by: name-slug
+  matched_by: domain
+  url: https://olema.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Oligo
   status: active
   source: https://lsvp.com/company/oligo/
   in_network: true
   is_api_provider: false
   slug: oligo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://oligo.security
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Omnifold
   status: active
   source: https://lsvp.com/company/omnifold/
   in_network: true
   is_api_provider: false
   slug: omnifold
-  matched_by: name-slug
+  matched_by: domain
+  url: https://omnifold.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: One Assist
   status: active
   source: https://lsvp.com/company/one-assist/
   in_network: true
   is_api_provider: false
   slug: one-assist
-  matched_by: name-slug
+  matched_by: domain
+  url: https://oneassist.in
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: One More Game
   status: active
   source: https://lsvp.com/company/one-more-game/
   in_network: true
   is_api_provider: false
   slug: one-more-game
-  matched_by: name-slug
+  matched_by: domain
+  url: https://onemoregame.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Orbis Education
   status: active
   source: https://lsvp.com/company/orbis-education/
   in_network: true
   is_api_provider: false
   slug: orbis-education
-  matched_by: name-slug
+  matched_by: domain
+  url: https://orbiseducation.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Origami Logic
   status: active
   source: https://lsvp.com/company/origami-logic/
   in_network: true
   is_api_provider: false
   slug: origami-logic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://origamilogic.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Orqa
   status: active
   source: https://lsvp.com/company/orqa/
   in_network: true
   is_api_provider: false
   slug: orqa
-  matched_by: name-slug
+  matched_by: domain
+  url: https://orqafpv.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Osmos
   status: active
   source: https://lsvp.com/company/osmos/
   in_network: true
   is_api_provider: false
   slug: osmos
-  matched_by: name-slug
+  matched_by: domain
+  url: https://osmos.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Outbrain
   status: active
   source: https://lsvp.com/company/outbrain/
   slug: outbrain
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://outbrain.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Outschool
   status: active
   source: https://lsvp.com/company/outschool/
   in_network: true
   is_api_provider: false
   slug: outschool
-  matched_by: name-slug
+  matched_by: domain
+  url: https://outschool.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Outsmart College
   status: active
   source: https://lsvp.com/company/outsmart-college/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: outsmart-college
-  matched_by: name-slug
+  url: https://outsmartcollege.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: outsmart-college
+  suggested_slug: outsmartcollege-com
 - name: Overops
   status: active
   source: https://lsvp.com/company/overops/
   in_network: true
   is_api_provider: true
   slug: overops
-  matched_by: name-slug
+  matched_by: domain
+  url: https://overops.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Oyo Rooms
   status: active
   source: https://lsvp.com/company/oyo-rooms/
@@ -2921,42 +3575,54 @@ companies:
   in_network: true
   is_api_provider: true
   slug: p0-security
-  matched_by: name-slug
+  matched_by: domain
+  url: https://p0.dev
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pacific Fusion
   status: active
   source: https://lsvp.com/company/pacific-fusion/
   in_network: true
   is_api_provider: false
   slug: pacific-fusion
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pacificfusion.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Paid
   status: active
   source: https://lsvp.com/company/paid/
   in_network: true
   is_api_provider: true
   slug: paid
-  matched_by: name-slug
+  matched_by: domain
+  url: https://paid.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Panther
   status: active
   source: https://lsvp.com/company/panther/
-  in_network: true
-  is_api_provider: true
-  slug: panther
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  url: https://runpanther.io/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: panther
+  suggested_slug: runpanther-io
 - name: Parallel Finance
   status: active
   source: https://lsvp.com/company/parallel-finance/
   in_network: true
   is_api_provider: false
   slug: parallel-finance
-  matched_by: name-slug
+  matched_by: domain
+  url: https://parallel.fi/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Parsable
   status: active
   source: https://lsvp.com/company/parsable/
   in_network: true
   is_api_provider: false
   slug: parsable
-  matched_by: name-slug
+  matched_by: domain
+  url: https://parsable.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Particle
   status: active
   source: https://lsvp.com/company/particle/
@@ -2964,26 +3630,35 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: name-slug
+  url: https://particle.news
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Patronus
   status: active
   source: https://lsvp.com/company/patronus/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: patronus
+  url: https://patronus.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: evals
+  matched_by: domain
 - name: Payitoff
   status: active
   source: https://lsvp.com/company/payitoff/
   in_network: true
   is_api_provider: false
   slug: payitoff
-  matched_by: name-slug
+  matched_by: domain
+  url: https://payitoff.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pebble
   status: active
   source: https://lsvp.com/company/pebble/
   in_network: true
   is_api_provider: false
   slug: pebble
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pebblelife.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pensando
   status: active
   source: https://lsvp.com/company/pensando/
@@ -2991,6 +3666,8 @@ companies:
   is_api_provider: false
   slug: pensando
   matched_by: name-slug
+  url: https://pensando.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: People Home Finance Ltd
   status: active
   source: https://lsvp.com/company/people-home-finance-ltd/
@@ -2998,26 +3675,35 @@ companies:
   is_api_provider: false
   slug: people-home-finance-ltd
   matched_by: name-slug
+  url: https://peoplehome.in/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: People Ai
   status: active
   source: https://lsvp.com/company/people-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: people-ai
+  url: https://people.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: backstory
+  matched_by: domain
 - name: Percolate
   status: active
   source: https://lsvp.com/company/percolate/
   in_network: true
   is_api_provider: false
   slug: percolate
-  matched_by: name-slug
+  matched_by: domain
+  url: https://percolate.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Periodic Labs
   status: active
   source: https://lsvp.com/company/periodic-labs/
   in_network: true
   is_api_provider: false
   slug: periodic-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://periodic.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pernixdata
   status: active
   source: https://lsvp.com/company/pernixdata/
@@ -3025,34 +3711,44 @@ companies:
   is_api_provider: false
   slug: pernixdata
   matched_by: name-slug
+  url: https://pernixdata.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Personalis
   status: active
   source: https://lsvp.com/company/personalis/
   in_network: true
   is_api_provider: false
   slug: personalis
-  matched_by: name-slug
+  matched_by: domain
+  url: https://personalis.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Personetics
   status: active
   source: https://lsvp.com/company/personetics/
   in_network: true
   is_api_provider: false
   slug: personetics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://personetics.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Phantom
   status: active
   source: https://lsvp.com/company/phantom/
   slug: phantom
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://phantom.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pheon Therapeutics
   status: active
   source: https://lsvp.com/company/pheon-therapeutics/
   in_network: true
   is_api_provider: false
   slug: pheon-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pheontx.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Phone Com
   status: active
   source: https://lsvp.com/company/phone-com/
@@ -3073,20 +3769,26 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: pie
+  url: https://getpie.co
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Setu
   status: active
   source: https://lsvp.com/company/setu/
   slug: setu
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://setu.co/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pintu
   status: active
   source: https://lsvp.com/company/pintu/
   in_network: true
   is_api_provider: false
-  slug: pintu
-  matched_by: name-slug
+  slug: actavis
+  matched_by: domain
+  url: https://pintu.co.id
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pixel Technologies
   status: active
   source: https://lsvp.com/company/pixel-technologies/
@@ -3100,7 +3802,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: plan-a
-  matched_by: name-slug
+  matched_by: domain
+  url: https://plana.earth
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Playdom
   status: active
   source: https://lsvp.com/company/playdom/
@@ -3108,13 +3812,17 @@ companies:
   is_api_provider: false
   slug: playdom
   matched_by: name-slug
+  url: https://playdom.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Plexistor
   status: active
   source: https://lsvp.com/company/plexistor/
   in_network: true
   is_api_provider: false
   slug: plexistor
-  matched_by: name-slug
+  matched_by: domain
+  url: https://plexistor.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Plexxi
   status: active
   source: https://lsvp.com/company/plexxi/
@@ -3122,6 +3830,8 @@ companies:
   is_api_provider: false
   slug: plexxi
   matched_by: name-slug
+  url: https://plexxi.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pliant Technology
   status: active
   source: https://lsvp.com/company/pliant-technology/
@@ -3129,40 +3839,53 @@ companies:
   is_api_provider: false
   slug: pliant-technology
   matched_by: name-slug
+  url: https://plianttechnology.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Plug
   status: active
   source: https://lsvp.com/company/plug/
-  in_network: true
-  is_api_provider: true
-  slug: plug
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  url: https://plugmotors.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: plug
+  suggested_slug: plugmotors-com
 - name: Plushcare
   status: active
   source: https://lsvp.com/company/plushcare/
   in_network: true
   is_api_provider: false
   slug: plushcare
-  matched_by: name-slug
+  matched_by: domain
+  url: https://plushcare.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pocket Fm
   status: active
   source: https://lsvp.com/company/pocket-fm/
   in_network: true
   is_api_provider: false
   slug: pocket-fm
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pocketfm.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Polar Signals
   status: active
   source: https://lsvp.com/company/polar-signals/
   in_network: true
   is_api_provider: false
   slug: polar-signals
-  matched_by: name-slug
+  matched_by: domain
+  url: https://polarsignals.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Polygon
   status: active
   source: https://lsvp.com/company/polygon/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: polygon
+  in_network: true
+  is_api_provider: true
+  url: https://polygon.technology/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: polygon-id
+  matched_by: domain
 - name: Poncho
   status: active
   source: https://lsvp.com/company/poncho/
@@ -3170,34 +3893,44 @@ companies:
   is_api_provider: false
   slug: poncho
   matched_by: name-slug
+  url: https://poncho.is
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ponder
   status: active
   source: https://lsvp.com/company/ponder/
   in_network: true
   is_api_provider: false
   slug: ponder
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ponder.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pontera
   status: active
   source: https://lsvp.com/company/pontera/
   in_network: true
   is_api_provider: false
   slug: pontera
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pontera.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Predicthq
   status: active
   source: https://lsvp.com/company/predicthq/
   slug: predicthq
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://predicthq.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Profound
   status: active
   source: https://lsvp.com/company/profound/
   slug: profound
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tryprofound.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Provigent
   status: active
   source: https://lsvp.com/company/provigent/
@@ -3211,7 +3944,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: proxima-fusion
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.proximafusion.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Pss Systems
   status: active
   source: https://lsvp.com/company/pss-systems/
@@ -3233,6 +3968,8 @@ companies:
   is_api_provider: false
   slug: pushpins
   matched_by: name-slug
+  url: https://pushpinsapp.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Quantum Effect Dev
   status: active
   source: https://lsvp.com/company/quantum-effect-dev/
@@ -3246,42 +3983,54 @@ companies:
   in_network: true
   is_api_provider: false
   slug: quantumscape
-  matched_by: name-slug
+  matched_by: domain
+  url: https://quantumscape.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Qubole
   status: active
   source: https://lsvp.com/company/qubole/
   in_network: true
   is_api_provider: false
   slug: qubole
-  matched_by: name-slug
+  matched_by: domain
+  url: https://qubole.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Radiant Security
   status: active
   source: https://lsvp.com/company/radiant-security/
   in_network: true
   is_api_provider: false
   slug: radiant-security
-  matched_by: name-slug
+  matched_by: domain
+  url: https://radiantsecurity.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Rain
   status: active
   source: https://lsvp.com/company/rain/
   in_network: true
   is_api_provider: false
   slug: rain
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.rain.xyz/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Raindrop
   status: active
   source: https://lsvp.com/company/raindrop/
   in_network: true
   is_api_provider: false
   slug: raindrop
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.raindrop.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ramp
   status: active
   source: https://lsvp.com/company/ramp/
   slug: ramp
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ramp.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Rapsphere
   status: active
   source: https://lsvp.com/company/rapsphere/
@@ -3289,117 +4038,152 @@ companies:
   is_api_provider: false
   slug: rapsphere
   matched_by: name-slug
+  url: https://rapsphere.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Razorpay
   status: active
   source: https://lsvp.com/company/razorpay/
   slug: razorpay
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://razorpay.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Reactor
   status: active
   source: https://lsvp.com/company/reactor/
   in_network: true
   is_api_provider: false
   slug: reactor
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.reactor.inc
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Real
   status: active
   source: https://lsvp.com/company/real/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: real
-  matched_by: name-slug
+  url: https://join-real.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: real
+  suggested_slug: join-real-com
 - name: Recordgram
   status: active
   source: https://lsvp.com/company/recordgram/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: recordgram
-  matched_by: name-slug
+  url: https://recordgram.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: recordgram
+  suggested_slug: recordgram-com
 - name: Redotpay
   status: active
   source: https://lsvp.com/company/redotpay/
   in_network: true
   is_api_provider: false
   slug: redotpay
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.redotpay.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Redpanda
   status: active
   source: https://lsvp.com/company/redpanda/
   slug: redpanda
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://redpanda.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Reflection
   status: active
   source: https://lsvp.com/company/reflection/
   in_network: true
   is_api_provider: false
   slug: reflection
-  matched_by: name-slug
+  matched_by: domain
+  url: https://reflection.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Reflektive
   status: active
   source: https://lsvp.com/company/reflektive/
   slug: reflektive
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://reflektive.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Reindeer Ai
   status: active
   source: https://lsvp.com/company/reindeer-ai/
   in_network: true
   is_api_provider: false
   slug: reindeer-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://reindeer.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Reliable Robotics
   status: active
   source: https://lsvp.com/company/reliable-robotics/
   slug: reliable-robotics
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://reliable.co
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Resolve Ai
   status: active
   source: https://lsvp.com/company/resolve-ai/
   in_network: true
   is_api_provider: false
   slug: resolve-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://resolve.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Revv
   status: active
   source: https://lsvp.com/company/revv/
   in_network: true
   is_api_provider: false
   slug: revv
-  matched_by: name-slug
+  matched_by: domain
+  url: https://revv.so
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Ricursive Intelligence
   status: active
   source: https://lsvp.com/company/ricursive-intelligence/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ricursive-intelligence
+  url: https://www.ricursive.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: ricursive
+  matched_by: domain
 - name: Ripple
   status: active
   source: https://lsvp.com/company/ripple/
   in_network: true
   is_api_provider: false
-  slug: ripple
-  matched_by: name-slug
+  slug: hidden-road
+  matched_by: domain
+  url: https://ripple.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Rippling
   status: active
   source: https://lsvp.com/company/rippling/
   slug: rippling
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://rippling.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Riverpool
   status: active
   source: https://lsvp.com/company/riverpool/
   in_network: true
   is_api_provider: false
   slug: riverpool
-  matched_by: name-slug
+  matched_by: domain
+  url: https://riverpool.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Robco
   status: active
   source: https://lsvp.com/company/robco/
@@ -3407,6 +4191,8 @@ companies:
   is_api_provider: false
   slug: robco
   matched_by: name-slug
+  url: https://robco.de
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Rocksalt
   status: active
   source: https://lsvp.com/company/rocksalt/
@@ -3420,56 +4206,63 @@ companies:
   in_network: true
   is_api_provider: false
   slug: roofstock
-  matched_by: name-slug
-- name: Mynd
-  status: active
-  source: https://lsvp.com/company/mynd/
-  in_network: true
-  is_api_provider: false
-  slug: mynd
-  matched_by: name-slug
+  matched_by: domain
+  url: https://roofstock.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Rothys
   status: active
   source: https://lsvp.com/company/rothys/
   in_network: true
   is_api_provider: false
   slug: rothys
-  matched_by: name-slug
+  matched_by: domain
+  url: https://rothys.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Runway
   status: active
   source: https://lsvp.com/company/runway/
-  slug: runway
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  url: https://runway.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: runway
+  suggested_slug: runway-com
 - name: Sailpoint
   status: active
   source: https://lsvp.com/company/sailpoint/
   slug: sailpoint
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sailpoint.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Salto
   status: active
   source: https://lsvp.com/company/salto/
   in_network: true
   is_api_provider: false
   slug: salto
-  matched_by: name-slug
+  matched_by: domain
+  url: https://salto.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Saronic
   status: active
   source: https://lsvp.com/company/saronic/
   slug: saronic
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://saronic.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Satellite Bio
   status: active
   source: https://lsvp.com/company/satellite-bio/
   in_network: true
   is_api_provider: false
   slug: satellite-bio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://satellite.bio
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Schematik
   status: active
   source: https://lsvp.com/company/schematik/
@@ -3477,76 +4270,89 @@ companies:
   is_api_provider: false
   slug: schematik
   matched_by: name-slug
+  url: https://www.schematik.io/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Science Corporation
   status: active
   source: https://lsvp.com/company/science-corporation/
   in_network: true
   is_api_provider: false
   slug: science-corporation
-  matched_by: name-slug
+  matched_by: domain
+  url: https://science.xyz/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Scodix
   status: active
   source: https://lsvp.com/company/scodix/
   in_network: true
   is_api_provider: false
   slug: scodix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://scodix.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Scorpion
   status: active
   source: https://lsvp.com/company/scorpion/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: scorpion
-  matched_by: name-slug
+  url: https://scorpiontx.vom
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: scorpion
+  suggested_slug: scorpiontx-vom
 - name: Seel
   status: active
   source: https://lsvp.com/company/seel/
   in_network: true
   is_api_provider: true
   slug: seel
-  matched_by: name-slug
+  matched_by: domain
+  url: https://seel.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Seismic
   status: active
   source: https://lsvp.com/company/seismic/
-  slug: seismic
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
-- name: Seismic Therapeutic
-  status: active
-  source: https://lsvp.com/company/seismic-therapeutic/
+  slug: seismic-therapeutic
   in_network: true
   is_api_provider: false
-  slug: seismic-therapeutic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://seismictx.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Select Star
   status: active
   source: https://lsvp.com/company/select-star/
   in_network: true
   is_api_provider: true
   slug: select-star
-  matched_by: name-slug
+  matched_by: domain
+  url: https://selectstar.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Semgrep
   status: active
   source: https://lsvp.com/company/semgrep/
   slug: semgrep
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://semgrep.dev
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Sentio
   status: active
   source: https://lsvp.com/company/sentio/
   in_network: true
   is_api_provider: true
   slug: sentio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sentio.xyz
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Serverless
   status: active
   source: https://lsvp.com/company/serverless/
   in_network: true
   is_api_provider: false
-  slug: serverless
-  matched_by: name-slug
+  slug: concept-serverless
+  matched_by: domain
+  url: https://serverless.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Seventh Spark
   status: active
   source: https://lsvp.com/company/seventh-spark/
@@ -3554,6 +4360,8 @@ companies:
   is_api_provider: false
   slug: seventh-spark
   matched_by: name-slug
+  url: https://seventhspark.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Shapes
   status: active
   source: https://lsvp.com/company/shapes/
@@ -3567,28 +4375,36 @@ companies:
   in_network: true
   is_api_provider: false
   slug: sharechat
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sharechat.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Shipper
   status: active
   source: https://lsvp.com/company/shipper/
   in_network: true
   is_api_provider: false
   slug: shipper
-  matched_by: name-slug
+  matched_by: domain
+  url: https://shipper.id
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Shoedazzle
   status: active
   source: https://lsvp.com/company/shoedazzle/
   in_network: true
   is_api_provider: false
   slug: shoedazzle
-  matched_by: name-slug
+  matched_by: domain
+  url: https://shoedazzle.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Shortwave
   status: active
   source: https://lsvp.com/company/shortwave/
   in_network: true
   is_api_provider: false
   slug: shortwave
-  matched_by: name-slug
+  matched_by: domain
+  url: https://shortwave.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Signal Labs
   status: active
   source: https://lsvp.com/company/signal-labs/
@@ -3596,6 +4412,8 @@ companies:
   is_api_provider: false
   slug: signal-labs
   matched_by: name-slug
+  url: https://www.signallabs.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Sirocco
   status: active
   source: https://lsvp.com/company/sirocco/
@@ -3610,34 +4428,44 @@ companies:
   is_api_provider: true
   slug: skyfire
   matched_by: name-slug
+  url: https://skyfire.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Slice
   status: active
   source: https://lsvp.com/company/slice/
   slug: slice
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://slice.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Smartex
   status: active
   source: https://lsvp.com/company/smartex/
   in_network: true
   is_api_provider: false
   slug: smartex
-  matched_by: name-slug
+  matched_by: domain
+  url: https://smartex.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Snaproute
   status: active
   source: https://lsvp.com/company/snaproute/
   in_network: true
   is_api_provider: false
   slug: snaproute
-  matched_by: name-slug
+  matched_by: domain
+  url: https://snaproute.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Soba
   status: active
   source: https://lsvp.com/company/soba/
   in_network: true
   is_api_provider: false
   slug: soba
-  matched_by: name-slug
+  matched_by: domain
+  url: https://soba.xyz
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Socket Plane
   status: active
   source: https://lsvp.com/company/socket-plane/
@@ -3652,12 +4480,17 @@ companies:
   is_api_provider: true
   slug: soda-health
   matched_by: name-slug
+  url: https://sodahealth.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Solaredge
   status: active
   source: https://lsvp.com/company/solaredge/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: solaredge
+  in_network: true
+  is_api_provider: true
+  url: https://solaredge.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: solar-edge
+  matched_by: domain
 - name: Solazyme
   status: active
   source: https://lsvp.com/company/solazyme/
@@ -3671,35 +4504,45 @@ companies:
   in_network: true
   is_api_provider: false
   slug: sphinx
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sphinx.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Spiff
   status: active
   source: https://lsvp.com/company/spiff/
   in_network: true
   is_api_provider: false
   slug: spiff
-  matched_by: name-slug
+  matched_by: domain
+  url: https://spiff.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Split
   status: active
   source: https://lsvp.com/company/split/
   slug: split
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://split.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Stability Ai
   status: active
   source: https://lsvp.com/company/stability-ai/
   slug: stability-ai
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://stability.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Stacks Ai
   status: active
   source: https://lsvp.com/company/stacks-ai/
   in_network: true
-  is_api_provider: true
-  slug: stacks-ai
-  matched_by: name-slug
+  is_api_provider: false
+  slug: stacks
+  matched_by: domain
+  url: https://stacks.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Standard Economics
   status: active
   source: https://lsvp.com/company/standard-economics/
@@ -3713,21 +4556,27 @@ companies:
   in_network: true
   is_api_provider: false
   slug: star-analytics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://staranalytics.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Stickies
   status: active
   source: https://lsvp.com/company/stickies/
   in_network: true
   is_api_provider: false
   slug: stickies
-  matched_by: name-slug
+  matched_by: domain
+  url: https://stickies.wtf
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Straiker
   status: active
   source: https://lsvp.com/company/straiker/
   in_network: true
   is_api_provider: false
   slug: straiker
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.straiker.ai
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Streamlio
   status: active
   source: https://lsvp.com/company/streamlio/
@@ -3735,6 +4584,8 @@ companies:
   is_api_provider: false
   slug: streamlio
   matched_by: name-slug
+  url: https://streaml.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Streamonce
   status: active
   source: https://lsvp.com/company/streamonce/
@@ -3742,62 +4593,80 @@ companies:
   is_api_provider: false
   slug: streamonce
   matched_by: name-slug
+  url: https://streamonce.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Styleseat
   status: active
   source: https://lsvp.com/company/styleseat/
   in_network: true
   is_api_provider: false
   slug: styleseat
-  matched_by: name-slug
+  matched_by: domain
+  url: https://styleseat.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Summer
   status: active
   source: https://lsvp.com/company/summer/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: summer
-  matched_by: name-slug
+  url: https://gosummer.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: summer
+  suggested_slug: gosummer-com
 - name: Suno
   status: active
   source: https://lsvp.com/company/suno/
   slug: suno
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://suno.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Supercritical
   status: active
   source: https://lsvp.com/company/supercritical/
   slug: supercritical
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gosupercritical.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Sycamore
   status: active
   source: https://lsvp.com/company/sycamore/
   in_network: true
   is_api_provider: false
   slug: sycamore
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sycamore.so/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Synctera
   status: active
   source: https://lsvp.com/company/synctera/
   slug: synctera
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://synctera.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Table22
   status: active
   source: https://lsvp.com/company/table22/
   in_network: true
   is_api_provider: false
   slug: table22
-  matched_by: name-slug
+  matched_by: domain
+  url: https://table22.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Tabs
   status: active
   source: https://lsvp.com/company/tabs/
   in_network: true
   is_api_provider: true
-  slug: tabs
-  matched_by: name-slug
+  slug: tabs-platform
+  matched_by: domain
+  url: https://tabs.inc
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Talon
   status: active
   source: https://lsvp.com/company/talon/
@@ -3805,34 +4674,44 @@ companies:
   is_api_provider: false
   slug: talon
   matched_by: name-slug
+  url: https://talon-sec.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Tana
   status: active
   source: https://lsvp.com/company/tana/
   in_network: true
   is_api_provider: true
   slug: tana
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tana.inc/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Taskrabbit
   status: active
   source: https://lsvp.com/company/taskrabbit/
   slug: taskrabbit
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://taskrabbit.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Teads
   status: active
   source: https://lsvp.com/company/teads/
   in_network: true
   is_api_provider: false
   slug: teads
-  matched_by: name-slug
+  matched_by: domain
+  url: https://teads.tv
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Telegram
   status: active
   source: https://lsvp.com/company/telegram/
   slug: telegram
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://telegram.org
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Telogy Networks
   status: active
   source: https://lsvp.com/company/telogy-networks/
@@ -3850,64 +4729,84 @@ companies:
 - name: Temporal
   status: active
   source: https://lsvp.com/company/temporal/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: temporal
+  in_network: true
+  is_api_provider: true
+  url: https://temporal.io/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: scalable-software-and-systems
+  matched_by: domain
 - name: Tennr
   status: active
   source: https://lsvp.com/company/tennr/
   in_network: true
   is_api_provider: false
   slug: tennr
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tennr.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Terminal
   status: active
   source: https://lsvp.com/company/terminal/
   in_network: true
   is_api_provider: false
   slug: terminal
-  matched_by: name-slug
+  matched_by: domain
+  url: https://terminal.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Tessell
   status: active
   source: https://lsvp.com/company/tessell/
   in_network: true
   is_api_provider: true
   slug: tessell
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tessell.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Testim Io
   status: active
   source: https://lsvp.com/company/testim-io/
   in_network: true
   is_api_provider: true
   slug: testim-io
-  matched_by: name-slug
+  matched_by: domain
+  url: https://testim.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: The Honest Company
   status: active
   source: https://lsvp.com/company/the-honest-company/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-honest-company
+  url: https://honest.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: honest-company
+  matched_by: domain
 - name: The House Of Lrc
   status: active
   source: https://lsvp.com/company/the-house-of-lrc/
   in_network: true
   is_api_provider: false
   slug: the-house-of-lrc
-  matched_by: name-slug
+  matched_by: domain
+  url: https://thehouseoflrc.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: The Mobile First Company
   status: active
   source: https://lsvp.com/company/the-mobile-first-company/
-  in_network: true
-  is_api_provider: true
-  slug: the-mobile-first-company
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  url: https://www.themobilefirstcompany.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: the-mobile-first-company
+  suggested_slug: themobilefirstcompany-com
 - name: The Nudge
   status: active
   source: https://lsvp.com/company/the-nudge/
   in_network: true
   is_api_provider: false
   slug: the-nudge
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nudgetext.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Thefind
   status: active
   source: https://lsvp.com/company/thefind/
@@ -3921,28 +4820,36 @@ companies:
   in_network: true
   is_api_provider: false
   slug: theranica
-  matched_by: name-slug
+  matched_by: domain
+  url: https://theranica.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Theta Lake
   status: active
   source: https://lsvp.com/company/theta-lake/
   in_network: true
   is_api_provider: false
   slug: theta-lake
-  matched_by: name-slug
+  matched_by: domain
+  url: https://thetalake.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Thinking Machines
   status: active
   source: https://lsvp.com/company/thinking-machines/
   in_network: true
   is_api_provider: false
-  slug: thinking-machines
-  matched_by: name-slug
+  slug: thinking-machines-lab
+  matched_by: domain
+  url: https://thinkingmachines.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Thunkable
   status: active
   source: https://lsvp.com/company/thunkable/
   in_network: true
   is_api_provider: false
   slug: thunkable
-  matched_by: name-slug
+  matched_by: domain
+  url: https://thunkable.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Timesten
   status: active
   source: https://lsvp.com/company/timesten/
@@ -3956,63 +4863,72 @@ companies:
   in_network: true
   is_api_provider: true
   slug: tollbit
-  matched_by: name-slug
-- name: Tome
-  status: active
-  source: https://lsvp.com/company/tome/
-  in_network: true
-  is_api_provider: false
-  slug: tome
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tollbit.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Tonkean
   status: active
   source: https://lsvp.com/company/tonkean/
   in_network: true
   is_api_provider: false
   slug: tonkean
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tonkean.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Toonimo
   status: active
   source: https://lsvp.com/company/toonimo/
   in_network: true
   is_api_provider: false
   slug: toonimo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://toonimo.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Tourhero
   status: active
   source: https://lsvp.com/company/tourhero/
   in_network: true
   is_api_provider: false
   slug: tourhero
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tourhero.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Treex Robotics
   status: active
   source: https://lsvp.com/company/treex-robotics/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: treex-robotics
-  matched_by: name-slug
+  url: https://treex-robotics.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: treex-robotics
+  suggested_slug: treex-robotics-com
 - name: Trendsi
   status: active
   source: https://lsvp.com/company/trendsi/
   in_network: true
   is_api_provider: false
   slug: trendsi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://trendsi.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Triana Biomedicines
   status: active
   source: https://lsvp.com/company/triana-biomedicines/
   in_network: true
   is_api_provider: false
   slug: triana-biomedicines
-  matched_by: name-slug
+  matched_by: domain
+  url: https://trianabio.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Tripledot
   status: active
   source: https://lsvp.com/company/tripledot/
   in_network: true
   is_api_provider: false
   slug: tripledot
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tripledotstudios.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Trust
   status: active
   source: https://lsvp.com/company/trust/
@@ -4020,13 +4936,17 @@ companies:
   is_api_provider: false
   slug: trust
   matched_by: name-slug
+  url: https://trust.co/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Truth Systems
   status: active
   source: https://lsvp.com/company/truth-systems/
   in_network: true
   is_api_provider: true
   slug: truth-systems
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.truthsystems.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Tutorvista
   status: active
   source: https://lsvp.com/company/tutorvista/
@@ -4034,19 +4954,26 @@ companies:
   is_api_provider: false
   slug: tutorvista
   matched_by: name-slug
+  url: https://tutorvista.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Udaan
   status: active
   source: https://lsvp.com/company/udaan/
   in_network: true
   is_api_provider: false
   slug: udaan
-  matched_by: name-slug
+  matched_by: domain
+  url: https://udaan.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Unconventional Ai
   status: active
   source: https://lsvp.com/company/unconventional-ai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unconventional-ai
+  url: https://unconv.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  slug: unconv
+  matched_by: domain
 - name: Uni
   status: active
   source: https://lsvp.com/company/uni/
@@ -4054,20 +4981,26 @@ companies:
   is_api_provider: false
   slug: uni
   matched_by: name-slug
+  url: https://uni.club
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: United Dwelling
   status: active
   source: https://lsvp.com/company/united-dwelling/
   in_network: true
   is_api_provider: false
   slug: united-dwelling
-  matched_by: name-slug
+  matched_by: domain
+  url: https://uniteddwelling.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Unsloth
   status: active
   source: https://lsvp.com/company/unsloth/
   in_network: true
   is_api_provider: false
   slug: unsloth
-  matched_by: name-slug
+  matched_by: domain
+  url: https://unsloth.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Varada
   status: active
   source: https://lsvp.com/company/varada/
@@ -4075,27 +5008,35 @@ companies:
   is_api_provider: false
   slug: varada
   matched_by: name-slug
+  url: https://Varada.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Varagesale
   status: active
   source: https://lsvp.com/company/varagesale/
   in_network: true
   is_api_provider: false
   slug: varagesale
-  matched_by: name-slug
+  matched_by: domain
+  url: https://varagesale.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Verkada
   status: active
   source: https://lsvp.com/company/verkada/
   in_network: true
   is_api_provider: false
   slug: verkada
-  matched_by: name-slug
+  matched_by: domain
+  url: https://verkada.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Vestwell
   status: active
   source: https://lsvp.com/company/vestwell/
   in_network: true
   is_api_provider: false
   slug: vestwell
-  matched_by: name-slug
+  matched_by: domain
+  url: https://vestwell.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Vexata
   status: active
   source: https://lsvp.com/company/vexata/
@@ -4103,6 +5044,8 @@ companies:
   is_api_provider: false
   slug: vexata
   matched_by: name-slug
+  url: https://vexata.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Virsa Systems
   status: active
   source: https://lsvp.com/company/virsa-systems/
@@ -4113,31 +5056,39 @@ companies:
 - name: Virtual Instruments
   status: active
   source: https://lsvp.com/company/virtual-instruments/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: virtual-instruments
-  matched_by: name-slug
+  url: https://virtualinstruments.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: virtual-instruments
+  suggested_slug: virtualinstruments-com
 - name: Virtue Ai
   status: active
   source: https://lsvp.com/company/virtue-ai/
   in_network: true
   is_api_provider: false
   slug: virtue-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.virtueai.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Volley
   status: active
   source: https://lsvp.com/company/volley/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: volley
-  matched_by: name-slug
+  url: https://www.volleythat.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: volley
+  suggested_slug: volleythat-com
 - name: Voltron Data
   status: active
   source: https://lsvp.com/company/voltron-data/
   in_network: true
   is_api_provider: false
   slug: voltron-data
-  matched_by: name-slug
+  matched_by: domain
+  url: https://voltrondata.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Waveset
   status: active
   source: https://lsvp.com/company/waveset/
@@ -4151,42 +5102,54 @@ companies:
   in_network: true
   is_api_provider: false
   slug: webull
-  matched_by: name-slug
+  matched_by: domain
+  url: https://webull.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Weee
   status: active
   source: https://lsvp.com/company/weee/
   in_network: true
   is_api_provider: false
   slug: weee
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sayweee.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Whatnot
   status: active
   source: https://lsvp.com/company/whatnot/
   slug: whatnot
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://whatnot.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Wheelocity
   status: active
   source: https://lsvp.com/company/wheelocity/
   in_network: true
   is_api_provider: false
   slug: wheelocity
-  matched_by: name-slug
+  matched_by: domain
+  url: https://Wheelocity.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Wi Charge
   status: active
   source: https://lsvp.com/company/wi-charge/
   in_network: true
   is_api_provider: false
   slug: wi-charge
-  matched_by: name-slug
+  matched_by: domain
+  url: https://wi-charge.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Wintermute
   status: active
   source: https://lsvp.com/company/wintermute/
   in_network: true
   is_api_provider: false
   slug: wintermute
-  matched_by: name-slug
+  matched_by: domain
+  url: https://wintermute.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Witag
   status: active
   source: https://lsvp.com/company/witag/
@@ -4194,27 +5157,35 @@ companies:
   is_api_provider: false
   slug: witag
   matched_by: name-slug
+  url: https://witag.co
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Workos
   status: active
   source: https://lsvp.com/company/workos/
   slug: workos
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://workos.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Xai
   status: active
   source: https://lsvp.com/company/xai/
   slug: xai
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://x.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Xaira
   status: active
   source: https://lsvp.com/company/xaira/
   in_network: true
   is_api_provider: false
   slug: xaira
-  matched_by: name-slug
+  matched_by: domain
+  url: https://xaira.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Xembly
   status: active
   source: https://lsvp.com/company/xembly/
@@ -4222,13 +5193,17 @@ companies:
   is_api_provider: false
   slug: xembly
   matched_by: name-slug
+  url: https://xembly.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Xentral
   status: active
   source: https://lsvp.com/company/xentral/
   in_network: true
   is_api_provider: true
   slug: xentral
-  matched_by: name-slug
+  matched_by: domain
+  url: https://xentral.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Xtremio
   status: active
   source: https://lsvp.com/company/xtremio/
@@ -4243,33 +5218,43 @@ companies:
   is_api_provider: false
   slug: yaysay
   matched_by: name-slug
+  url: https://shopyaysay.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Yellow Ai
   status: active
   source: https://lsvp.com/company/yellow-ai/
   in_network: false
   is_api_provider: false
   suggested_slug: yellow-ai
+  url: https://yellowmessenger.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Youtrip
   status: active
   source: https://lsvp.com/company/youtrip/
   in_network: true
   is_api_provider: false
   slug: youtrip
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.you.co/sg/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Yubi
   status: active
   source: https://lsvp.com/company/yubi/
   in_network: true
   is_api_provider: false
   slug: yubi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.go-yubi.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Yuga Labs
   status: active
   source: https://lsvp.com/company/yuga-labs/
   in_network: true
   is_api_provider: false
   slug: yuga-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://yuga.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Zag Bio
   status: active
   source: https://lsvp.com/company/zag-bio/
@@ -4283,42 +5268,54 @@ companies:
   in_network: true
   is_api_provider: false
   slug: zapp
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tryzapp.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Zebec
   status: active
   source: https://lsvp.com/company/zebec/
   in_network: true
   is_api_provider: false
   slug: zebec
-  matched_by: name-slug
+  matched_by: domain
+  url: https://zebec.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Zepto
   status: active
   source: https://lsvp.com/company/zepto/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: zepto
-  matched_by: name-slug
+  url: https://www.zeptonow.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
+  x-name-collision: zepto
+  suggested_slug: zeptonow-com
 - name: Zerion
   status: active
   source: https://lsvp.com/company/zerion/
   in_network: true
   is_api_provider: true
   slug: zerion
-  matched_by: name-slug
+  matched_by: domain
+  url: https://zerion.io
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Zest Ai
   status: active
   source: https://lsvp.com/company/zest-ai/
   in_network: true
   is_api_provider: false
   slug: zest-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://zest.ai/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Zetwerk
   status: active
   source: https://lsvp.com/company/zetwerk/
   in_network: true
   is_api_provider: false
   slug: zetwerk
-  matched_by: name-slug
+  matched_by: domain
+  url: https://zetwerk.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Zocomputer
   status: active
   source: https://lsvp.com/company/zocomputer/
@@ -4326,17 +5323,23 @@ companies:
   is_api_provider: true
   slug: zocomputer
   matched_by: name-slug
+  url: https://www.zo.computer/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Zscaler
   status: active
   source: https://lsvp.com/company/zscaler/
   slug: zscaler
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://zscaler.com
+  x-url-source: lightspeed-venture-partners company pages (sitemap)
 - name: Zyg
   status: active
   source: https://lsvp.com/company/zyg/
   in_network: true
   is_api_provider: false
   slug: zyg
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zyg.com/
+  x-url-source: lightspeed-venture-partners company pages (sitemap)

@@ -2,124 +2,103 @@ generated: '2026-10-18'
 method: derived
 source_vc: lightspeed-venture-partners
 leads:
-- name: Eightfold
-  url: ''
-  suggested_slug: eightfold
+- name: Resilience
+  url: https://resilienceinsurance.com
+  suggested_slug: resilienceinsurance-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/eightfold/
+  source: https://lsvp.com/company/resilience/
   stub_created: false
-- name: Forty Seven 2
-  url: ''
-  suggested_slug: forty-seven-2
+- name: Blink
+  url: https://blinkops.com
+  suggested_slug: blinkops-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/forty-seven-2/
+  source: https://lsvp.com/company/blink/
   stub_created: false
-- name: Found
-  url: ''
-  suggested_slug: found
+- name: Brigit
+  url: https://brigit.com
+  suggested_slug: brigit-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/found/
+  source: https://lsvp.com/company/brigit/
   stub_created: false
-- name: Grafana
-  url: ''
-  suggested_slug: grafana
+- name: Cohere Technologies
+  url: https://cohere-technologies.com
+  suggested_slug: cohere-technologies-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/grafana/
+  source: https://lsvp.com/company/cohere-technologies/
   stub_created: false
-- name: Inworld Ai
-  url: ''
-  suggested_slug: inworld-ai
+- name: Comprehend
+  url: https://comprehend.com
+  suggested_slug: comprehend-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/inworld-ai/
+  source: https://lsvp.com/company/comprehend/
   stub_created: false
-- name: Mistralai
-  url: ''
-  suggested_slug: mistralai
+- name: D2g Oncology
+  url: https://d2g-oncology.com
+  suggested_slug: d2g-oncology-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/mistralai/
+  source: https://lsvp.com/company/d2g-oncology/
   stub_created: false
-- name: Orca Bio
-  url: ''
-  suggested_slug: orca-bio
+- name: Ehealth
+  url: https://ehealthinsurance.com
+  suggested_slug: ehealthinsurance-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/orca-bio/
+  source: https://lsvp.com/company/ehealth/
   stub_created: false
-- name: Pika
-  url: ''
-  suggested_slug: pika
+- name: Enable
+  url: https://enable.com
+  suggested_slug: enable-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/pika/
+  source: https://lsvp.com/company/enable/
   stub_created: false
-- name: Wheel 3
-  url: ''
-  suggested_slug: wheel-3
+- name: Fathom
+  url: https://fathomhealth.com
+  suggested_slug: fathomhealth-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/wheel-3/
+  source: https://lsvp.com/company/fathom/
   stub_created: false
-- name: Affirmed Networks
-  url: ''
-  suggested_slug: affirmed-networks
+- name: Fizz
+  url: https://fizzsocial.app
+  suggested_slug: fizzsocial-app
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/affirmed-networks/
+  source: https://lsvp.com/company/fizz/
   stub_created: false
-- name: Alpha9
-  url: ''
-  suggested_slug: alpha9
+- name: Flex
+  url: https://getflex.com
+  suggested_slug: getflex-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/alpha9/
+  source: https://lsvp.com/company/flex/
   stub_created: false
-- name: Aquant Io
-  url: ''
-  suggested_slug: aquant-io
+- name: Flip
+  url: https://justflip.com
+  suggested_slug: justflip-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/aquant-io/
+  source: https://lsvp.com/company/flip/
   stub_created: false
-- name: Astro
-  url: ''
-  suggested_slug: astro
+- name: Flow
+  url: https://flowspecialty.com
+  suggested_slug: flowspecialty-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/astro/
+  source: https://lsvp.com/company/flow/
   stub_created: false
-- name: Balance
-  url: ''
-  suggested_slug: balance
+- name: Forage
+  url: https://theforage.com/
+  suggested_slug: theforage-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/balance/
-  stub_created: false
-- name: Blockchain
-  url: ''
-  suggested_slug: blockchain
-  sector: ''
-  source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/blockchain/
-  stub_created: false
-- name: Cartesia
-  url: ''
-  suggested_slug: cartesia
-  sector: ''
-  source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/cartesia/
-  stub_created: false
-- name: Exa
-  url: ''
-  suggested_slug: exa
-  sector: ''
-  source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/exa/
+  source: https://lsvp.com/company/forage/
   stub_created: false
 - name: Fusion Io
   url: ''
@@ -128,13 +107,6 @@ leads:
   source_vc: lightspeed-venture-partners
   source: https://lsvp.com/company/fusion-io/
   stub_created: false
-- name: Ineffable Intelligence
-  url: ''
-  suggested_slug: ineffable-intelligence
-  sector: ''
-  source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/ineffable-intelligence/
-  stub_created: false
 - name: Vllm Inferact
   url: ''
   suggested_slug: vllm-inferact
@@ -142,40 +114,68 @@ leads:
   source_vc: lightspeed-venture-partners
   source: https://lsvp.com/company/vllm-inferact/
   stub_created: false
-- name: Keychain
-  url: ''
-  suggested_slug: keychain
+- name: Kirilys Therapeutics
+  url: https://kirilys.com
+  suggested_slug: kirilys-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/keychain/
+  source: https://lsvp.com/company/kirilys-therapeutics/
   stub_created: false
-- name: Lemon Markets
-  url: ''
-  suggested_slug: lemon-markets
+- name: Lightyear
+  url: https://golightyear.com
+  suggested_slug: golightyear-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/lemon-markets/
+  source: https://lsvp.com/company/lightyear/
+  stub_created: false
+- name: Mend
+  url: https://letsmend.com
+  suggested_slug: letsmend-com
+  sector: ''
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/company/mend/
+  stub_created: false
+- name: Mito Ai
+  url: https://mito.ai/
+  suggested_slug: mito-ai
+  sector: ''
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/company/mito-ai/
+  stub_created: false
+- name: Modus
+  url: https://www.modusalliance.com/
+  suggested_slug: modusalliance-com
+  sector: ''
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/company/modus/
+  stub_created: false
+- name: Multiplier
+  url: https://www.multiplierholdings.com/
+  suggested_slug: multiplierholdings-com
+  sector: ''
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/company/multiplier/
   stub_created: false
 - name: Notch
-  url: ''
+  url: https://www.notch.cx/
   suggested_slug: notch
   sector: ''
   source_vc: lightspeed-venture-partners
   source: https://lsvp.com/company/notch/
   stub_created: false
-- name: Nym Health
-  url: ''
-  suggested_slug: nym-health
+- name: Numerify
+  url: https://numerify.com
+  suggested_slug: numerify-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/nym-health/
+  source: https://lsvp.com/company/numerify/
   stub_created: false
-- name: Observo Ai
-  url: ''
-  suggested_slug: observo-ai
+- name: Outsmart College
+  url: https://outsmartcollege.com/
+  suggested_slug: outsmartcollege-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/observo-ai/
+  source: https://lsvp.com/company/outsmart-college/
   stub_created: false
 - name: Oyo Rooms
   url: ''
@@ -184,73 +184,101 @@ leads:
   source_vc: lightspeed-venture-partners
   source: https://lsvp.com/company/oyo-rooms/
   stub_created: false
-- name: Patronus
-  url: ''
-  suggested_slug: patronus
+- name: Panther
+  url: https://runpanther.io/
+  suggested_slug: runpanther-io
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/patronus/
-  stub_created: false
-- name: People Ai
-  url: ''
-  suggested_slug: people-ai
-  sector: ''
-  source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/people-ai/
+  source: https://lsvp.com/company/panther/
   stub_created: false
 - name: Pie
-  url: ''
+  url: https://getpie.co
   suggested_slug: pie
   sector: ''
   source_vc: lightspeed-venture-partners
   source: https://lsvp.com/company/pie/
   stub_created: false
-- name: Polygon
-  url: ''
-  suggested_slug: polygon
+- name: Plug
+  url: https://plugmotors.com/
+  suggested_slug: plugmotors-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/polygon/
+  source: https://lsvp.com/company/plug/
   stub_created: false
-- name: Ricursive Intelligence
-  url: ''
-  suggested_slug: ricursive-intelligence
+- name: Real
+  url: https://join-real.com/
+  suggested_slug: join-real-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/ricursive-intelligence/
+  source: https://lsvp.com/company/real/
   stub_created: false
-- name: Solaredge
-  url: ''
-  suggested_slug: solaredge
+- name: Recordgram
+  url: https://recordgram.com
+  suggested_slug: recordgram-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/solaredge/
+  source: https://lsvp.com/company/recordgram/
   stub_created: false
-- name: Temporal
-  url: ''
-  suggested_slug: temporal
+- name: Runway
+  url: https://runway.com
+  suggested_slug: runway-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/temporal/
+  source: https://lsvp.com/company/runway/
   stub_created: false
-- name: The Honest Company
-  url: ''
-  suggested_slug: the-honest-company
+- name: Scorpion
+  url: https://scorpiontx.vom
+  suggested_slug: scorpiontx-vom
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/the-honest-company/
+  source: https://lsvp.com/company/scorpion/
   stub_created: false
-- name: Unconventional Ai
-  url: ''
-  suggested_slug: unconventional-ai
+- name: Summer
+  url: https://gosummer.com
+  suggested_slug: gosummer-com
   sector: ''
   source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/unconventional-ai/
+  source: https://lsvp.com/company/summer/
+  stub_created: false
+- name: The Mobile First Company
+  url: https://www.themobilefirstcompany.com/
+  suggested_slug: themobilefirstcompany-com
+  sector: ''
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/company/the-mobile-first-company/
+  stub_created: false
+- name: Treex Robotics
+  url: https://treex-robotics.com
+  suggested_slug: treex-robotics-com
+  sector: ''
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/company/treex-robotics/
+  stub_created: false
+- name: Virtual Instruments
+  url: https://virtualinstruments.com
+  suggested_slug: virtualinstruments-com
+  sector: ''
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/company/virtual-instruments/
+  stub_created: false
+- name: Volley
+  url: https://www.volleythat.com/
+  suggested_slug: volleythat-com
+  sector: ''
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/company/volley/
   stub_created: false
 - name: Yellow Ai
-  url: ''
+  url: https://yellowmessenger.com
   suggested_slug: yellow-ai
   sector: ''
   source_vc: lightspeed-venture-partners
   source: https://lsvp.com/company/yellow-ai/
+  stub_created: false
+- name: Zepto
+  url: https://www.zeptonow.com/
+  suggested_slug: zeptonow-com
+  sector: ''
+  source_vc: lightspeed-venture-partners
+  source: https://lsvp.com/company/zepto/
   stub_created: false
