@@ -3,9 +3,9 @@ method: searched
 source: https://lsvp.com/companies/
 summary:
   portfolio_total: 597
-  in_network: 558
+  in_network: 559
   api_providers: 143
-  missing: 39
+  missing: 38
   stubs_created: 0
 companies:
 - name: Anthropic
@@ -3592,10 +3592,12 @@ companies:
 - name: Oyo Rooms
   status: active
   source: https://lsvp.com/company/oyo-rooms/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oyo-rooms
-  x-url-candidate: https://www.oyorooms.com/
+  url: https://www.oyorooms.com/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: oyo
+  matched_by: domain
 - name: P0 Security
   status: active
   source: https://lsvp.com/company/p0-security/

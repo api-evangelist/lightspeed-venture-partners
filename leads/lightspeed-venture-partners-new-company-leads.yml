@@ -170,13 +170,6 @@ leads:
   source_vc: lightspeed-venture-partners
   source: https://lsvp.com/company/outsmart-college/
   stub_created: false
-- name: Oyo Rooms
-  url: ''
-  suggested_slug: oyo-rooms
-  sector: ''
-  source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/oyo-rooms/
-  stub_created: false
 - name: Panther
   url: https://runpanther.io/
   suggested_slug: runpanther-io
