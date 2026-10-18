@@ -3,9 +3,9 @@ method: searched
 source: https://lsvp.com/companies/
 summary:
   portfolio_total: 597
-  in_network: 557
+  in_network: 558
   api_providers: 143
-  missing: 40
+  missing: 39
   stubs_created: 0
 companies:
 - name: Anthropic
@@ -2691,9 +2691,12 @@ companies:
 - name: Vllm Inferact
   status: active
   source: https://lsvp.com/company/vllm-inferact/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vllm-inferact
+  url: https://inferact.ai/
+  x-url-source: web search 2026-10-18
+  slug: inferact
+  matched_by: domain
 - name: Infiot
   status: active
   source: https://lsvp.com/company/infiot/

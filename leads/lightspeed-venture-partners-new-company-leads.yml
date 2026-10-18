@@ -107,13 +107,6 @@ leads:
   source_vc: lightspeed-venture-partners
   source: https://lsvp.com/company/fusion-io/
   stub_created: false
-- name: Vllm Inferact
-  url: ''
-  suggested_slug: vllm-inferact
-  sector: ''
-  source_vc: lightspeed-venture-partners
-  source: https://lsvp.com/company/vllm-inferact/
-  stub_created: false
 - name: Kirilys Therapeutics
   url: https://kirilys.com
   suggested_slug: kirilys-com
